@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'detail.dart';
+import 'about.dart';
 //import 'drawer.dart';
 
 void main() {
@@ -84,7 +85,7 @@ class _Home extends State<Home>{
                     fontSize: 18,
                   ),
                 ),
-                onTap: null,
+                onTap: about,
 
               ),
               ListTile(
@@ -130,7 +131,7 @@ class _Home extends State<Home>{
   }
 // fonction alert
 
-  // navigation dans les page
+  // navigation vers la page de details
 
   void newpage(){
     Navigator.push(context,
@@ -140,5 +141,14 @@ class _Home extends State<Home>{
         )
     );
   }
+  // navigation vers la page de details
 
+  void about(){
+    Navigator.push(context,
+        MaterialPageRoute(builder: (BuildContext context){
+          return About() ;
+        }
+        )
+    );
+  }
 }
