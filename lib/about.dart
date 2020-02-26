@@ -2,11 +2,7 @@ import 'package:flutter/material.dart';
 
 class About extends StatelessWidget{
   static const routeName = '/about';
-  detail(String title){
-    this.title = title;
-  }
 
-  String title;
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +10,7 @@ class About extends StatelessWidget{
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text(title),
+          title: Text('à propos de nous'),
           centerTitle: true,
 
         ),

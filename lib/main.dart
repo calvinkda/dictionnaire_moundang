@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart'show rootBundle;
+import 'dart:async';
+import 'dart:convert';
 import 'detail.dart';
 import 'about.dart';
 //import 'drawer.dart';
@@ -10,6 +13,7 @@ void main() {
 
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     // l'applicatio qui doit etre retourné dans la fonction main
@@ -34,6 +38,24 @@ class Home extends StatefulWidget{
 }
 
 class _Home extends State<Home>{
+
+  //lecture du fichier json depuis le dossier assets
+  List data;
+  Future<String> loadJsonData() async{
+    var JsonText= await rootBundle.loadString('assets/Dico_Moundang.json');
+    setState(() {
+      data=json.decode(JsonText);
+    });
+    return 'reussit';
+    //print(JsonText);
+  }
+
+  //fonction d'apple du fichier Json
+  @override
+  void initState(){
+    this.loadJsonData();
+  }
+
   @override
   Widget build(BuildContext context) {
     // c'est la classe qui  hétite du state de Home avec convection '_'
@@ -56,9 +78,17 @@ class _Home extends State<Home>{
                     Container(
                       width: 100,
                       height: 100,
+                      margin: EdgeInsets.only(
+                        top: 30,
+                        bottom: 10,
+                      ),
+
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                       // image: DecorationImage(),
+                        image: DecorationImage(
+                          image: AssetImage('assets/logo moi.jpg'),
+                          fit: BoxFit.fill
+                        ),
 
                       ),
 
@@ -102,16 +132,27 @@ class _Home extends State<Home>{
 
           )
       ),
-      body: Center(
-        child: RaisedButton(
-          onPressed: newpage,
-          child: Text('page'),
-          color: Colors.teal,
-          textColor: Colors.white ,
-        ),
-      ),
+      body: ListView.builder(
+          itemCount: data.length,
+        itemBuilder: (BuildContext context, int index){
+            return Card(
+              child: Column(
+              children: <Widget>[
+                ListTile(
+                  leading: CircleAvatar(child: Text(data[index]['mot'][0]),),
+                  title: Text(data[index]['mot']),
+                  subtitle: Text(data[index]['mot_fr']),
+                )
+                
+              ],
+            ),
+            );
+        },
 
-    );
+
+      ),
+            
+      );
 
   }
 
@@ -150,5 +191,6 @@ class _Home extends State<Home>{
         }
         )
     );
+
   }
 }
