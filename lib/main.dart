@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
 
 }
 
+
 class Home extends StatefulWidget{
 
   @override
@@ -36,25 +37,31 @@ class Home extends StatefulWidget{
   }
 
 }
-
 class _Home extends State<Home>{
 
   //lecture du fichier json depuis le dossier assets
   List data;
+
+
+
   Future<String> loadJsonData() async{
     var JsonText= await rootBundle.loadString('assets/Dico_Moundang.json');
     setState(() {
       data=json.decode(JsonText);
     });
-    return 'reussit';
+    return (JsonText);
     //print(JsonText);
+
   }
+
+
 
   //fonction d'apple du fichier Json
   @override
   void initState(){
     this.loadJsonData();
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -109,7 +116,7 @@ class _Home extends State<Home>{
                 ),
               ),
               ListTile(
-                leading: Icon(Icons.person),
+                leading: Icon(Icons.settings_input_antenna),
                 title: Text('Suivez nous',
                   style: TextStyle(
                     fontSize: 18,
@@ -119,8 +126,8 @@ class _Home extends State<Home>{
 
               ),
               ListTile(
-                leading: Icon(Icons.person),
-                title: Text('Suivez nous',
+                leading: Icon(Icons.share),
+                title: Text('Partager',
                   style: TextStyle(
                     fontSize: 18,
                   ),
@@ -128,13 +135,26 @@ class _Home extends State<Home>{
                 onTap: null,
 
               ),
+              ListTile(
+                leading: Icon(Icons.person),
+                title: Text('Contibruer',
+                  style: TextStyle(
+                    fontSize: 18,
+                  ),
+                ),
+                onTap: null,
+
+              ),
+              Text('Version 1.1',
+                textAlign: TextAlign.end,
+              )
             ],
 
           )
       ),
       body: ListView.builder(
           itemCount: data.length,
-        itemBuilder: (BuildContext context, int index){
+          itemBuilder: (BuildContext context, int index){
             return Card(
               child: Column(
               children: <Widget>[
@@ -142,10 +162,13 @@ class _Home extends State<Home>{
                   leading: CircleAvatar(child: Text(data[index]['mot'][0]),),
                   title: Text(data[index]['mot']),
                   subtitle: Text(data[index]['mot_fr']),
+                    onTap:null,
+                  //onTap: null,
                 )
                 
               ],
             ),
+
             );
         },
 
@@ -172,22 +195,37 @@ class _Home extends State<Home>{
   }
 // fonction alert
 
+
   // navigation vers la page de details
+  //void newpage(){
+    //Navigator.push(context,
+        //MaterialPageRoute(builder: (BuildContext context){
+         // return detail('ce est la nouvelle page');
+        //}
+       // )
+    //);
+  //}
+
+  // test de navigation vers la page de details
 
   void newpage(){
+
     Navigator.push(context,
-        MaterialPageRoute(builder: (BuildContext context){
-          return detail('ce est la nouvelle page');
+        MaterialPageRoute(builder: (BuildContext context,
+            ){
+          return null ;
+
         }
         )
     );
   }
+
   // navigation vers la page de details
 
   void about(){
     Navigator.push(context,
         MaterialPageRoute(builder: (BuildContext context){
-          return About() ;
+          return null ;
         }
         )
     );
