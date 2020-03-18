@@ -10,6 +10,7 @@ import 'about.dart';
 void main() {
   runApp(MyApp());
 }
+/* ….. */
 
 
 class MyApp extends StatelessWidget {
@@ -42,21 +43,18 @@ class _Home extends State<Home>{
   //lecture du fichier json depuis le dossier assets
   List data;
 
-
-
   Future<String> loadJsonData() async{
     var JsonText= await rootBundle.loadString('assets/Dico_Moundang.json');
     setState(() {
       data=json.decode(JsonText);
     });
+    print(JsonText);
     return (JsonText);
-    //print(JsonText);
+
 
   }
 
-
-
-  //fonction d'apple du fichier Json
+  //fonction d'appel du fichier Json
   @override
   void initState(){
     this.loadJsonData();
@@ -186,13 +184,13 @@ class _Home extends State<Home>{
     } );
   }
   //fontion du snack bat
-  void snack(){
-    SnackBar snackBar = SnackBar(
-      content: Text('ma snack bar'),
+  //void snack(){
+    //SnackBar snackBar = SnackBar(
+      //content: Text('ma snack bar'),
       //duration: Duration(seconds: 3),
-    );
-    Scaffold.of(context).showSnackBar(snackBar); //cette paties est utiliser au cas ou la snack est dans le scaffold
-  }
+    //);
+    //Scaffold.of(context).showSnackBar(snackBar); //cette paties est utiliser au cas ou la snack est dans le scaffold
+  //}
 // fonction alert
 
 
@@ -208,24 +206,24 @@ class _Home extends State<Home>{
 
   // test de navigation vers la page de details
 
-  void newpage(){
+  //void newpage(){
 
-    Navigator.push(context,
-        MaterialPageRoute(builder: (BuildContext context,
-            ){
-          return null ;
+    //Navigator.push(context,
+        //MaterialPageRoute(builder: (BuildContext context,
+           // ){
+          //return Text('merde');
 
-        }
-        )
-    );
-  }
+        //}
+        //)
+    //);
+  //}
 
   // navigation vers la page de details
 
   void about(){
     Navigator.push(context,
         MaterialPageRoute(builder: (BuildContext context){
-          return null ;
+          return Text('page aide') ;
         }
         )
     );
