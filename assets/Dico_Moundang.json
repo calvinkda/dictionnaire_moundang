@@ -3,69 +3,41 @@
   {
      "mot": "Masəŋ",
      "mot_fr": "Dieu",
-     "description":[
-      "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii.",
-      "2. Masəŋ Dəɓlii ɓuuru,Pa ma ’yah za sərri.<br/>Ru kea səŋ pel ɓo,mor ru ye fan jol ɓo.<br/>Angeloi ge taira, keara səŋ mor ɓal ɓo.<br/>Ru daŋ tai kyaŋ ka yii Dəɓlii ɓuu daŋ.",
-      "3. Ru yii mo Dəɓlii ɓuu, Pa ma əə za sərri.<br/>Amo ɓaŋ kiita za sər daŋ tətəl ɓo.<br/>Ru yii mo Dəɓlii ɓuu, aru za syee mor ɓo.<br/>Mo lee ru ne syim ɓo pə Golgata.",
-      "4. Ru yii Pa kəə ɓuuru, Tə’yak Matəɗaŋdaŋ <br/>Mai Masəŋ pee ka joŋ yeɓ pə zahzyil ɓuu.<br/>Ru yii mo Tə’yakke, mor mo ’yah ru naiko,<br/>Amo ye Pa lai ɓuu pə zahzyilli.",
-      "5. Ru yii mo Dəɓlii ɓuu, mor mo Pa kwan syakke.<br/>Fan mai mo cak fahlii, mo ɓaŋ ɓoo ge lalle.<br/>Soko wo ɓo Pa ɓuu, mor mo ’yah ru naiko.<br/>Mo rək ’yah ɓo ge pə zahzyil ɓuuru.",
-      "6. Ru yii Dəɓlii Yesu, mor mo lwaa Goŋ ɓo ɓe. <br/>Mo dai yaŋ pa ɓo, mo kaa ɓo jokəsah ahe.<br/>Aru tə byak jin ɓo, ka mo tai ru gŋ ta.<br/>Wəə ru pə bone ɓuu, dan ru pə Goŋ bo."
-
-    ],
-	"traduction":[
-      "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii."
-  
-    ]
+     "description":
+      "Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii.",
+	"description_fr": "Dieu"
   }, 
   {
      "mot": "Dəɓlii",
      "mot_fr": "Seigneur",
-     "description":[
+     "description":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii.",
-      "2. Masəŋ Dəɓlii ɓuuru,Pa ma ’yah za sərri.<br/>Ru kea səŋ pel ɓo,mor ru ye fan jol ɓo.<br/>Angeloi ge taira, keara səŋ mor ɓal ɓo.<br/>Ru daŋ tai kyaŋ ka yii Dəɓlii ɓuu daŋ.",
-      "3. Ru yii mo Dəɓlii ɓuu, Pa ma əə za sərri.<br/>Amo ɓaŋ kiita za sər daŋ tətəl ɓo.<br/>Ru yii mo Dəɓlii ɓuu, aru za syee mor ɓo.<br/>Mo lee ru ne syim ɓo pə Golgata.",
-      "4. Ru yii Pa kəə ɓuuru, Tə’yak Matəɗaŋdaŋ <br/>Mai Masəŋ pee ka joŋ yeɓ pə zahzyil ɓuu.<br/>Ru yii mo Tə’yakke, mor mo ’yah ru naiko,<br/>Amo ye Pa lai ɓuu pə zahzyilli.",
-      "5. Ru yii mo Dəɓlii ɓuu, mor mo Pa kwan syakke.<br/>Fan mai mo cak fahlii, mo ɓaŋ ɓoo ge lalle.<br/>Soko wo ɓo Pa ɓuu, mor mo ’yah ru naiko.<br/>Mo rək ’yah ɓo ge pə zahzyil ɓuuru.",
-      "6. Ru yii Dəɓlii Yesu, mor mo lwaa Goŋ ɓo ɓe. <br/>Mo dai yaŋ pa ɓo, mo kaa ɓo jokəsah ahe.<br/>Aru tə byak jin ɓo, ka mo tai ru gŋ ta.<br/>Wəə ru pə bone ɓuu, dan ru pə Goŋ bo."
-
-    ],
-	"traduction":[
+	"description_fr":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii."
-  
-    ]
+
   },
   {
     "mot": "bangi",
     "mot_fr": "joue",
-    "description":[
+    "description":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii.",
-      "2. Masəŋ Dəɓlii ɓuuru,Pa ma ’yah za sərri.<br/>Ru kea səŋ pel ɓo,mor ru ye fan jol ɓo.<br/>Angeloi ge taira, keara səŋ mor ɓal ɓo.<br/>Ru daŋ tai kyaŋ ka yii Dəɓlii ɓuu daŋ.",
-      "3. Ru yii mo Dəɓlii ɓuu, Pa ma əə za sərri.<br/>Amo ɓaŋ kiita za sər daŋ tətəl ɓo.<br/>Ru yii mo Dəɓlii ɓuu, aru za syee mor ɓo.<br/>Mo lee ru ne syim ɓo pə Golgata.",
-      "4. Ru yii Pa kəə ɓuuru, Tə’yak Matəɗaŋdaŋ <br/>Mai Masəŋ pee ka joŋ yeɓ pə zahzyil ɓuu.<br/>Ru yii mo Tə’yakke, mor mo ’yah ru naiko,<br/>Amo ye Pa lai ɓuu pə zahzyilli.",
-      "5. Ru yii mo Dəɓlii ɓuu, mor mo Pa kwan syakke.<br/>Fan mai mo cak fahlii, mo ɓaŋ ɓoo ge lalle.<br/>Soko wo ɓo Pa ɓuu, mor mo ’yah ru naiko.<br/>Mo rək ’yah ɓo ge pə zahzyil ɓuuru.",
-      "6. Ru yii Dəɓlii Yesu, mor mo lwaa Goŋ ɓo ɓe. <br/>Mo dai yaŋ pa ɓo, mo kaa ɓo jokəsah ahe.<br/>Aru tə byak jin ɓo, ka mo tai ru gŋ ta.<br/>Wəə ru pə bone ɓuu, dan ru pə Goŋ bo."
 
-    ],
-    "traduction":[
+
+    "description_fr":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii."
 
-    ]
+
   },
   {
     "mot": "ara",
     "mot_fr": "eux",
-    "description":[
+    "description":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii.",
-      "2. Masəŋ Dəɓlii ɓuuru,Pa ma ’yah za sərri.<br/>Ru kea səŋ pel ɓo,mor ru ye fan jol ɓo.<br/>Angeloi ge taira, keara səŋ mor ɓal ɓo.<br/>Ru daŋ tai kyaŋ ka yii Dəɓlii ɓuu daŋ.",
-      "3. Ru yii mo Dəɓlii ɓuu, Pa ma əə za sərri.<br/>Amo ɓaŋ kiita za sər daŋ tətəl ɓo.<br/>Ru yii mo Dəɓlii ɓuu, aru za syee mor ɓo.<br/>Mo lee ru ne syim ɓo pə Golgata.",
-      "4. Ru yii Pa kəə ɓuuru, Tə’yak Matəɗaŋdaŋ <br/>Mai Masəŋ pee ka joŋ yeɓ pə zahzyil ɓuu.<br/>Ru yii mo Tə’yakke, mor mo ’yah ru naiko,<br/>Amo ye Pa lai ɓuu pə zahzyilli.",
-      "5. Ru yii mo Dəɓlii ɓuu, mor mo Pa kwan syakke.<br/>Fan mai mo cak fahlii, mo ɓaŋ ɓoo ge lalle.<br/>Soko wo ɓo Pa ɓuu, mor mo ’yah ru naiko.<br/>Mo rək ’yah ɓo ge pə zahzyil ɓuuru.",
-      "6. Ru yii Dəɓlii Yesu, mor mo lwaa Goŋ ɓo ɓe. <br/>Mo dai yaŋ pa ɓo, mo kaa ɓo jokəsah ahe.<br/>Aru tə byak jin ɓo, ka mo tai ru gŋ ta.<br/>Wəə ru pə bone ɓuu, dan ru pə Goŋ bo."
 
-    ],
-    "traduction":[
+
+    "description_fr":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii."
 
-    ]
+
   }
 ]

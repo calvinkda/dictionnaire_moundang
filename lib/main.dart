@@ -4,13 +4,14 @@ import 'package:flutter/services.dart'show rootBundle;
 import 'dart:async';
 import 'dart:convert';
 import 'detail.dart';
-import 'about.dart';
+//import 'about.dart';
 //import 'drawer.dart';
 
 void main() {
   runApp(MyApp());
 }
 /* ….. */
+
 
 
 class MyApp extends StatelessWidget {
@@ -37,20 +38,31 @@ class Home extends StatefulWidget{
     return _Home();
   }
 
+
+
 }
+
 class _Home extends State<Home>{
 
   //lecture du fichier json depuis le dossier assets
   List data;
 
-  Future<String> loadJsonData() async{
-    var JsonText= await rootBundle.loadString('assets/Dico_Moundang.json');
-    setState(() {
-      data=json.decode(JsonText);
-    });
-    print(JsonText);
-    return (JsonText);
 
+  Future<String> loadJsonData() async{
+    try {
+    var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');
+
+    setState(() {
+      data=json.decode(JsonString);
+
+    });
+    print(JsonString);
+    return (JsonString);
+    }
+    catch (e) {
+      print("erreur de lecture du fichier JSON");
+      return "";
+    }
 
   }
 
@@ -120,7 +132,7 @@ class _Home extends State<Home>{
                     fontSize: 18,
                   ),
                 ),
-                onTap: about,
+                //onTap: about,
 
               ),
               ListTile(
@@ -160,7 +172,16 @@ class _Home extends State<Home>{
                   leading: CircleAvatar(child: Text(data[index]['mot'][0]),),
                   title: Text(data[index]['mot']),
                   subtitle: Text(data[index]['mot_fr']),
-                    onTap:null,
+                  //onTap:detail_page(data[index].mot,data[index].mot_fr,data[index].description,data[index].description_fr),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => detail(data[index]['mot'], data[index]['mot_fr'], data[index]['description'], data[index]['description_fr']),
+                      ),
+                    );
+                  },
+
                   //onTap: null,
                 )
                 
@@ -195,14 +216,14 @@ class _Home extends State<Home>{
 
 
   // navigation vers la page de details
-  //void newpage(){
-    //Navigator.push(context,
-        //MaterialPageRoute(builder: (BuildContext context){
-         // return detail('ce est la nouvelle page');
-        //}
-       // )
-    //);
-  //}
+  /* ….. detail_page(mot,mot_fr,description,description_fr,){
+
+    Navigator.push(context,
+        MaterialPageRoute(
+            builder: (BuildContext context) => detail(mot,mot_fr,description,description_fr)
+        )
+    );
+  } */
 
   // test de navigation vers la page de details
 
@@ -220,13 +241,13 @@ class _Home extends State<Home>{
 
   // navigation vers la page de details
 
-  void about(){
-    Navigator.push(context,
-        MaterialPageRoute(builder: (BuildContext context){
-          return Text('page aide') ;
-        }
-        )
-    );
+  //void about(){
+    //Navigator.push(context,
+      //  MaterialPageRoute(builder: (BuildContext context){
+        //  return Text('page aide') ;
+        //}
+        //)
+    //);
 
-  }
+  //}
 }
