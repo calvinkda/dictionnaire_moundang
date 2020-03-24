@@ -1,11 +1,11 @@
 
 [
   {
-     "mot": "Masəŋ",
-     "mot_fr": "Dieu",
+     "mot": "A ɓ.",
+     "mot_fr": "A",
      "description":
-      "Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii.",
-	"description_fr": "Dieu"
+      "Patə vanŋo (boono) (1) syel masyin fanŋwəə zah Mundaŋ. A, cuu ɓo camcam pəlli. A cuu təŋ mor bə, fan maga joŋ pelle,cok fanne. A, mo tai ne ɓə ma nyeeki ah ne, a swaa ɓə ahe.",
+	"description_fr": "1ère lettre d’alphabet Moundang."
   }, 
   {
      "mot": "Dəɓlii",
@@ -37,7 +37,5 @@
 
     "description_fr":
       "1. Masəŋ Dəɓlii ɓuuru,Pah fan daŋ wo sərri,<br/>Daga zah’nan pim,ru joŋ soko nyi mo.<br/>Ru yii təɗii Dəɓlii, ma ne swah tə fan daŋ.<br/>Osoko wo Dəɓlii ɓuu goŋ ma ga lii."
-
-
   }
 ]

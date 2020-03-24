@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-
-
+import 'package:card_settings/card_settings.dart';
 
 class detail extends StatelessWidget{
   static const routeName = '/detail';
@@ -22,11 +21,15 @@ class detail extends StatelessWidget{
       appBar: AppBar(
         title: Text(mot),
       ),
-      body: Center(
-        child: Text(description_fr),
-      ),
+      body: CardSettings(
+        CardSettingsHeader(label:mot),
+          CardSettingsText(description),
+            CardSettingsParagraph(
+                label : 'Essai de description en Français',
+                validator: description_fr),
+      );
+      );
 
-    );
   }
 
 }
