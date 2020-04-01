@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'show rootBundle;
+import 'package:flutter/widgets.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'detail.dart';
@@ -99,16 +100,14 @@ class _Home extends State<Home>{
                         top: 30,
                         bottom: 10,
                       ),
-
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        image: DecorationImage(
-                          image: AssetImage('assets/logo moi.jpg'),
-                          fit: BoxFit.fill
-                        ),
 
                       ),
-
+                      child:Image.asset(
+                        'assets/logo moi.jpg',
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     Text('Africa Language' ,
                       style:  TextStyle(
