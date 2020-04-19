@@ -28,7 +28,8 @@ class detail extends StatelessWidget{
         subtitle: Text("$description_fr",
           style: TextStyle(
               fontSize: 20.0,
-              color: Colors.black87
+              color: Colors.black87,
+              //fontFamily: 'empire',
 
           ),),
       );
@@ -56,6 +57,8 @@ class detail extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: Text(mot),
+        backgroundColor: Colors.green,
+        centerTitle: true,
       ),
       body:Padding(
         padding: EdgeInsets.all(20.0),

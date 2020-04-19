@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class About extends StatelessWidget{
-  static const routeName = '/about';
+class about extends StatelessWidget{
+
 
 
   @override
@@ -12,6 +12,7 @@ class About extends StatelessWidget{
         appBar: AppBar(
           title: Text('à propos de nous'),
           centerTitle: true,
+          backgroundColor: Colors.green,
 
         ),
 

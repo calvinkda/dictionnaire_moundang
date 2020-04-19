@@ -1,17 +1,26 @@
+import 'dart:convert';
+
+import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'show rootBundle;
+import 'package:flutter/services.dart';
+//import 'package:flutter/services.dart'show rootBundle;
 import 'package:flutter/widgets.dart';
 import 'dart:async';
-import 'dart:convert';
-import 'detail.dart';
-//import 'about.dart';
-//import 'drawer.dart';
+import 'dart:convert' as convert;
+import 'pages/detail.dart';
+import 'pages/about.dart';
+import 'pages/drawer.dart';
+import 'pages/share.dart';
+import 'package:http/http.dart' as http;
+
+
 
 void main() {
   runApp(MyApp());
 }
 /* ….. */
+
 
 
 
@@ -24,6 +33,16 @@ class MyApp extends StatelessWidget {
       title : 'Dictionnaire Moundang',
       debugShowCheckedModeBanner: false,
       home: Home(),
+
+      routes: {
+        '/drawer': (context) => drawer(),
+        '/about': (context) => about(),
+        '/share': (context) => share(),
+        '/home': (context) => MyApp(),
+
+
+
+      },
     );
 
   }
@@ -46,23 +65,18 @@ class Home extends StatefulWidget{
 class _Home extends State<Home>{
 
   //lecture du fichier json depuis le dossier assets
-  List data;
-
-
+  /* ….. List data;
   Future<String> loadJsonData() async{
     try {
     var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');
-
     setState(() {
       data=json.decode(JsonString);
-
     });
-    print(JsonString);
+    //print(JsonString);
     return (JsonString);
     }
     catch (e) {
-      print("erreur de lecture du fichier JSON");
-      return "";
+      return "erreur de lecture du fichier JSON";
     }
 
   }
@@ -71,20 +85,49 @@ class _Home extends State<Home>{
   @override
   void initState(){
     this.loadJsonData();
+  }*/
+
+  //List data;
+  //var data;
+  List data = List();
+  var isLoading = false;
+
+
+  Future<String> loadJsonData()  async {
+  setState(() {
+  isLoading = true;
+  });
+  https://drive.google.com/file/d/1-ELirF_IGdVkfBy01pE3EQkUmUzAuhpn/view?usp=sharing
+
+  var url = 'https://drive.google.com/file/d/1-ELirF_IGdVkfBy01pE3EQkUmUzAuhpn';
+  var response =  await http.get(url);
+  if (response.statusCode == 200) {
+  data = json.decode(response.body) ;
+  //print(data);
+  isLoading = false;
+  } else {
+  throw Exception('erreur de lecture du dictionnaire');
   }
-
-
+}
   @override
   Widget build(BuildContext context) {
-    // c'est la classe qui  hétite du state de Home avec convection '_'
+    // TODO: implement build
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Dictionnaire Moundang'),
         centerTitle: true,
-      ),
+        backgroundColor: Colors.green,
+        //leading: ,
+        actions: <Widget>[
+          IconButton(icon: Icon(Icons.search), onPressed: null, color: Colors.white,)
+    ],
+          //},
+        ),
+
       // le menu latteral le details est dans le fichier drawer
-      drawer: Drawer(
+      drawer: drawer(),
+      /* Drawer(
           child: Column(
             children: <Widget>[
               Container(
@@ -160,17 +203,37 @@ class _Home extends State<Home>{
             ],
 
           )
-      ),
-      body: ListView.builder(
-          itemCount: data.length,
-          itemBuilder: (BuildContext context, int index){
-            return Card(
-              child: Column(
+      ),*/
+      body: isLoading
+          ? Center(
+        child: CircularProgressIndicator(),
+      )
+          :ListView.builder(
+        itemCount: data.length,
+        itemBuilder: (BuildContext context, int index){
+          return Card(
+            child: Column(
               children: <Widget>[
+
                 ListTile(
-                  leading: CircleAvatar(child: Text(data[index]['mot'][0]),),
-                  title: Text(data[index]['mot']),
-                  subtitle: Text(data[index]['mot_fr']),
+                  leading: CircleAvatar(child: Text(data[index]['mot'][0],
+                    style:TextStyle(
+                      color: Colors.white
+                    ) ,
+
+                  ),
+                  backgroundColor: Colors.green,
+                  ),
+                  title: Text(data[index]['mot'],
+                  style: TextStyle(
+                    fontSize: 20.0,
+                  )
+                  ),
+                  subtitle: Text(data[index]['mot_fr'],
+                      style: TextStyle(
+                        fontSize: 15.0,
+                      )
+                  ),
                   //onTap:detail_page(data[index].mot,data[index].mot_fr,data[index].description,data[index].description_fr),
                   onTap: () {
                     Navigator.push(
@@ -183,26 +246,29 @@ class _Home extends State<Home>{
 
                   //onTap: null,
                 )
-                
+
               ],
             ),
 
-            );
+          );
         },
 
 
       ),
-            
-      );
 
+    );
+    return CircularProgressIndicator();
   }
 
+}
+
+
 // la fonction de debug
-  void debug(){
+/* void debug(){
     setState(() {
       print('ça marche');
     } );
-  }
+  }*/
   //fontion du snack bat
   //void snack(){
     //SnackBar snackBar = SnackBar(
@@ -249,4 +315,4 @@ class _Home extends State<Home>{
     //);
 
   //}
-}
+
