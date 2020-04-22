@@ -1,6 +1,7 @@
 import 'package:dictionnaire_moundang/pages/about.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class drawer extends StatelessWidget {
 
@@ -34,7 +35,7 @@ class drawer extends StatelessWidget {
 
                     ),
                     child:Image.asset(
-                      'assets/logo moi.jpg',
+                      'assets/logo.jpg',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -84,7 +85,8 @@ class drawer extends StatelessWidget {
                   fontSize: 18,
                 ),
               ),
-              onTap: null,
+
+              onTap: _url,
 
             ),
             Text('Version 1.1',
@@ -99,5 +101,14 @@ class drawer extends StatelessWidget {
 
 
 
+}
+
+_url() async {
+  const url = 'https://flutter.io';
+  if (await canLaunch(url)) {
+     launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
 }
 

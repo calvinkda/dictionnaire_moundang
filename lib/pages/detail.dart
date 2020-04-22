@@ -64,7 +64,8 @@ class detail extends StatelessWidget{
         padding: EdgeInsets.all(20.0),
         child: Container(
             child:Card(
-              child:Padding(
+
+              child:SingleChildScrollView(
                 padding: EdgeInsets.all(15.0),
                 child:  Column(
                   mainAxisAlignment: MainAxisAlignment.start,

@@ -1,5 +1,8 @@
 import 'dart:convert';
 
+//import 'package:search_app_bar/filter.dart';
+//import 'package:search_app_bar/search_app_bar.dart';
+//import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -14,69 +17,56 @@ import 'pages/drawer.dart';
 import 'pages/share.dart';
 import 'package:http/http.dart' as http;
 
-
-
 void main() {
   runApp(MyApp());
 }
 /* ….. */
 
-
-
-
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     // l'applicatio qui doit etre retourné dans la fonction main
     return MaterialApp(
-      title : 'Dictionnaire Moundang',
+      title: 'Dictionnaire Moundang',
       debugShowCheckedModeBanner: false,
       home: Home(),
-
       routes: {
         '/drawer': (context) => drawer(),
         '/about': (context) => about(),
         '/share': (context) => share(),
         '/home': (context) => MyApp(),
-
-
-
       },
     );
-
   }
-
 }
 
-
-class Home extends StatefulWidget{
-
+class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // la classe home qui vas uriliser le statefullwiget 'la  home elle mem'
     return _Home();
   }
-
-
-
 }
 
-class _Home extends State<Home>{
-
+class _Home extends State<Home> {
   //lecture du fichier json depuis le dossier assets
-  /* ….. List data;
-  Future<String> loadJsonData() async{
+ //List data;
+  List  data =[];
+  Future<List> loadJsonData() async {
+
     try {
-    var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');
-    setState(() {
-      data=json.decode(JsonString);
-    });
-    //print(JsonString);
-    return (JsonString);
+    //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');
+      var url = 'https://api.npoint.io/9872ce006f23b005b47d';
+      var JsonString = await http.get(url);
+      var data = json.decode(JsonString.body);
+
+
+    return data;
+    print(data);
+    //return details;
     }
     catch (e) {
-      return "erreur de lecture du fichier JSON";
+      //return "erreur de lecture du fichier JSON";
     }
 
   }
@@ -85,30 +75,33 @@ class _Home extends State<Home>{
   @override
   void initState(){
     this.loadJsonData();
-  }*/
+  }
 
   //List data;
   //var data;
-  List data = List();
-  var isLoading = false;
+  //List data = List();
+  /* List data;
+  var isLoading = true;
 
+   Future<List<String>> loadJsonData() async {
+    https: //drive.google.com/file/d/1-ELirF_IGdVkfBy01pE3EQkUmUzAuhpn/view?usp=sharing
+    /* setState(() {
+      isLoading = true;
+    });*/
+    var url = 'https://api.npoint.io/9872ce006f23b005b47d';
+    var response = await http.get(url);
+    if (response.statusCode == 200) {
+      data = json.decode(response.body) ;
+      //data = convert.jsonDecode(response.body);
+      print(data);
+      return data;
 
-  Future<String> loadJsonData()  async {
-  setState(() {
-  isLoading = true;
-  });
-  https://drive.google.com/file/d/1-ELirF_IGdVkfBy01pE3EQkUmUzAuhpn/view?usp=sharing
+    } else {
+      throw Exception('erreur de lecture du dictionnaire');
 
-  var url = 'https://drive.google.com/file/d/1-ELirF_IGdVkfBy01pE3EQkUmUzAuhpn';
-  var response =  await http.get(url);
-  if (response.statusCode == 200) {
-  data = json.decode(response.body) ;
-  //print(data);
-  isLoading = false;
-  } else {
-  throw Exception('erreur de lecture du dictionnaire');
-  }
-}
+    }
+  }*/
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -120,10 +113,14 @@ class _Home extends State<Home>{
         backgroundColor: Colors.green,
         //leading: ,
         actions: <Widget>[
-          IconButton(icon: Icon(Icons.search), onPressed: null, color: Colors.white,)
-    ],
-          //},
-        ),
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: null,
+            color: Colors.white,
+          )
+        ],
+        //},
+      ),
 
       // le menu latteral le details est dans le fichier drawer
       drawer: drawer(),
@@ -148,7 +145,7 @@ class _Home extends State<Home>{
 
                       ),
                       child:Image.asset(
-                        'assets/logo moi.jpg',
+                        'assets/logo.jpg',
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -204,64 +201,65 @@ class _Home extends State<Home>{
 
           )
       ),*/
-      body: isLoading
-          ? Center(
-        child: CircularProgressIndicator(),
-      )
-          :ListView.builder(
-        itemCount: data.length,
-        itemBuilder: (BuildContext context, int index){
-          return Card(
-            child: Column(
-              children: <Widget>[
-
-                ListTile(
-                  leading: CircleAvatar(child: Text(data[index]['mot'][0],
-                    style:TextStyle(
-                      color: Colors.white
-                    ) ,
-
-                  ),
-                  backgroundColor: Colors.green,
-                  ),
-                  title: Text(data[index]['mot'],
-                  style: TextStyle(
-                    fontSize: 20.0,
-                  )
-                  ),
-                  subtitle: Text(data[index]['mot_fr'],
-                      style: TextStyle(
-                        fontSize: 15.0,
-                      )
-                  ),
-                  //onTap:detail_page(data[index].mot,data[index].mot_fr,data[index].description,data[index].description_fr),
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => detail(data[index]['mot'], data[index]['mot_fr'], data[index]['description'], data[index]['description_fr']),
+      body: Container(
+        child: FutureBuilder(
+          future: loadJsonData(),
+          builder: (BuildContext context, AsyncSnapshot snapshot,) {
+            if(snapshot.data== null){
+              return Container(
+                child: Center(
+                  child: Text('Chargement en cour...'),
+                ),
+              );
+            }
+            else{
+              return ListView.builder(
+                itemCount: snapshot.data.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return ListTile(
+                    leading: CircleAvatar(
+                      child: Text(
+                        snapshot.data[index]['mot'][0],
+                        style: TextStyle(color: Colors.white),
                       ),
-                    );
-                  },
+                      backgroundColor: Colors.green,
+                    ),
+                    title: Text(snapshot.data[index]['mot'],
+                        style: TextStyle(
+                          fontSize: 20.0,
+                        )),
+                    subtitle: Text(snapshot.data[index]['mot_fr'],
+                        style: TextStyle(
+                          fontSize: 15.0,
+                        )),
+              //onTap:detail_page(data[index].mot,data[index].mot_fr,data[index].description,data[index].description_fr),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => detail(
+                              snapshot.data[index]['mot'],
+                              snapshot.data[index]['mot_fr'],
+                              snapshot.data[index]['description'],
+                              snapshot.data[index]['description_fr']),
+                        ),
+                      );
+                    },
 
-                  //onTap: null,
-                )
+//onTap: null,
+                  );
 
-              ],
-            ),
+                },
+              );
+            }
 
-          );
-        },
-
+          },
 
       ),
-
+    ),
     );
-    return CircularProgressIndicator();
   }
-
 }
-
 
 // la fonction de debug
 /* void debug(){
@@ -269,19 +267,18 @@ class _Home extends State<Home>{
       print('ça marche');
     } );
   }*/
-  //fontion du snack bat
-  //void snack(){
-    //SnackBar snackBar = SnackBar(
-      //content: Text('ma snack bar'),
-      //duration: Duration(seconds: 3),
-    //);
-    //Scaffold.of(context).showSnackBar(snackBar); //cette paties est utiliser au cas ou la snack est dans le scaffold
-  //}
+//fontion du snack bat
+//void snack(){
+//SnackBar snackBar = SnackBar(
+//content: Text('ma snack bar'),
+//duration: Duration(seconds: 3),
+//);
+//Scaffold.of(context).showSnackBar(snackBar); //cette paties est utiliser au cas ou la snack est dans le scaffold
+//}
 // fonction alert
 
-
-  // navigation vers la page de details
-  /* ….. detail_page(mot,mot_fr,description,description_fr,){
+// navigation vers la page de details
+/* ….. detail_page(mot,mot_fr,description,description_fr,){
 
     Navigator.push(context,
         MaterialPageRoute(
@@ -290,29 +287,28 @@ class _Home extends State<Home>{
     );
   } */
 
-  // test de navigation vers la page de details
+// test de navigation vers la page de details
 
-  //void newpage(){
+//void newpage(){
 
-    //Navigator.push(context,
-        //MaterialPageRoute(builder: (BuildContext context,
-           // ){
-          //return Text('merde');
+//Navigator.push(context,
+//MaterialPageRoute(builder: (BuildContext context,
+// ){
+//return Text('merde');
 
-        //}
-        //)
-    //);
-  //}
+//}
+//)
+//);
+//}
 
-  // navigation vers la page de details
+// navigation vers la page de details
 
-  //void about(){
-    //Navigator.push(context,
-      //  MaterialPageRoute(builder: (BuildContext context){
-        //  return Text('page aide') ;
-        //}
-        //)
-    //);
+//void about(){
+//Navigator.push(context,
+//  MaterialPageRoute(builder: (BuildContext context){
+//  return Text('page aide') ;
+//}
+//)
+//);
 
-  //}
-
+//}
