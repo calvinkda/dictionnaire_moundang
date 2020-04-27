@@ -3,6 +3,7 @@ import 'dart:convert';
 //import 'package:search_app_bar/filter.dart';
 //import 'package:search_app_bar/search_app_bar.dart';
 //import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'package:dictionnaire_moundang/pages/fetch_data.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +11,6 @@ import 'package:flutter/services.dart';
 //import 'package:flutter/services.dart'show rootBundle;
 import 'package:flutter/widgets.dart';
 import 'dart:async';
-import 'dart:convert' as convert;
 import 'pages/detail.dart';
 import 'pages/about.dart';
 import 'pages/drawer.dart';
@@ -39,7 +39,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -49,32 +48,17 @@ class Home extends StatefulWidget {
 }
 
 class _Home extends State<Home> {
-  //lecture du fichier json depuis le dossier assets
- //List data;
-  List  data =[];
-  Future<List> loadJsonData() async {
+  Future<FetchData> loadJsonData() async {
 
-    try {
-    //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');
-      var url = 'https://api.npoint.io/9872ce006f23b005b47d';
+    //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');https://api.npoint.io/9872ce006f23b005b47d https://www.npoint.io/docs/3fe657f143852d4c4924
+      var url = 'https://api.npoint.io/3fe657f143852d4c4924';
       var JsonString = await http.get(url);
-      var data = json.decode(JsonString.body);
-
-
-    return data;
-    print(data);
-    //return details;
-    }
-    catch (e) {
-      //return "erreur de lecture du fichier JSON";
-    }
-
+        return FetchData.fromJson(json.decode(JsonString.body));
   }
-
-  //fonction d'appel du fichier Json
   @override
   void initState(){
-    this.loadJsonData();
+    super.initState();
+    this.loadJsonData() ;
   }
 
   //List data;
@@ -115,8 +99,9 @@ class _Home extends State<Home> {
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search),
-            onPressed: null,
-            color: Colors.white,
+            onPressed: (){
+              showSearch(context: context, delegate: DataSearch());
+            },
           )
         ],
         //},
@@ -208,7 +193,7 @@ class _Home extends State<Home> {
             if(snapshot.data== null){
               return Container(
                 child: Center(
-                  child: Text('Chargement en cour...'),
+                  child:  Text('Chargement en Cours...'),
                 ),
               );
             }
@@ -232,7 +217,6 @@ class _Home extends State<Home> {
                         style: TextStyle(
                           fontSize: 15.0,
                         )),
-              //onTap:detail_page(data[index].mot,data[index].mot_fr,data[index].description,data[index].description_fr),
                     onTap: () {
                       Navigator.push(
                         context,
@@ -312,3 +296,51 @@ class _Home extends State<Home> {
 //);
 
 //}
+
+class DataSearch extends SearchDelegate<String>{
+  Future<FetchData> mydata;
+  //final datas = _Home().loadJsonData();
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    // action qui sera fait sur l'app barre
+    return [
+      IconButton(icon: (Icon(Icons.clear)),  onPressed: (){
+        query="";
+      }),
+    ];
+  }
+
+  @override
+  Widget buildLeading(BuildContext context) {
+    // l'icon de leading qui sera sur l'app barre
+    return IconButton(icon: (
+            AnimatedIcon(icon: AnimatedIcons.menu_arrow,
+                progress: transitionAnimation)),
+            onPressed: (){
+                close(context, null);
+            });
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    // resultat qui sera donné à la fin de la recherche
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    // ce que l'on veut affiché lorsque l'utilisateur saisi un mot ou lettre
+    //var mydata= [];
+       //list = mydata.then((f));
+    //final datas = _Home().data;
+    final suggestionList =mydata;
+    return ListView.builder(
+      itemBuilder: (context,index)=>ListTile(
+            leading: Icon( Icons.watch_later),
+           title: Text(suggestionList[index]['mot'] ),
+          ),
+     itemCount: suggestionList.length,
+    );
+
+  }
+
+}

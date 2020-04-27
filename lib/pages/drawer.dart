@@ -104,7 +104,7 @@ class drawer extends StatelessWidget {
 }
 
 _url() async {
-  const url = 'https://flutter.io';
+  const url = 'https://koudanbe.herokuapp.com/contribution/';
   if (await canLaunch(url)) {
      launch(url);
   } else {
