@@ -47,14 +47,15 @@ class Home extends StatefulWidget {
     return _Home();
   }
 }
-
+var data;
 class _Home extends State<Home> {
-  Future<FetchData> loadJsonData() async {
+  Future<List> loadJsonData() async {
 
     //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');https://api.npoint.io/9872ce006f23b005b47d https://www.npoint.io/docs/3fe657f143852d4c4924
       var url = 'https://api.npoint.io/3fe657f143852d4c4924';
       var JsonString = await http.get(url);
-      return jsonDecode(JsonString.body);
+      data= jsonDecode(JsonString.body);
+      return data;
   }
   @override
   void initState(){
