@@ -54,8 +54,9 @@ class _Home extends State<Home> {
     //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');https://api.npoint.io/9872ce006f23b005b47d https://www.npoint.io/docs/3fe657f143852d4c4924
       var url = 'https://api.npoint.io/3fe657f143852d4c4924';
       var JsonString = await http.get(url);
-      data= jsonDecode(JsonString.body);
-      return data;
+      setState(() {
+        data= jsonDecode(JsonString.body);
+      });
   }
   @override
   void initState(){
