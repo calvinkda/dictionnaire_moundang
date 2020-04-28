@@ -48,12 +48,13 @@ class Home extends StatefulWidget {
 }
 
 class _Home extends State<Home> {
-  Future<FetchData> loadJsonData() async {
+  Future<List<dynamic>> loadJsonData() async {
 
     //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');https://api.npoint.io/9872ce006f23b005b47d https://www.npoint.io/docs/3fe657f143852d4c4924
       var url = 'https://api.npoint.io/3fe657f143852d4c4924';
       var JsonString = await http.get(url);
-        return FetchData.fromJson(json.decode(JsonString.body));
+      var  data = json.decode(JsonString.body);
+      return data;
   }
   @override
   void initState(){
@@ -229,8 +230,6 @@ class _Home extends State<Home> {
                         ),
                       );
                     },
-
-//onTap: null,
                   );
 
                 },
@@ -336,9 +335,9 @@ class DataSearch extends SearchDelegate<String>{
     return ListView.builder(
       itemBuilder: (context,index)=>ListTile(
             leading: Icon( Icons.watch_later),
-           title: Text(suggestionList[index]['mot'] ),
+           //title: Text(suggestionList[index]['mot'] ),
           ),
-     itemCount: suggestionList.length,
+     //itemCount: suggestionList.length,
     );
 
   }
