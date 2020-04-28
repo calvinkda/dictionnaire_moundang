@@ -49,7 +49,7 @@ class Home extends StatefulWidget {
 }
 var data;
 class _Home extends State<Home> {
-  Future<List> loadJsonData() async {
+  Future<List<dynamic> > loadJsonData() async {
 
     //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');https://api.npoint.io/9872ce006f23b005b47d https://www.npoint.io/docs/3fe657f143852d4c4924
       var url = 'https://api.npoint.io/3fe657f143852d4c4924';
@@ -325,6 +325,7 @@ class DataSearch extends SearchDelegate<String>{
   @override
   Widget buildResults(BuildContext context) {
     // resultat qui sera donné à la fin de la recherche
+
   }
 
   @override
@@ -335,14 +336,57 @@ class DataSearch extends SearchDelegate<String>{
     //final datas = _Home().data;
     return FutureBuilder(
       future: _Home().loadJsonData(),
+      // ignore: missing_return
       builder:(context,snapshot){
        if(snapshot.hasData){
+          final suggestionList = query.isEmpty
+              ? snapshot.data
+              : snapshot.data.where((p)=>p.startWith(query)).toList();
          return  ListView.builder(
           itemBuilder: (context,index)=>ListTile(
-              leading: Icon( Icons.watch_later),
-             title: Text(snapshot.data[index]['mot'] ),
+            onTap: (){
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => detail(
+                      suggestionList[index]['mot'],
+                      suggestionList[index]['mot_fr'],
+                      suggestionList['description'],
+                      suggestionList['description_fr']),
+                ),
+              );
+            },
+              leading: Icon( Icons.search),
+             title: RichText(
+                 text: TextSpan(
+                   text:  suggestionList[index]['mot'].substring(0, query.length),
+                   style: TextStyle(
+                     color: Colors.black, fontWeight: FontWeight.bold,
+                   ),
+                   children: [
+                     TextSpan(
+                       text: suggestionList[index]['mot'].substring(query.length),
+                       style: TextStyle(color:  Colors.grey)
+                     )
+                   ]
+                 ),
+                  ),
+             subtitle:  RichText(
+              text: TextSpan(
+                  text:  suggestionList[index]['mot_fr'].substring(0, query.length),
+                  style: TextStyle(
+                    color: Colors.black, fontWeight: FontWeight.bold,
+                  ),
+                  children: [
+                    TextSpan(
+                        text: suggestionList[index]['mot_fr'].substring(query.length),
+                        style: TextStyle(color:  Colors.blueGrey)
+                    )
+                  ]
+              ),
             ),
-       itemCount: snapshot.data.length,
+            ),
+          itemCount: suggestionList.length,
       );
        }
      }
