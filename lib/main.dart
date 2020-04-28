@@ -14,6 +14,7 @@ import 'dart:async';
 import 'pages/detail.dart';
 import 'pages/about.dart';
 import 'pages/drawer.dart';
+import 'pages/fetch_data.dart';
 import 'pages/share.dart';
 import 'package:http/http.dart' as http;
 
@@ -48,13 +49,12 @@ class Home extends StatefulWidget {
 }
 
 class _Home extends State<Home> {
-  Future<List<dynamic>> loadJsonData() async {
+  Future<FetchData> loadJsonData() async {
 
     //var JsonString= await rootBundle.loadString('assets/Dico_Moundang.json');https://api.npoint.io/9872ce006f23b005b47d https://www.npoint.io/docs/3fe657f143852d4c4924
       var url = 'https://api.npoint.io/3fe657f143852d4c4924';
       var JsonString = await http.get(url);
-      var  data = json.decode(JsonString.body);
-      return data;
+      return FetchData.fromJson(json.decode(JsonString.body));
   }
   @override
   void initState(){
@@ -230,6 +230,8 @@ class _Home extends State<Home> {
                         ),
                       );
                     },
+
+//onTap: null,
                   );
 
                 },
@@ -297,7 +299,6 @@ class _Home extends State<Home> {
 //}
 
 class DataSearch extends SearchDelegate<String>{
-  Future<FetchData> mydata;
   //final datas = _Home().loadJsonData();
   @override
   List<Widget> buildActions(BuildContext context) {
@@ -331,13 +332,19 @@ class DataSearch extends SearchDelegate<String>{
     //var mydata= [];
        //list = mydata.then((f));
     //final datas = _Home().data;
-    final suggestionList =mydata;
-    return ListView.builder(
-      itemBuilder: (context,index)=>ListTile(
-            leading: Icon( Icons.watch_later),
-           //title: Text(suggestionList[index]['mot'] ),
-          ),
-     //itemCount: suggestionList.length,
+    return FutureBuilder(
+      future: _Home().loadJsonData(),
+      builder:(context,snapshot){
+       if(snapshot.hasData){
+         return  ListView.builder(
+          itemBuilder: (context,index)=>ListTile(
+              leading: Icon( Icons.watch_later),
+             title: Text(snapshot.data[index]['mot'] ),
+            ),
+       itemCount: snapshot.data.length,
+      );
+       }
+     }
     );
 
   }
