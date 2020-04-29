@@ -22,6 +22,8 @@ dependencies:
   card_settings: ^1.7.0
   http: ^0.12.0+4
   url_launcher: ^5.4.2
+  introduction_screen: ^1.0.8
+  shared_preferences: ^0.5.7
   #pull_to_refresh: ^1.5.8
   #search_app_bar: ^1.0.2+2
 

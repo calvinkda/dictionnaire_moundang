@@ -14,15 +14,16 @@ import 'dart:async';
 import 'pages/detail.dart';
 import 'pages/about.dart';
 import 'pages/drawer.dart';
-import 'pages/fetch_data.dart';
 import 'pages/share.dart';
 import 'package:http/http.dart' as http;
+import 'package:introduction_screen/introduction_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(MyApp());
 }
-/* ….. */
 
+// class Myapp
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Dictionnaire Moundang',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Splash(),
       routes: {
         '/drawer': (context) => drawer(),
         '/about': (context) => about(),
@@ -40,6 +41,48 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+/* ….. */
+
+//class de la spalsh screen
+class Splash extends StatefulWidget {
+  @override
+  SplashState createState() => new SplashState();
+}
+
+class SplashState extends State<Splash> {
+  Future checkFirstSeen() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    bool _seen = (prefs.getBool('seen') ?? false);
+
+    if (_seen) {
+      Navigator.of(context).pushReplacement(
+          new MaterialPageRoute(builder: (context) => new Home()));
+    } else {
+      await prefs.setBool('seen', true);
+      Navigator.of(context).pushReplacement(
+          new MaterialPageRoute(builder: (context) => new OnBoardingPage()));
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    new Timer(new Duration(milliseconds: 200), () {
+      checkFirstSeen();
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      body: new Center(
+        child: new Text('Chargement...'),
+      ),
+    );
+  }
+}
+
+// class home (acceuil de la page
 class Home extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -247,3 +290,131 @@ class DataSearch extends SearchDelegate<String>{
   }
 
 }
+
+//class de l'intro
+class App extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle.dark.copyWith(statusBarColor: Colors.transparent),
+    );
+
+    return MaterialApp(
+      title: 'Acceuil',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.green),
+      home: OnBoardingPage(),
+    );
+  }
+}
+
+class OnBoardingPage extends StatefulWidget {
+  @override
+  _OnBoardingPageState createState() => _OnBoardingPageState();
+}
+
+class _OnBoardingPageState extends State<OnBoardingPage> {
+  final introKey = GlobalKey<IntroductionScreenState>();
+
+  void _onIntroEnd(context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => MyApp()),
+    );
+  }
+
+  Widget _buildImage(String assetName) {
+    return Align(
+      child: Image.asset('assets/ico.jpg', width: 350.0),
+      alignment: Alignment.bottomCenter,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    const bodyStyle = TextStyle(fontSize: 19.0);
+    const pageDecoration = const PageDecoration(
+      titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
+      bodyTextStyle: bodyStyle,
+      descriptionPadding: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+      pageColor: Colors.white,
+      imagePadding: EdgeInsets.zero,
+    );
+
+    return IntroductionScreen(
+      key: introKey,
+      pages: [
+        PageViewModel(
+          title: "Fractional shares",
+          body:
+          "Instead of having to buy an entire share, invest any amount you want.",
+          image: Image.asset('assets/ico1.png', width: 350.0),
+          decoration: pageDecoration,
+        ),
+        PageViewModel(
+          title: "Learn as you go",
+          body:
+          "Download the Stockpile app and master the market with our mini-lesson.",
+          image: Image.asset('assets/icon.png', width: 350.0),
+          decoration: pageDecoration,
+        ),
+        PageViewModel(
+          title: "Kids and teens",
+          body:
+          "Kids and teens can track their stocks 24/7 and place trades that you approve.",
+          image: Image.asset('assets/ico3.png', width: 350.0),
+          decoration: pageDecoration,
+        ),
+        PageViewModel(
+          title: "Another title page",
+          body: "Another beautiful body text for this example onboarding",
+          image: Image.asset('assets/ico4.jpg', width: 350.0),
+          footer: RaisedButton(
+            onPressed: () {
+              introKey.currentState?.animateScroll(0);
+            },
+            child: const Text(
+              'FooButton',
+              style: TextStyle(color: Colors.white),
+            ),
+            color: Colors.lightBlue,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+          ),
+          decoration: pageDecoration,
+        ),
+        PageViewModel(
+          title: "Title of last page",
+          bodyWidget: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Text("Click on ", style: bodyStyle),
+              Icon(Icons.edit),
+              Text(" to edit a post", style: bodyStyle),
+            ],
+          ),
+          image: Image.asset('assets/logo.jpg', width: 350.0),
+          decoration: pageDecoration,
+        ),
+      ],
+      onDone: () => _onIntroEnd(context),
+      //onSkip: () => _onIntroEnd(context), // You can override onSkip callback
+      showSkipButton: true,
+      skipFlex: 0,
+      nextFlex: 0,
+      skip: const Text('Skip'),
+      next: const Icon(Icons.arrow_forward),
+      done: const Text('Done', style: TextStyle(fontWeight: FontWeight.w600)),
+      dotsDecorator: const DotsDecorator(
+        size: Size(10.0, 10.0),
+        color: Color(0xFFBDBDBD),
+        activeSize: Size(22.0, 10.0),
+        activeShape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.all(Radius.circular(25.0)),
+        ),
+      ),
+    );
+  }
+}
+
+
