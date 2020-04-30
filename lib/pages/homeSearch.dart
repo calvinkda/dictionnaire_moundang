@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:dictionnaire_moundang/pages/detail.dart';
+import 'package:dictionnaire_moundang/pages/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -38,6 +39,7 @@ class _HomeState extends State<Home> {
       body: Container(
         child:searchText.isNotEmpty?buildList():myLiist()
       ),
+      drawer: Drawers(),
       resizeToAvoidBottomPadding: false,
     );
   }
