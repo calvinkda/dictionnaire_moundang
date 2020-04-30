@@ -2,8 +2,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class detail extends StatelessWidget{
-
+class Detail extends StatelessWidget{
+    String descriptions_fr;
+    String descriptions;
+    String mot;
+    String mot_fr;
+    Detail(this.mot,this.mot_fr,this.descriptions_fr,this.descriptions);
   @override
   Widget build(BuildContext context) {
 
@@ -17,7 +21,13 @@ class detail extends StatelessWidget{
         ),
 
         body: Center(
-          child: Text('detail'),
+          child: Container(
+            child:ListTile(
+              leading:Text(mot,style: TextStyle(fontWeight: FontWeight.bold),textScaleFactor: 1.25),
+              title:Text(mot_fr,style: TextStyle(fontWeight: FontWeight.bold),textScaleFactor: 1.25),
+              subtitle:Text(descriptions_fr)
+            )
+          ),
         )
     );
   }
