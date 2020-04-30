@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:dictionnaire_moundang/pages/detail.dart';
+import 'package:dictionnaire_moundang/pages/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -10,7 +11,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final TextEditingController filter = new TextEditingController();
-  final url = 'https://api.npoint.io/9872ce006f23b005b47d';
+  final url = 'https://api.npoint.io/3fe657f143852d4c4924';
   String searchText = "";
   List mot = new List();
   List data;
@@ -35,6 +36,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildBar(context),
+      drawer: Drawers(),
       body: Container(
         child:searchText.isNotEmpty?buildList():myLiist()
       ),
@@ -43,15 +45,18 @@ class _HomeState extends State<Home> {
   }
 
   Widget buildBar(BuildContext context) {
-    return new AppBar(
-      centerTitle: true,
-      title: appBarTitle,
-      actions:[new IconButton(
-        icon: searchIcon,
-        onPressed: _searchPressed,
-      ),]
-    );
-  }
+    return AppBar (
+            centerTitle: true,
+            title: appBarTitle,
+            backgroundColor: Colors.green,
+            actions:[new IconButton(
+              icon: searchIcon,
+              onPressed: _searchPressed,
+            ),]
+
+        );
+
+    }
 
   Widget buildList() {
     if (!(searchText.isEmpty)) {
@@ -75,55 +80,56 @@ class _HomeState extends State<Home> {
       },
     );
   }
-
+  //Drawer:drawer();
   Widget myLiist() {
+
     return ListView.builder(
         itemCount: data == null ? 0 : data.length,
         itemBuilder: (BuildContext context, int i) => Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Center(
-                child: GestureDetector(
-                  onTap: () {
-                    Navigator.of(context).push(MaterialPageRoute(
-                        builder: (_) => Detail(
-                            data[i]['mot'],
-                            data[i]['mot_fr'],
-                            data[i]['description_fr'],
-                            data[i]['description'])));
-                  },
-                  child: Container(
-                    width: MediaQuery.of(context).size.width - 70,
-                    child: Column(children: <Widget>[
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: <Widget>[
-                            Text(
-                              '${data[i]['mot_fr']}',
-                              style: TextStyle(fontWeight: FontWeight.bold),
-                              textScaleFactor: 1.5,
-                            ),
-                            Text(
-                              '${data[i]['mot']}',
-                              style: TextStyle(fontWeight: FontWeight.bold),
-                              textScaleFactor: 1.5,
-                            ),
-                          ],
+          padding: const EdgeInsets.all(8.0),
+          child: Center(
+            child: GestureDetector(
+              onTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (_) => Detail(
+                        data[i]['mot'],
+                        data[i]['mot_fr'],
+                        data[i]['description_fr'],
+                        data[i]['description'])));
+              },
+              child: Container(
+                width: MediaQuery.of(context).size.width - 70,
+                child: Column(children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        Text(
+                          '${data[i]['mot_fr']}',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                          textScaleFactor: 1.5,
                         ),
-                      ),
-                      SizedBox(
-                        height: 15.0,
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12),
-                        child: Text('${data[i]['description_fr']}'),
-                      )
-                    ]),
+                        Text(
+                          '${data[i]['mot']}',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                          textScaleFactor: 1.5,
+                        ),
+                      ],
+                    ),
                   ),
-                ),
+                  SizedBox(
+                    height: 15.0,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Text('${data[i]['description_fr']}'),
+                  )
+                ]),
               ),
-            ));
+            ),
+          ),
+        ));
   }
 
   @override
@@ -139,7 +145,7 @@ class _HomeState extends State<Home> {
         this.appBarTitle = new TextField(
           controller: filter,
           decoration: new InputDecoration(
-              prefixIcon: new Icon(Icons.search), hintText: 'Search...'),
+              prefixIcon: new Icon(Icons.search), hintText: 'Chercher / kyeb ...'),
         );
       } else {
         this.searchIcon = new Icon(Icons.search);
@@ -161,4 +167,6 @@ class _HomeState extends State<Home> {
       data = mot;
     });
   }
+
+
 }
