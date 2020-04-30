@@ -1,4 +1,4 @@
-import 'package:dictionnaire_moundang/pages/Home.dart';
+import 'package:dictionnaire_moundang/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';

@@ -1,10 +1,8 @@
-import 'package:dictionnaire_moundang/pages/Home.dart';
+import 'package:dictionnaire_moundang/pages/home.dart';
 import 'package:dictionnaire_moundang/pages/Splash.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:dictionnaire_moundang/pages/splash_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'pages/about.dart';
 import 'pages/drawer.dart';
 import 'pages/share.dart';
