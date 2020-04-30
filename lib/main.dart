@@ -1,12 +1,10 @@
 import 'package:dictionnaire_moundang/pages/Home.dart';
-import 'package:dictionnaire_moundang/pages/Research.dart';
 import 'package:dictionnaire_moundang/pages/Splash.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:dictionnaire_moundang/pages/splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'pages/detail.dart';
 import 'pages/about.dart';
 import 'pages/drawer.dart';
 import 'pages/share.dart';
@@ -24,11 +22,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Splash(),
       routes: {
-        '/drawer': (context) => drawer(),
-        '/about': (context) => about(),
-        '/share': (context) => share(),
+        '/drawer': (context) => Drawers(),
+        '/about': (context) => About(),
+        '/share': (context) => Share(),
         '/home': (context) => Home(),
-        '/splash_screen': (context) => splash_screen(),
+        '/splash_screen': (context) => SplashScreen(),
         //'/detail': (context) => Detail(),
         //'/research': (context) => reseach(),
 

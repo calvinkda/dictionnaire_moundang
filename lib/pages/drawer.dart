@@ -1,9 +1,7 @@
-import 'package:dictionnaire_moundang/pages/about.dart';
-import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class drawer extends StatelessWidget {
+class Drawers extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {

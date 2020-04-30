@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class share extends StatefulWidget {
+class Share extends StatefulWidget {
   @override
-  _shareState createState() => _shareState();
+  _ShareState createState() => _ShareState();
 }
 
-class _shareState extends State<share> {
+class _ShareState extends State<Share> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

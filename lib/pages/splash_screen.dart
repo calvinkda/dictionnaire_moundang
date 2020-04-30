@@ -21,7 +21,7 @@ class SplashState extends State<Splash> {
     } else {
       await prefs.setBool('seen', true);
       Navigator.of(context).pushReplacement(
-          new MaterialPageRoute(builder: (context) => splash_screen()));
+          new MaterialPageRoute(builder: (context) => SplashScreen()));
     }
   }
 
