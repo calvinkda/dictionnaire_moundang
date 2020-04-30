@@ -9,57 +9,57 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final TextEditingController _filter = new TextEditingController();
+  final TextEditingController filter = new TextEditingController();
   final url = 'https://api.npoint.io/9872ce006f23b005b47d';
-  String _searchText = "";
+  String searchText = "";
   List mot = new List();
   List data;
   List filteredmot = new List();
-  Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Home');
+  Icon searchIcon = new Icon(Icons.search);
+  Widget appBarTitle = new Text('Home');
 
   _HomeState() {
-    _filter.addListener(() {
-      if (_filter.text.isEmpty) {
+    filter.addListener(() {
+      if (filter.text.isEmpty) {
         setState(() {
-          _searchText = "";
+          searchText = "";
           filteredmot = mot;
         });
       } else {
         setState(() {
-          _searchText = _filter.text;
+          searchText = filter.text;
         });
       }
     });
   }
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _buildBar(context),
+      appBar: buildBar(context),
       body: Container(
-        child:_searchText.isNotEmpty?_buildList():myLiist()
+        child:searchText.isNotEmpty?buildList():myLiist()
       ),
       resizeToAvoidBottomPadding: false,
     );
   }
 
-  Widget _buildBar(BuildContext context) {
+  Widget buildBar(BuildContext context) {
     return new AppBar(
       centerTitle: true,
-      title: _appBarTitle,
+      title: appBarTitle,
       actions:[new IconButton(
-        icon: _searchIcon,
+        icon: searchIcon,
         onPressed: _searchPressed,
       ),]
     );
   }
 
-  Widget _buildList() {
-    if (!(_searchText.isEmpty)) {
+  Widget buildList() {
+    if (!(searchText.isEmpty)) {
       List tempList = new List();
       for (int i = 0; i < filteredmot.length; i++) {
         if (filteredmot[i]['mot']
             .toLowerCase()
-            .contains(_searchText.toLowerCase())) {
+            .contains(searchText.toLowerCase())) {
           tempList.add(filteredmot[i]);
         }
       }
@@ -134,18 +134,18 @@ class _HomeState extends State<Home> {
 
   void _searchPressed() {
     setState(() {
-      if (this._searchIcon.icon == Icons.search) {
-        this._searchIcon = new Icon(Icons.close);
-        this._appBarTitle = new TextField(
-          controller: _filter,
+      if (this.searchIcon.icon == Icons.search) {
+        this.searchIcon = new Icon(Icons.close);
+        this.appBarTitle = new TextField(
+          controller: filter,
           decoration: new InputDecoration(
               prefixIcon: new Icon(Icons.search), hintText: 'Search...'),
         );
       } else {
-        this._searchIcon = new Icon(Icons.search);
-        this._appBarTitle = new Text('Home');
+        this.searchIcon = new Icon(Icons.search);
+        this.appBarTitle = new Text('Home');
         filteredmot = mot;
-        _filter.clear();
+        filter.clear();
       }
     });
   }

@@ -1,4 +1,4 @@
-import 'package:dictionnaire_moundang/pages/home.dart';
+import 'package:dictionnaire_moundang/pages/homeSearch.dart';
 import 'package:dictionnaire_moundang/pages/Splash.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
 import 'package:dictionnaire_moundang/pages/splash_screen.dart';

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:dictionnaire_moundang/pages/home.dart';
+import 'package:dictionnaire_moundang/pages/homeSearch.dart';
 import 'package:dictionnaire_moundang/pages/Splash.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
