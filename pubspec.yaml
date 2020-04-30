@@ -24,15 +24,25 @@ dependencies:
   url_launcher: ^5.4.2
   introduction_screen: ^1.0.8
   shared_preferences: ^0.5.7
+  flutter_launcher_icons: ^0.7.5
   #pull_to_refresh: ^1.5.8
   #search_app_bar: ^1.0.2+2
 
 
 
-
+#flutter icon
+flutter_icons:
+    #  image_path: "assets/images/icon-128x128.png"
+  android: "launcher_icon"
+  image_path_android: "assets/icone/icone.png"
+  image_path_ios: "assets/icone/icone.png"
+  #android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_background: "assets/icone/icone.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/icone/icone.png" # only available for Android 8.0 devices and above
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+cupertino_icons: ^0.1.2
 
 dev_dependencies:
   flutter_test:

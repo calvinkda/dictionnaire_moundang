@@ -35,7 +35,7 @@ class drawer extends StatelessWidget {
 
                     ),
                     child:Image.asset(
-                      'assets/logo.jpg',
+                      'assets/icone/icone.png',
                       fit: BoxFit.cover,
                     ),
                   ),
