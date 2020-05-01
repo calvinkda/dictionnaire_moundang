@@ -14,19 +14,48 @@ class Detail extends StatelessWidget{
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text('detail'),
+          title: Text(mot,style: TextStyle(fontWeight:FontWeight.bold),textScaleFactor: 1.33),
           centerTitle: true,
           backgroundColor: Colors.green,
 
         ),
 
-        body: Center(
-          child: Container(
-            child:ListTile(
-              leading:Text(mot,style: TextStyle(fontWeight: FontWeight.bold),textScaleFactor: 1.25),
-              title:Text(mot_fr,style: TextStyle(fontWeight: FontWeight.bold),textScaleFactor: 1.25),
-              subtitle:Text(descriptions_fr)
-            )
+        body: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Center(
+            child: ListView(
+              children:<Widget>[
+                   Card(
+                      elevation: 7.0,
+                      child:Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          ListTile(
+                            title:Padding(
+                              padding: const EdgeInsets.only(bottom:10.0),
+                              child: Text(
+                                    mot,
+                                    style: TextStyle(fontWeight: FontWeight.bold),
+                                  ),
+                            ),
+                            subtitle:Text(descriptions, style: TextStyle(color:Colors.black),textScaleFactor: 1.5,)
+                          ),
+                          SizedBox(height:30.0),
+                          ListTile(
+                            title:Padding(
+                              padding: const EdgeInsets.only(bottom:10.0),
+                              child: Text(
+                                    mot_fr,
+                                    style: TextStyle(fontWeight: FontWeight.bold),
+                                  ),
+                            ),
+                            subtitle:Text(descriptions_fr, style: TextStyle(color:Colors.black),textScaleFactor: 1.5,)
+                          ),
+                        ],
+                      )
+                    ),
+              ]
+            ),
           ),
         )
     );
