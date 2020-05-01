@@ -40,7 +40,6 @@ class _HomeState extends State<Home> {
       body: Container(
         child:searchText.isNotEmpty?buildList():myLiist()
       ),
-      drawer: Drawers(),
       resizeToAvoidBottomPadding: false,
     );
   }
