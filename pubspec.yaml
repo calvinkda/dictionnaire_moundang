@@ -25,6 +25,7 @@ dependencies:
   introduction_screen: ^1.0.8
   shared_preferences: ^0.5.7
   flutter_launcher_icons: ^0.7.5
+  flutter_share: ^1.0.2+1
   #pull_to_refresh: ^1.5.8
   #search_app_bar: ^1.0.2+2
 
@@ -35,7 +36,6 @@ flutter_icons:
     #  image_path: "assets/images/icon-128x128.png"
   android: "launcher_icon"
   image_path_android: "assets/icone/icone.png"
-  image_path_ios: "assets/icone/icone.png"
   #android: true # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
   adaptive_icon_background: "assets/icone/icone.png" # only available for Android 8.0 devices and above
@@ -69,7 +69,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
      - assets/
-     - assets/logo.jpg
+     - assets/icone/icone.png
+     - android/app/src/main/res/drawable/splash_screen.jpg
+  #  - assets/logo.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

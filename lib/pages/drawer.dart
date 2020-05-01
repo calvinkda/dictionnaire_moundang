@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter_share/flutter_share.dart';
+import 'package:dictionnaire_moundang/pages/Help.dart';
+
 
 class Drawers extends StatelessWidget {
-
+  Future<void> sharing() async {
+    await FlutterShare.share(
+        title: 'Example share',
+        text: 'Example share text',
+        linkUrl: 'https://koudanbe.herokuapp.com/',
+        //chooserTitle: 'Example Chooser Title'
+    );
+  }
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -32,8 +41,7 @@ class Drawers extends StatelessWidget {
                       color: Colors.green[500],
 
                     ),
-                    child:Image.asset(
-                      'assets/icone/icone.png',
+                    child:Image.asset('assets/icone/icone.png',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -72,7 +80,7 @@ class Drawers extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                Navigator.of(context).pushNamed('/share');
+                sharing();
               }
 
             ),
@@ -84,7 +92,9 @@ class Drawers extends StatelessWidget {
                 ),
               ),
 
-              onTap: _url,
+              onTap: (){
+                Navigator.of(context).pushNamed('/help');
+              },
 
             ),
             Text('Version 1.1',
@@ -101,12 +111,7 @@ class Drawers extends StatelessWidget {
 
 }
 
-_url() async {
-  const url = 'https://koudanbe.herokuapp.com/contribution/';
-  if (await canLaunch(url)) {
-     launch(url);
-  } else {
-    throw 'Could not launch $url';
-  }
-}
+
+
+
 

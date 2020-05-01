@@ -1,3 +1,4 @@
+import 'package:dictionnaire_moundang/pages/Help.dart';
 import 'package:dictionnaire_moundang/pages/homeSearch.dart';
 import 'package:dictionnaire_moundang/pages/Splash.dart';
 import 'package:dictionnaire_moundang/pages/share.dart';
@@ -25,6 +26,8 @@ class MyApp extends StatelessWidget {
         '/share': (context) => Share(),
         '/home': (context) => Home(),
         '/splash_screen': (context) => SplashScreen(),
+        '/help': (context) => Help(),
+
         //'/detail': (context) => Detail(),
         //'/research': (context) => reseach(),
 
