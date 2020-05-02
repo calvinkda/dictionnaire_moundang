@@ -17,31 +17,33 @@ class _HelpState extends State<Help> {
         ),
         body:Padding(
           padding: EdgeInsets.all(20.0),
-          child: Container(
-              child:Card(
+          child: Center(
+            child: Container(
+                child:Card(
 
-                child:SingleChildScrollView(
-                  padding: EdgeInsets.all(15.0),
-                  child:  Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: <Widget>[
-                      Text('pour tout aide ou contibution contacter le ou koudanbe@gmail.com'),
-                      SizedBox(height: 20.0,),
-                      Text('teste du text 2'),
-                      Text('Vous pouvez contribuer en proposant des modifications,amélioration ou ajout d un mot'),
-                      Text('cliquer sur le boutton ci dessous'),
-                      RaisedButton(
-                          color: Colors.green,
-                          elevation:5.0,
-                          splashColor: Colors.white,
-                          child: new Text("Contribuer"),
-                          onPressed: _url),
-                      Text('nos autres projets'),
-                    ],
+                  child:SingleChildScrollView(
+                    padding: EdgeInsets.all(15.0),
+                    child:  Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        Text('pour tout aide ou contibution contacter le ou koudanbe@gmail.com'),
+                        SizedBox(height: 20.0,),
+                        Text('teste du text 2'),
+                        Text('Vous pouvez contribuer en proposant des modifications,amélioration ou ajout d un mot'),
+                        Text('cliquer sur le boutton ci dessous'),
+                        RaisedButton(
+                            color: Colors.green,
+                            elevation:5.0,
+                            splashColor: Colors.white,
+                            child: new Text("Contribuer"),
+                            onPressed: _url),
+                        Text('nos autres projets'),
+                      ],
+                    ),
                   ),
-                ),
-                elevation: 7.0,
-              )
+                  elevation: 7.0,
+                )
+            ),
           ),
         )
     );
