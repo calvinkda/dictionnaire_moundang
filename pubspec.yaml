@@ -33,10 +33,10 @@ dependencies:
 
 #flutter icon
 flutter_icons:
-    #  image_path: "assets/images/icon-128x128.png"
+  image_path: "assets/icone/icone.png"
   android: "launcher_icon"
   image_path_android: "assets/icone/icone.png"
-  #android: true # can specify file name here e.g. "ic_launcher"
+    #android: true # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
   adaptive_icon_background: "assets/icone/icone.png" # only available for Android 8.0 devices and above
   adaptive_icon_foreground: "assets/icone/icone.png" # only available for Android 8.0 devices and above
@@ -70,6 +70,7 @@ flutter:
   assets:
      - assets/
      - assets/icone/icone.png
+     - assets/icone/icone1.png
      - android/app/src/main/res/drawable/splash_screen.jpg
   #  - assets/logo.jpg
   #  - images/a_dot_ham.jpeg

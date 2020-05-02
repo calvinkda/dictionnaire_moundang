@@ -11,7 +11,7 @@ class _HelpState extends State<Help> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Contribution et participation / Gbah jolle '),
+          title: Text('Contribution / Gbah jolle '),
           backgroundColor: Colors.green,
           centerTitle: true,
         ),
