@@ -107,7 +107,7 @@ class _HomeState extends State<Home> {
     );
   }
 
-   Future _getmot() async {
+   _getmot() async {
     final response = await http.get(Uri.encodeFull(url));
     List tempList = new List();
     tempList = jsonDecode(response.body);
@@ -122,13 +122,11 @@ class _HomeState extends State<Home> {
 
   //Drawer:drawer();
   Widget myLiist() {
-    return FutureBuilder(
-          future: _getmot(),
-          builder: (context,s){
-            if(s.hasData){
-              return ListView.builder(
+    return ListView.builder(
           itemCount: data == null ? 0 : data.length,
-          itemBuilder: (BuildContext context, int i) => Padding(
+          itemBuilder: (BuildContext context, int i){
+            if (data!=null){
+              Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 width: MediaQuery.of(context).size.width - 70,
@@ -170,11 +168,12 @@ class _HomeState extends State<Home> {
                           child: Text('${data[i]['description_fr']}',
                               style: TextStyle(color: Colors.black)),
                         ))),
-              )));
+              )
+            );
             }
-            return Center(child: CircularProgressIndicator(),);
+            return Center(child:CircularProgressIndicator());
           }
-    );
+          );
   }
 
 }
