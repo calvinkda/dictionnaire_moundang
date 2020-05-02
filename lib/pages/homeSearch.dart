@@ -119,12 +119,14 @@ class _HomeState extends State<Home> {
       data = mot;
     });
   }
-
+Widget CircularPros(){
+  return Center(child: CircularProgressIndicator());
+}
   //Drawer:drawer();
   Widget myLiist() {
     return ListView.builder(
           itemCount: data == null ? 0 : data.length,
-          itemBuilder: (BuildContext context, int i) => Padding(
+          itemBuilder: (BuildContext context, int i) => data==null?CircularPros:Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 width: MediaQuery.of(context).size.width - 70,
