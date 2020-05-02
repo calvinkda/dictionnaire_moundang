@@ -8,56 +8,73 @@ class Detail extends StatelessWidget{
     String mot;
     String mot_fr;
     Detail(this.mot,this.mot_fr,this.descriptions_fr,this.descriptions);
-  @override
-  Widget build(BuildContext context) {
-
-    return Scaffold(
-        backgroundColor: Colors.white,
-        appBar: AppBar(
-          title: Text(mot,style: TextStyle(fontWeight:FontWeight.bold),textScaleFactor: 1.33),
-          centerTitle: true,
-          backgroundColor: Colors.green,
-
-        ),
-
-        body: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Center(
-            child: ListView(
-              children:<Widget>[
-                   Card(
-                      elevation: 7.0,
-                      child:Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: <Widget>[
-                          ListTile(
-                            title:Padding(
-                              padding: const EdgeInsets.only(bottom:10.0),
-                              child: Text(
-                                    mot,
-                                    style: TextStyle(fontWeight: FontWeight.bold),
-                                  ),
-                            ),
-                            subtitle:Text(descriptions, style: TextStyle(color:Colors.black),textScaleFactor: 1.5,)
-                          ),
-                          SizedBox(height:30.0),
-                          ListTile(
-                            title:Padding(
-                              padding: const EdgeInsets.only(bottom:10.0),
-                              child: Text(
-                                    mot_fr,
-                                    style: TextStyle(fontWeight: FontWeight.bold),
-                                  ),
-                            ),
-                            subtitle:Text(descriptions_fr, style: TextStyle(color:Colors.black),textScaleFactor: 1.5,)
-                          ),
-                        ],
-                      )
-                    ),
-              ]
+    //detail(String mot, String mot_fr,String traduction, String traduction_fr,);
+    @override
+    Widget build(BuildContext context) {
+      Widget myText2(BuildContext){
+        return  ListTile(
+          title: Text(
+            '$mot_fr',
+            textScaleFactor: 2.0,
+            style: TextStyle(
+                fontWeight: FontWeight.bold
             ),
           ),
-        )
-    );
-  }
+          subtitle: Text("$descriptions_fr",
+            style: TextStyle(
+              fontSize: 20.0,
+              color: Colors.black87,
+              //fontFamily: 'empire',
+
+            ),),
+        );
+      }
+
+      Widget myText(BuildContext){
+        return  ListTile(
+          title: Text(
+            '$mot',
+            textScaleFactor: 2.0,
+            style: TextStyle(
+                fontWeight: FontWeight.bold
+            ),
+          ),
+          subtitle: Text("$descriptions",
+            style: TextStyle(
+                fontSize: 20.0,
+                color: Colors.black87
+
+            ),),
+        );
+      }
+      // TODO: implement build
+      //final mots mot = ModalRoute.of(context).settings.arguments;
+      return Scaffold(
+          appBar: AppBar(
+            title: Text(mot),
+            backgroundColor: Colors.green,
+            centerTitle: true,
+          ),
+          body:Padding(
+            padding: EdgeInsets.all(20.0),
+            child: Container(
+                child:Card(
+
+                  child:SingleChildScrollView(
+                    padding: EdgeInsets.all(15.0),
+                    child:  Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: <Widget>[
+                        myText(BuildContext),
+                        SizedBox(height: 20.0,),
+                        myText2(BuildContext)
+                      ],
+                    ),
+                  ),
+                  elevation: 7.0,
+                )
+            ),
+          )
+      );
+    }
 }
