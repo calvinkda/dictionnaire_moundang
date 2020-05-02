@@ -44,7 +44,9 @@ class _HomeState extends State<Home> {
 
   @override
   Widget buildBar(BuildContext context) {
-    return AppBar(centerTitle: true, title: appBarTitle, actions: [
+    return AppBar(
+      backgroundColor: Colors.green,
+      centerTitle: true, title: appBarTitle, actions: [
       new IconButton(
         icon: searchIcon,
         onPressed: _searchPressed,
@@ -127,9 +129,9 @@ Widget CircularPros(){
     return ListView.builder(
           itemCount: data == null ? 0 : data.length,
           itemBuilder: (BuildContext context, int i) => data==null?CircularPros:Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(3.0),
               child: Container(
-                width: MediaQuery.of(context).size.width - 70,
+                width: MediaQuery.of(context).size.width - 10,
                 child: Card(
                     elevation: 7.0,
                     child: ListTile(
@@ -143,31 +145,26 @@ Widget CircularPros(){
                         },
                         leading: new CircleAvatar(
                             foregroundColor: Theme.of(context).primaryColor,
-                            backgroundColor: Colors.grey,
+                            backgroundColor: Colors.green,
                             child: Text(
                               '${data[i]['mot'][0]}',
                               style: TextStyle(
                                   fontWeight: FontWeight.bold, color: Colors.white),
                               textScaleFactor: 2.0,
                             )),
-                        title: new Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: <Widget>[
-                            Text(
+                        title:Text(
                               '${data[i]['mot_fr']}',
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            Text(
-                              '${data[i]['mot']}',
-                              style: TextStyle(fontWeight: FontWeight.bold),
-                            ),
-                          ],
-                        ),
                         subtitle: Padding(
                           padding: const EdgeInsets.only(top: 5.0),
-                          child: Text('${data[i]['description_fr']}',
-                              style: TextStyle(color: Colors.black)),
-                        ))),
+                          child:Text(
+                              '${data[i]['mot']}', 
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                        )
+                      )
+                    ),
               )
             )
           );
