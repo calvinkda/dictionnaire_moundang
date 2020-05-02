@@ -29,18 +29,18 @@ class Drawers extends StatelessWidget {
 
                   Container(
 
-                    width: 100,
-                    height: 100,
+                    width: 110,
+                    height: 150,
                     margin: EdgeInsets.only(
                       top: 30,
                       bottom: 10,
 
                     ),
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.green[500],
+                    //decoration: BoxDecoration(
+                      //shape: BoxShape.circle,
+                      //color: Colors.green[500],
 
-                    ),
+                    //),
                     child:Image.asset('assets/icone/icone.png',
                       fit: BoxFit.cover,
                     ),
