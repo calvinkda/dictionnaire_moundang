@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
   List data;
   List filteredmot = new List();
   Icon searchIcon = new Icon(Icons.search);
-  Widget appBarTitle = new Text('Home');
+  Widget appBarTitle = new Text('Dictionnaire Moundang');
 
   _HomeState() {
     filter.addListener(() {
@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
         );
       } else {
         this.searchIcon = new Icon(Icons.search);
-        this.appBarTitle = new Text('Home');
+        this.appBarTitle = new Text('Dictionnaire Moundang');
         filteredmot = mot;
         filter.clear();
       }
@@ -110,7 +110,7 @@ class _HomeState extends State<Home> {
   }
 
    _getmot() async {
-    final response = await http.get(Uri.encodeFull(url));
+    final response = await http.get(Uri.encodeFull(url), headers: {"ACCEPT" : "Application/json"});
     List tempList = new List();
     tempList = jsonDecode(response.body);
     setState(() {
@@ -129,7 +129,7 @@ Widget CircularPros(){
     return ListView.builder(
           itemCount: data == null ? 0 : data.length,
           itemBuilder: (BuildContext context, int i) => data==null?CircularPros:Padding(
-              padding: const EdgeInsets.all(3.0),
+              padding: const EdgeInsets.all(0.0),
               child: Container(
                 width: MediaQuery.of(context).size.width - 10,
                 child: Card(
@@ -153,13 +153,13 @@ Widget CircularPros(){
                               textScaleFactor: 2.0,
                             )),
                         title:Text(
-                              '${data[i]['mot_fr']}',
+                              '${data[i]['mot']}',
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                         subtitle: Padding(
                           padding: const EdgeInsets.only(top: 5.0),
                           child:Text(
-                              '${data[i]['mot']}', 
+                              '${data[i]['mot_fr']}',
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                         )

@@ -1,4 +1,5 @@
 import 'package:dictionnaire_moundang/pages/homeSearch.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
@@ -35,7 +36,10 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
 
   Widget _buildImage(String assetName) {
     return Align(
-      child: Image.asset('assets/ico.jpg', width: 350.0),
+      child: Image.asset('assets/ico.jpg',
+          width: 350.0,
+          fit: BoxFit.contain,
+      ),
       alignment: Alignment.bottomCenter,
     );
   }
@@ -58,27 +62,37 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           title: "Bienvenue dans African's Languages",
           body:
           "Une nouvelle méthode d'apprentissage des langues Africaines",
-          image: Image.asset('assets/ico1.png', width: 350.0),
+          image: Image.asset('assets/ico1.png',
+              fit: BoxFit.contain,
+              width: 350.0,
+          ),
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "Version Moundang",
           body:
           "Dévouvrez les mots et allocutions Moundang.",
-          image: Image.asset('assets/icon.png', width: 350.0),
+          image: Image.asset('assets/icon.png',
+              fit: BoxFit.contain,
+              width: 350.0),
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "Comment ça marche",
           body:
           "aussi facile que pratique",
-          image: Image.asset('assets/ico3.png', width: 350.0),
+          image: Image.asset('assets/ico3.png',
+              fit: BoxFit.contain,
+              width: 350.0
+          ),
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "Faites des recherches",
           body: "Que ce soit en français ou en Moundang",
-          image: Image.asset('assets/ico4.jpg', width: 350.0),
+          image: Image.asset('assets/ico4.jpg',
+              fit: BoxFit.contain,
+              width: 350.0),
           footer: RaisedButton(
             onPressed: () {
               introKey.currentState?.animateScroll(0);
@@ -104,7 +118,9 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
               Text(" to edit a post", style: bodyStyle),
             ],
           ),
-          image: Image.asset('assets/logo.jpg', width: 350.0),
+          image: Image.asset('assets/logo.jpg',
+              fit: BoxFit.contain,
+              width: 350.0),
           decoration: pageDecoration,
         ),
       ],
