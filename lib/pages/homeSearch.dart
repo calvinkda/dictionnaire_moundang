@@ -116,7 +116,7 @@ class _HomeState extends State<Home> {
     setState(() {
       
       mot = tempList;
-      mot.shuffle();
+      //mot.shuffle();
       filteredmot = mot;
       data = mot;
     });
@@ -128,7 +128,7 @@ Widget CircularPros(){
   Widget myLiist() {
     return ListView.builder(
           itemCount: data == null ? 0 : data.length,
-          itemBuilder: (BuildContext context, int i) => data==null?CircularPros:Padding(
+          itemBuilder: (BuildContext context, int i) => data.length<8? CircularPros:Padding(
               padding: const EdgeInsets.all(0.0),
               child: Container(
                 width: MediaQuery.of(context).size.width - 10,

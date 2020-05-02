@@ -64,7 +64,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           "Une nouvelle méthode d'apprentissage des langues Africaines",
           image: Image.asset('assets/ico1.png',
               fit: BoxFit.contain,
-              width: 350.0,
+              width: 250.0,
           ),
           decoration: pageDecoration,
         ),
@@ -74,7 +74,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           "Dévouvrez les mots et allocutions Moundang.",
           image: Image.asset('assets/icon.png',
               fit: BoxFit.contain,
-              width: 350.0),
+              width: 250.0),
           decoration: pageDecoration,
         ),
         PageViewModel(
@@ -83,7 +83,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           "aussi facile que pratique",
           image: Image.asset('assets/ico3.png',
               fit: BoxFit.contain,
-              width: 350.0
+              width: 250.0
           ),
           decoration: pageDecoration,
         ),
@@ -92,7 +92,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           body: "Que ce soit en français ou en Moundang",
           image: Image.asset('assets/ico4.jpg',
               fit: BoxFit.contain,
-              width: 350.0),
+              width: 250.0),
           footer: RaisedButton(
             onPressed: () {
               introKey.currentState?.animateScroll(0);
@@ -120,7 +120,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           ),
           image: Image.asset('assets/logo.jpg',
               fit: BoxFit.contain,
-              width: 350.0),
+              width: 250.0),
           decoration: pageDecoration,
         ),
       ],
