@@ -112,6 +112,7 @@ class _HomeState extends State<Home> {
     List tempList = new List();
     tempList = jsonDecode(response.body);
     setState(() {
+      
       mot = tempList;
       mot.shuffle();
       filteredmot = mot;
