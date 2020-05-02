@@ -113,44 +113,47 @@ class _HomeState extends State<Home> {
         itemCount: data == null ? 0 : data.length,
         itemBuilder: (BuildContext context, int i) => Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Card(
-                elevation: 7.0,
-                child: ListTile(
-                    onTap: () {
-                      Navigator.of(context).push(MaterialPageRoute(
-                          builder: (_) => Detail(
-                              data[i]['mot'],
-                              data[i]['mot_fr'],
-                              data[i]['description_fr'],
-                              data[i]['description'])));
-                    },
-                    leading: new CircleAvatar(
-                        foregroundColor: Theme.of(context).primaryColor,
-                        backgroundColor: Colors.grey,
-                        child: Text(
-                          '${data[i]['mot'][0]}',
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, color: Colors.white),
-                          textScaleFactor: 2.0,
-                        )),
-                    title: new Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Text(
-                          '${data[i]['mot_fr']}',
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                        Text(
-                          '${data[i]['mot']}',
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                    subtitle: Padding(
-                      padding: const EdgeInsets.only(top: 5.0),
-                      child: Text('${data[i]['description_fr']}',
-                          style: TextStyle(color: Colors.black)),
-                    )))));
+            child: Container(
+              width: MediaQuery.of(context).size.width - 70,
+              child: Card(
+                  elevation: 7.0,
+                  child: ListTile(
+                      onTap: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (_) => Detail(
+                                data[i]['mot'],
+                                data[i]['mot_fr'],
+                                data[i]['description_fr'],
+                                data[i]['description'])));
+                      },
+                      leading: new CircleAvatar(
+                          foregroundColor: Theme.of(context).primaryColor,
+                          backgroundColor: Colors.grey,
+                          child: Text(
+                            '${data[i]['mot'][0]}',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, color: Colors.white),
+                            textScaleFactor: 2.0,
+                          )),
+                      title: new Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+                          Text(
+                            '${data[i]['mot_fr']}',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            '${data[i]['mot']}',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                      subtitle: Padding(
+                        padding: const EdgeInsets.only(top: 5.0),
+                        child: Text('${data[i]['description_fr']}',
+                            style: TextStyle(color: Colors.black)),
+                      ))),
+            )));
   }
 
   void _getmot() async {
