@@ -101,14 +101,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         ),
         PageViewModel(
           title: "Quelques astuces ci dessus",
-          body: "Cliquer sur sur menu à gauche ensuite sur utilisation",
-          bodyWidget: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              Text("Néccesite une connexion internet", style: bodyStyle),
-              Icon(Icons.wifi),
-            ],
-          ),
+          body: "Cliquer sur sur menu à gauche ensuite sur utilisation. NB: L'utilisation de l'application néccesite une connexion internet",
+
           image: Image.asset('assets/ico4.jpg',
               fit: BoxFit.contain,
               width: 250.0),
