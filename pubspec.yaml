@@ -71,7 +71,9 @@ flutter:
      - assets/
      - assets/icone/icone.png
      - assets/icone/icone1.png
-     - android/app/src/main/res/drawable/splash_screen.jpg
+     - assets/icone/intro.gif
+     - assets/icone/intro2.gif
+     - android/app/src/main/res/drawable/splash_screen.png
   #  - assets/logo.jpg
   #  - images/a_dot_ham.jpeg
 

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_share/flutter_share.dart';
-import 'package:dictionnaire_moundang/pages/Help.dart';
 
 
 class Drawers extends StatelessWidget {
   Future<void> sharing() async {
     await FlutterShare.share(
-        title: 'Example share',
-        text: 'Example share text',
+        title: 'Dictionnaire Moundang',
+        text: 'Decouvre avec moi cette belle application',
         linkUrl: 'https://koudanbe.herokuapp.com/',
         //chooserTitle: 'Example Chooser Title'
     );
@@ -61,7 +60,19 @@ class Drawers extends StatelessWidget {
               ),
             ),
             ListTile(
-              leading: Icon(Icons.settings_input_antenna),
+                leading: Icon(Icons.verified_user),
+                title: Text('Utilisation',
+                  style: TextStyle(
+                    fontSize: 18,
+                  ),
+                ),
+                onTap: () {
+                  Navigator.of(context).pushNamed('/How_to');
+                }
+
+            ),
+            ListTile(
+              leading: Icon(Icons.account_box),
               title: Text('à propos',
                 style: TextStyle(
                   fontSize: 18,
@@ -97,7 +108,7 @@ class Drawers extends StatelessWidget {
               },
 
             ),
-            Text('Version 1.1',
+            Text('Version Bêta',
               textAlign: TextAlign.end,
             )
           ],

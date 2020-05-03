@@ -34,15 +34,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
     );
   }
 
-  Widget _buildImage(String assetName) {
-    return Align(
-      child: Image.asset('assets/ico.jpg',
-          width: 350.0,
-          fit: BoxFit.contain,
-      ),
-      alignment: Alignment.bottomCenter,
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -80,8 +71,8 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Comment ça marche",
           body:
-          "aussi facile que pratique",
-          image: Image.asset('assets/ico3.png',
+          "decouvrer une liste de mots et allocutions avec quelques unes de leurs utlisations et des correspondaces en Fançais",
+          image: Image.asset('assets/icone/intro.gif',
               fit: BoxFit.contain,
               width: 250.0
           ),
@@ -90,35 +81,35 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Faites des recherches",
           body: "Que ce soit en français ou en Moundang",
-          image: Image.asset('assets/ico4.jpg',
+          image: Image.asset('assets/icone/intro2.gif',
               fit: BoxFit.contain,
               width: 250.0),
-          footer: RaisedButton(
-            onPressed: () {
-              introKey.currentState?.animateScroll(0);
-            },
-            child: const Text(
-              'decouvrir',
-              style: TextStyle(color: Colors.white),
-            ),
-            color: Colors.lightBlue,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8.0),
-            ),
-          ),
+          //footer: RaisedButton(
+           // onPressed: () {
+             // introKey.currentState?.animateScroll(0);
+            //},
+            ////child: const Text(
+             // 'decouvrir',
+              //style: TextStyle(color: Colors.white),
+            //),
+            //color: Colors.lightBlue,
+            //shape: RoundedRectangleBorder(
+             // borderRadius: BorderRadius.circular(8.0),
+            //),
+          //),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Allons y",
+          title: "Quelques astuces ci dessus",
+          body: "Cliquer sur sur menu à gauche ensuite sur utilisation",
           bodyWidget: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
-              Text("Click on ", style: bodyStyle),
-              Icon(Icons.edit),
-              Text(" to edit a post", style: bodyStyle),
+              Text("Néccesite une connexion internet", style: bodyStyle),
+              Icon(Icons.wifi),
             ],
           ),
-          image: Image.asset('assets/logo.jpg',
+          image: Image.asset('assets/ico4.jpg',
               fit: BoxFit.contain,
               width: 250.0),
           decoration: pageDecoration,
