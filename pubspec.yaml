@@ -26,6 +26,7 @@ dependencies:
   shared_preferences: ^0.5.7
   flutter_launcher_icons: ^0.7.5
   flutter_share: ^1.0.2+1
+  flutter_automation: ^1.3.3
   #pull_to_refresh: ^1.5.8
   #search_app_bar: ^1.0.2+2
 
@@ -60,6 +61,9 @@ flutter:
     - family: empire
       fonts:
         - asset: assets/font/My Empire Wont Fall.ttf
+    - family: cadela
+      fonts:
+        - asset: assets/font/Caladea-Italic.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -74,6 +78,8 @@ flutter:
      - assets/icone/intro.gif
      - assets/icone/intro2.gif
      - android/app/src/main/res/drawable/splash_screen.png
+     #- android/app/src/main/res/drawable/splash_screen.jpg
+     - assets/Dico_Moundang.json
   #  - assets/logo.jpg
   #  - images/a_dot_ham.jpeg
 

@@ -6,7 +6,7 @@ class Drawers extends StatelessWidget {
   Future<void> sharing() async {
     await FlutterShare.share(
         title: 'Dictionnaire Moundang',
-        text: 'Decouvre avec moi cette belle application',
+        text: 'Contirbution',
         linkUrl: 'https://koudanbe.herokuapp.com/',
         //chooserTitle: 'Example Chooser Title'
     );
@@ -44,7 +44,7 @@ class Drawers extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
-                  Text('Africa Language' ,
+                  Text('African\'s Languages' ,
                     style:  TextStyle(
                       fontSize: 22,
                       color: Colors.white,

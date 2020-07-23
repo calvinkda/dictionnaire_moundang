@@ -43,7 +43,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       bodyTextStyle: bodyStyle,
       descriptionPadding: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
       pageColor: Colors.white,
-      imagePadding: EdgeInsets.zero,
+      imagePadding: EdgeInsets.fromLTRB(0.0, 80.0, 0.0, 0.0),
     );
 
     return IntroductionScreen(
@@ -101,7 +101,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         ),
         PageViewModel(
           title: "Quelques astuces ci dessus",
-          body: "Cliquer sur sur menu à gauche ensuite sur utilisation. NB: L'utilisation de l'application néccesite une connexion internet",
+          body: "Cliquer sur sur menu à gauche ensuite sur utilisation.",
 
           image: Image.asset('assets/ico4.jpg',
               fit: BoxFit.contain,

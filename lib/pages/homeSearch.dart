@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'package:dictionnaire_moundang/pages/detail.dart';
 import 'package:dictionnaire_moundang/pages/drawer.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
+import 'package:flutter/services.dart';
+//import 'package:http/http.dart' as http;
 
 class Home extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   final TextEditingController filter = new TextEditingController();
-  final url = 'https://api.npoint.io/3fe657f143852d4c4924';
+  //final url = 'https://api.npoint.io/3fe657f143852d4c4924';
   String searchText = "";
   List mot = new List();
   List data;
@@ -110,9 +111,12 @@ class _HomeState extends State<Home> {
   }
 
    _getmot() async {
-    final response = await http.get(Uri.encodeFull(url), headers: {"ACCEPT" : "Application/json"});
+    //final response = await http.get(Uri.encodeFull(url), headers: {"ACCEPT" : "Application/json"});
+     final response = await rootBundle.loadString("assets/Dico_Moundang.json");
     List tempList = new List();
-    tempList = jsonDecode(response.body);
+     tempList = jsonDecode(response);
+     //tempList = jsonDecode(response.body);
+    //tempList = jsonDecode(response.body);
     setState(() {
       
       mot = tempList;
@@ -128,12 +132,12 @@ Widget CircularPros(){
   Widget myLiist() {
     return ListView.builder(
           itemCount: data == null ? 0 : data.length,
-          itemBuilder: (BuildContext context, int i) => data.length<8? CircularPros:Padding(
+          itemBuilder: (BuildContext context, int i) => data.length<2? CircularPros:Padding(
               padding: const EdgeInsets.all(0.0),
               child: Container(
                 width: MediaQuery.of(context).size.width - 10,
                 child: Card(
-                    elevation: 7.0,
+                    elevation: 3.0,
                     child: ListTile(
                         onTap: () {
                           Navigator.of(context).push(MaterialPageRoute(

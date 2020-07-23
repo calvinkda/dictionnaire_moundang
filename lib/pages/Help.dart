@@ -41,7 +41,7 @@ class _HelpState extends State<Help> {
                       ],
                     ),
                   ),
-                  elevation: 7.0,
+                  elevation: 3.0,
                 )
             ),
           ),

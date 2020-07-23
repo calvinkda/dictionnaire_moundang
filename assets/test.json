@@ -182,5 +182,31 @@
     "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka\nyaŋ gbanzah mai mo gbə  o ne za Israel ya.\nAlliance, confiance.",
     "description_fr":
     "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "revaa, v\u0012ra\u0018a:",
+    "mot_fr": "Alliance, confiance",
+    "description":
+    "\u000Emcd.f. \u000Ems\u000E. P\u0004ga  e, p\u0004be’. D\u0004  ah kwan arvaa (v\u0004ra\fa, revaa revaa). Fan t\u0004\nsyen me, k\u0004\u0004 me t\u0004 syee arvaa arvaa (v\u0004ra\fa v\u0004ra\fa). Jeert\u0004 ahe:\np\u0004sa\fhe.",
+    "description_fr":
+    "Vilain"
+  },
+  {
+    "mot": "Awai, iyo",
+    "mot_fr": "Oui",
+    "description":
+    "\u000Ems\u000E. ,\u0004 ma zyii &ii zah d\u0004  i. Pah wel mo &ii wel\n e, wel a zyii: awai (iyo). Mo ka zyii &ii awai ya ne? Awai mo\nzyii mo laa &ii  e. Amma mo zyii awo, wala oho, mo laa  \u0004 mai\nmo faa  o  e. Zan ki faara: \u0007w\u0004\u0004 ye zyiira zah &ii awai. Za w\u0004\u0004\nzyiira iyo me laa  e.",
+    "description_fr":
+    "réponse à un appel"
+  },
+  
+  {
+    "mot": "correspond au mot moundang",
+    "mot_fr": "correspond au mot en français",
+    "description":
+    "Ah bon! ",
+    "description_fr":
+    "Esclamation de joie et de surprise"
   }
+
 ]

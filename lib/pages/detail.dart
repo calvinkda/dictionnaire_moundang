@@ -17,13 +17,15 @@ class Detail extends StatelessWidget{
             '$mot_fr',
             textScaleFactor: 2.0,
             style: TextStyle(
-                fontWeight: FontWeight.bold
+                fontWeight: FontWeight.bold,
+                    fontFamily:'cadela' ,
             ),
           ),
           subtitle: Text("$descriptions_fr",
             style: TextStyle(
               fontSize: 20.0,
               color: Colors.black87,
+              fontFamily:'cadela' ,
               //fontFamily: 'empire',
 
             ),),
@@ -42,7 +44,8 @@ class Detail extends StatelessWidget{
           subtitle: Text("$descriptions",
             style: TextStyle(
                 fontSize: 20.0,
-                color: Colors.black87
+                color: Colors.black87,
+              fontFamily:'cadela' ,
 
             ),),
         );
@@ -71,7 +74,7 @@ class Detail extends StatelessWidget{
                       ],
                     ),
                   ),
-                  elevation: 7.0,
+                  elevation: 3.0,
                 )
             ),
           )
