@@ -17,7 +17,7 @@ class About extends StatelessWidget{
         ),
 
         body: Center(
-          child: Text('à propos de l application'),
+          child: Text('à propos de l application Dictionnaires Moundang avec concordances français revue et amélioré'),
         )
     );
   }

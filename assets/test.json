@@ -200,13 +200,63 @@
     "réponse à un appel"
   },
   
+ {
+  "mot": "correspond au mot moundang",
+  "mot_fr": "correspond au mot en français",
+  "description":
+  "Ah bon! ",
+  "description_fr":
+  "Esclamation de joie et de surprise"
+},
   {
-    "mot": "correspond au mot moundang",
-    "mot_fr": "correspond au mot en français",
-    "description":
-    "Ah bon! ",
-    "description_fr":
-    "Esclamation de joie et de surprise"
+    "mot": "\u0019 = ɓ ",
+    "mot1": " = ɗ ",
+    "mot2": "\u001D = ŋ ",
+    "mot3": "v= = ṽ ",
+    "mot4": " aDa = ãa ",
+    "mot5": " o\f = õ ",
+    "mot6": " \u0004 = ə ",
+    "mot7": " \u0007 = ŋ ",
+    "mot8": " \u0019 = ɓ ",
+    "mot9": " v= = ṽ ",
+    "mot10": " A\u0011 = Ã ",
+    "mot11": " e\u0018 = ẽ ",
+    "mot12": " a\u0018a = ãa ",
+    "mot13": " o\u0018 = õ",
+    "mot14": " \u000E =ɓ ",
+    "mot15": " \u0012= ə  ",
+    "mot16": " e=ɗe",
+    "mot17": " ə=ɗə",
+    "mot18": "\u0004\f\u0004 =ə avec vague ə",
+    "mot19": "A\u000E: \u000Ems\u000E = Aɓ ɓmsɓ",
+    "mot20": " a\f = ã",
+    "mot21": ",ə = Ɓə",
+    "mot22": "D\u0004 = Dəɓ",
+    "mot23": "\u000E = ɓ",
+    "mot24": " 6: = Ɓ:",
+    "mot25": " = Ɓ:",
+    "mot26": ">=Ɗ",
+    "mot27": " ii= ɗii",
+    "mot28": "\u0004= ɗ",
+    "mot29": "E\u0011 = E  avec accent",
+    "mot30": "CD = ĩ i avec accent ",
+    "mot31": "\u0012\u0018 = ə avec accent",
+    "mot32": "e\u0018 = ẽ ",
+    "mot33": "e\f = ẽ ",
+    "mot34": "a\u0018 = ã ",
+    "mot35": "-.= ĩ  ",
+    "mot36": "v\f = ṽ ",
+    "mot361": "o\f = õ ",
+    "mot37": "# = ŋ ",
+    "mot38": "\u0018o = ŋ ",
+    "mot39": "\u0012 = ə ",
+    "mot40": "v\u0018yo\u0018= ṽyõ ",
+    "mot41": "o\u0018= õ ",
+    "mot42": "-.= ĩ",
+    "mot43": "&= ɗ",
+    "mot44": "R\u0012= ɗ ",
+    "mot45": "A0= Ã",
+    "mot46": "6= Ɓ",
   }
 
 ]

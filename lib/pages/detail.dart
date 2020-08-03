@@ -38,14 +38,15 @@ class Detail extends StatelessWidget{
             '$mot',
             textScaleFactor: 2.0,
             style: TextStyle(
-                fontWeight: FontWeight.bold
+                fontWeight: FontWeight.bold,
+              fontFamily: 'charisB',
             ),
           ),
           subtitle: Text("$descriptions",
             style: TextStyle(
                 fontSize: 20.0,
                 color: Colors.black87,
-              fontFamily:'cadela' ,
+              fontFamily:'charis' ,
 
             ),),
         );
@@ -59,12 +60,12 @@ class Detail extends StatelessWidget{
             centerTitle: true,
           ),
           body:Padding(
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(5.0),
             child: Container(
                 child:Card(
 
                   child:SingleChildScrollView(
-                    padding: EdgeInsets.all(15.0),
+                    padding: EdgeInsets.all(3.0),
                     child:  Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[

@@ -35,7 +35,7 @@ dependencies:
 #flutter icon
 flutter_icons:
   image_path: "assets/icone/icone.png"
-  android: "launcher_icon"
+  android: true
   image_path_android: "assets/icone/icone.png"
     #android: true # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
@@ -58,12 +58,15 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   fonts:
-    - family: empire
+    - family: charisB
       fonts:
-        - asset: assets/font/My Empire Wont Fall.ttf
+        - asset: assets/font/CharisSILAfr-B.ttf
     - family: cadela
       fonts:
         - asset: assets/font/Caladea-Italic.ttf
+    - family: charis
+      fonts:
+        - asset: assets/font/CharisSILAfr-R.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

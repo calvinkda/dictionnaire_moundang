@@ -2,122 +2,992 @@
   {
     "mot": "A",
     "mot_fr": "A",
-    "description": "ɓ. Patə vanŋo (boono) (1) syel masyin fanŋwəə zah Mundaŋ. A, cuu ɓo camcam pəlli. A cuu təŋ mor bə, fan maga joŋ pelle,cok fanne. A, mo tai ne ɓə ma nyeeki ah ne, a swaa ɓə ahe.",
+    "description": "ɓ. Patə vanŋo (bõono) (1) syel masyin fanŋwəə zah Mundaŋ. A, cuu ɓo camcam pəlli. A cuu təŋ mor bə, fan maga joŋ pelle,cok fanne. A, mo tai ne ɓə ma nyeeki ah ne, a swaa ɓə ahe.",
     "description_fr": "1ère lettre d’alphabet Moundang."
   },
   {
-    "mot": "A, o",
+    "mot": "A,o",
     "mot_fr": "C’est",
-    "description": " ɓ: a. A (o), mo kah təɗii  ɓe, a cuu cok mai dəɓ , wala fan ah mo gŋ: \n A (o) yaŋ, a (o) cokki, a (o) səŋ, a (o) zahbii, a (o) kah waare,\n a (o) jol ahe. b. A (o) mo kah ɓə ma cuu kpak dəɓɓi  \n (fanne) ɓe, a swaa  ɓe ahe: A (o) pəfãi, a (o) pəlaŋne, a (o) \n pəyəkki, a (o) pəcoo. A (o) cuu fan ma pãa ta: a (o) pənyeere, a\n(o) pəluuri. a (o) parərəə. A (o) cuu fan ma ’man ahe: a (o)\n gətərik, a (o) mgbaŋtaŋ. A (o) cuu fan ah pəlli, a (o) hai, a (o)\nhaihai, a (o) badɗəɗə, a (o) vənyenyẽe. A (o) cuu fan mai mo ka\npəlli ya, wala mo ka pəswah ya: a (o)  ɓəri  ɓəri, a (o) jokoko, a (o)\n njwəri njwəri, a (o) garərə. c. A (o) mo kah təɗii dəfuu (fan)  e, a\n mgbãafaki ne ɗii ah a ciŋ fan vaŋno: ako, ame, ana, ara, aru, awe. Me ge ne suu  ŋe, wala ame ge ne suu ɓe. A, mo kah  ɓə marai laŋ a ur fii  ɓyaŋ ki ne kyaŋ  ɓə faa ahe: ame? azu (ozu) ye ne? amo  \n (moo) ne? aru ne? d. A (o) mo kah  ɓə joŋ faŋ ɓə, a swaa   ɓəahe: a\n (o) uu, a (o) ɗuu, a (o) kalle, a (o) laŋ dəɓɓi. A (o) cuu  ɓə ma joŋ nga pelle ta: a (o) ge ba, a (o) ge no, a (o) sosoo, a (o) cak  ɓə ahe,\n a (o) leere.",
+    "description": " ɓ: a. A (o), mo kah təɗii  ɓe, a cuu cok mai dəɓ , wala fan ah mo gŋ: A (o) yaŋ, a (o) cokki, a (o) səŋ, a (o) zahbii,a (o) kah waare,a (o) jol ahe. b. A (o) mo kah ɓə ma cuu kpak dəɓɓi (fanne) ɓe, a swaa  ɓe ahe: A (o) pəfãi, a (o) pəlaŋne, a (o) \n pəyəkki, a (o) pəcoo. A (o) cuu fan ma pãa ta: a (o) pənyeere, a\n(o) pəluuri. a (o) parərəə. A (o) cuu fan ma ’man ahe: a (o)\n gətərik, a (o) mgbaŋtaŋ. A (o) cuu fan ah pəlli, a (o) hai, a (o)haihai, a (o) badɗəɗə, a (o) vənyenyẽe. A (o) cuu fan mai mo ka pəlli ya, wala mo ka pəswah ya: a (o)  ɓəri  ɓəri, a (o) jokoko, a (o)\n njwəri njwəri, a (o) garərə. c. A (o) mo kah təɗii dəfuu (fan) ɓe, a mgbãafaki ne ɗii ah a ciŋ fan vaŋno: ako, ame, ana, ara, aru, awe. Me ge ne suu  ŋe, wala ame ge ne suu ɓe. A, mo kah  ɓə marai laŋ a ur fii  ɓyaŋ ki ne kyaŋ  ɓə faa ahe: ame? azu (ozu) ye ne? amo (moo) ne? aru ne? d. A (o) mo kah  ɓə joŋ faŋ ɓə, a swaa   ɓəahe: a\n (o) uu, a (o) ɗuu, a (o) kalle, a (o) laŋ dəɓɓi. A (o) cuu  ɓə ma joŋ nga pelle ta: a (o) ge ba, a (o) ge no, a (o) sosoo, a (o) cak  ɓə ahe, a (o) leere.",
     "description_fr": " Marque la qualite."
   },
   {
     "mot": "A’a",
     "mot_fr": "Non",
-    "description": "ɓmsɓ: Ka, a’a. Cuu fofoo, wala  ə mai də  mo tə ya. A’a ber yo. A’a ge ya. A’a me tə ya. ,ə faa  o mo a’a  e, mo yea a’a cẽecẽe. Jeertə ahe: oho.",
+    "description": "ɓmsɓ: Ka, a’a. Cuu fofoo, wala  ɓə mai dəɓ mo tə ya. A’a ber yo. A’a ge ya. A’a me tə ya. ,ɓə faa  ɓo mo a’a  ɓe, mo yea a’a cẽecẽe. Jeertə ahe: oho.",
     "description_fr": " Négation"
   },
   {
     "mot": "ãa ɓə zahe ",
     "mot_fr": "troubler",
-    "description": "jf: Joŋ də  ne doole faa  ə, kee  ə. Ge ãara  ə zah ah ka gbəko.",
+    "description": "jf: Joŋ dəɓ ne doole faa  ɓə, kee ɓə. Ge ãara ɓə zah ah ka gbəko.",
     "description_fr": "Chercher à dérouter quelqu'un, amener quelqu'un à dire la vérité"
   },
   {
     "mot": "Ãaɓe, ãane, ãaɓe sye",
     "mot_fr": "Interpélation.",
-    "description": "ɓll: Jin  ə faa zah də  ki. Faara ãa e (ãane,ãa e sye) geko  o. A0a e (ãane, ãa e sye) ber o. A0a e gak təŋ mor fii ta: ãa e (ãane) &ii? A0a e (ãa e sye, ãane) mo geko daŋ &ao.",
+    "description": "ɓll: Jin ɓə faa zah dəɓ ki. Faara ãaɓe (ãane,ãaɓe sye) geko o. Ãaɓe (ãane, ãaɓe sye) ber o. Ãa e gak təŋ mor fii ta: ãa e (ãane) ɗii? Ãa e (ãaɓe sye, ãane) mo geko daŋ ɗao.",
     "description_fr": "Interpélation, il a dit que..Comment."
-  },
-  {
-    "mot": "Fãa.",
-    "mot_fr": "Racine",
-    "description": " Fãa. A ciŋ lalle, za gak pəpəə ta. A lee mor sər gərləŋ gərləŋ. A0are (ẽere) jur (dər) zwah  o. A0a (ẽe) pələrri, a pəjẽere. Mo soŋ ãa (ẽe) taa  e ne? ,ə mo ’nyah suu də   e, pah ah a faa: Me laa pə’nyah na ãare (ẽere).",
-    "description_fr": "Racine d’herbe mangeable."
-  },
-  {
-    "mot": "Mgbaini",
-    "mot_fr": "Creuser, dégager, enlever.",
-    "description": " Ãare, ẽere: jf. Mgbaini : A0are (ə̃əre), cuu fan ma joŋ  al pəpãare.A cuu fan ma joŋ pətãa ta. Me ə̃ə (ãa) sər ah ge lal  e, me ãa (ə̃ə)sər ah zaləŋ pəpãare. Loo ãa (ə̃ə) sor  o lak gwa. Mawin nyẽe tə ãa  ər ŋhəə ga lalle. Jeertə ah: njək, njək ge gŋ.",
-    "description_fr": "Retirer ce qui a été mis en gage dans un endroit"
   },
   {
     "mot": "Aaro aaro",
     "mot_fr": "confus",
-    "description": " : ɓmsɓ :’Wari ’wari, lom ki ya, ka pəsãh ya. Də  ah faa əə aaro aaro. ,ə faa zah ah aaro aaro də  ka tan mor ah ya.",
+    "description": " : ɓmsɓ :’Wari ’wari, lom ki ya, ka pəsãh ya. Də  ah faa əə aaro aaro. ɓə faa zah ah aaro aaro dəɓ ka tan mor ah ya.",
     "description_fr": "Sans raison,les éléments sont mal distincts ; désordonné."
   },
-  {
-    "mot": "Gwari, bai gaɓɓe",
-    "mot_fr": "Vite",
-    "description": " Me  aŋ ko ge səŋ a . Ur ne pel a kalle. Də  ah faa  ə a  a , ’yah faa a faa  ə gwari gwari, də  ka laa pəsãh ya.",
-    "description_fr": "Avec hâte, en se dépêchant ; précipitamment, sans peine."
-  },
-  {
-    "mot": "ɗii marvəə (məvəə)",
-    "mot_fr": "Surprise",
-    "description": " Aei, ai, kai: ɓmzcd. Cuu  ə ma zoo cee də  i,  ə bai nyah suu də  i, laa fan syenne. ,ə mai mo joŋ &ii nai ne aei, mo zyak  e! We ẽe &ə kai də  ah tə la bone pəlli.",
-    "description_fr": "une action se fait de manière inattendue"
-  },
+
   {
     "mot": "Afẽe, afẽene",
     "mot_fr": "Quoi?",
-    "description": " ɓmzcd. ɓff. Afẽe? afẽene? afẽe ye ne? Cuu  əə mai də  mo kye  ka tan ryakryak ahe, wala cuu də  ah  aŋ kpa\fh  o.\nAfẽe, mo faa &ii? Me laa  əə moo &ao.",
+    "description": " ɓmzcd. ɓff. Afẽe? afẽene? afẽe ye ne? Cuu ɓəə mai dəɓ mo kye ka tan ryakryak ahe, wala cuu də  ah  aŋ kpa\fh ɓo. Afẽe, mo faa &ii? Me laa ɓəə moo &ao.",
     "description_fr": "Qu’est ce qu’il y a? Quoi?"
   },
   {
     "mot": "Agano, gano",
     "mot_fr": "Etat, position",
-    "description": " ɓmccud.f. ’Yah tan cok ul də  i, fanne. Zyii fii ye ta. Ye  tə gano ne, wala ye  tə syee no ne? Paswa ga &əne? Awo,aga jam. ",
+    "description": " ɓmccud.f. ’Yah tan cok ul dəɓɓi, fanne. Zyii fii ye ta. Yeɓ tə gano ne, wala yeɓ tə syee no ne? Paswa ga &əne? Awo,aga jam. ",
     "description_fr": "Situation de quelque chose à un moment donné : Quel est l'état du chantier ?"
   },
   {
     "mot": "Agonne",
     "mot_fr": "Il, elle, lui.",
-    "description": " ə. Mo ẽe ako,  tv yo. ",
+    "description": "ɗ. Mo ẽe ako,tv. yo.",
     "description_fr": "pronom neutre"
   },
   {
     "mot": "Ahãa",
     "mot_fr": "Exclamation",
-    "description": " ɓmsɓ. Yawah, pəsãhe, yoo, daŋ gur  e. Ahãa me tə fan mai mee joŋ gur  e. Ahãa  ə mai joŋ uu pəsãh  e.",
+    "description": " ɓmsɓ. Yawah, pəsãhe, yoo, daŋ gur ɓe. Ahãa me tə fan mai mee joŋ gur ɓe. Ahãa ɓə mai joŋ uu pəsãh ɓe.",
     "description_fr": "Exclamation de joie, ah ah, acquiessement."
   },
   {
     "mot": "Ahe",
     "mot_fr": "Son, sa, ses",
-    "description": "ɓmcd.f. A cuu fan də  i. Pazəə tə ga yaŋ ahe. Mo  aŋ mə ah ka. Də  ah ge ya ba. Pah ah kəka. Pah ah no. Ge nə mə ah ya ba.",
+    "description": "ɓmcd.f. A cuu fan dəɓɓi. Pazəə tə ga yaŋ ahe. Mo ɓaŋ mə ah ka. Dəɓ ah ge ya ba. Pah ah kəka. Pah ah no. Ge nə mə ah ya ba.",
     "description_fr": "Pronom possesif."
   },
   {
     "mot": "\"Ahe",
     "mot_fr": "Large, largeur",
-    "description": "ə. ɓmckd.f. Zyim ah pə ’ahe. Mo kye  təsal ma ’ahe. ’Ah laŋ &ii ye ta. ’Ah ah i jol  o kə&əne? ’Ah ah zahki ne wah ahe.",
+    "description": "ə. ɓmckd.f. Zyim ah pə ’ahe. Mo kye  təsal ma ’ahe. ’Ah laŋ ɗii ye ta. ’Ah ah i jol  ɓo kəɓəne? ’Ah ah zahki ne wah ahe.",
     "description_fr": "Dimension transversale, horizontale de quelque chose, distance d'un côté à l'autre"
   },
   {
     "mot": "\"Aklam, ŋgəlap, gyõriŋ",
     "mot_fr": "Insulte",
-    "description": "ɓmcd.f. Təə yo. Ka ka  (ke ke ,ŋgəlap, gyõriŋ). Fan mai mo ka pəsãh ya. ,ər tə ’aklam (tə ŋgəlap,\ntə gyõriŋ, tə ke ke , (ka ka ). ,ər ah ka zahki pəsa\fh ya, a ŋgəlak\n(golok) na  ər goo.",
+    "description": "ɓmcd.f. Təə yo. Kaɓkaɓ (keɓkeɓ,ŋgəlap, gyõriŋ). Fan mai mo ka pəsãh ya. ɓər tə ’aklam (tə ŋgəlap,tə gyõriŋ, tə keɓkeɓ, (kaɓkaɓ). ,ər ah ka zahki pəsa\fh ya, a ŋgəlak (golok) na ɓər goo.",
     "description_fr": "Insulte: ventre creux."
   },
   {
     "mot": "Ako, agonne",
     "mot_fr": "Il, elle, lui",
-    "description": "ɗmcd.f. Ako (agonne), cuu də  vaŋno. Də  gak faa:\nAko (agonne), wala ko. Ako no, ako ne syemme. Ako ga ge no.\nMo ẽe a/c,  ə ah cuu  o gŋ.",
+    "description": "ɗmcd.f. Ako (agonne), cuu dəɓ vaŋno. Dəɓ gak faa: Ako (agonne), wala ko. Ako no, ako ne syemme. Ako ga ge no.Mo ẽe a/c, ɓə ah cuu  ɓo gŋ.",
     "description_fr": "Sujet d'un verbe à la 3e personne , designation d'un personne sans nommer"
   },
   {
     "mot": "Alkamari",
     "mot_fr": "Blé",
-    "description": "ɗ. zzk. Sor sər zan ki. Za sər mundaŋ ka pəəra sor ah ya. Sum alkamari no sər man pəlli zəzə əko, a gin sər za ki ginni.",
+    "description": "ɗ. zzk. Sor sər zan ki. Za sər mundaŋ ka pəəra sor ah ya. Sum alkamari no sər man pəlli zəzə əko,ɓa gin sər za ki ginni.",
     "description_fr": "Plante annuelle (graminée) cultivée dont les grains sont  la fabrication de farine et de pain."
   },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə ɓo ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
 
+  {
+    "mot": "Alle, \u0012ra\u0018a ge lalle",
+    "mot_fr": "Elargir",
+    "description": "jf. Jo\u0007 ga lal p\u0004’manne, p\u0004 ’ahe, gb\u0004r ge lalle,\n’wal ge lalle. Mo al (\u0004ra\fa) zah ah ge lalle. Mo \u0004ra\fa (al) zah lak bii ah p\u0004 ’ahe. Jeert\u0004 ahe: Zu\u0007, tai ge t\u0004ki.",
+    "description_fr": "Augmenter la largeur (d'un objet)"
+  },
+  {
+    "mot": "All\u0012ll\u0012\u0012, yo lailai",
+    "mot_fr": "Large",
+    "description": "\u000Emcd.f. P\u0004 ’ah p\u0004lli. Zah lak ah all\u0004ll\u0004\u0004 (yo lailai). Mo so  zah lak m\u0004r all\u0004ll\u0004\u0004 (lailai) ka, wee nyee lea ga g\u0007.Jeert\u0004 ahe: werere.",
+    "description_fr": "Qui a telle dimension dans le sens opposé à la longueur, à la hauteur"
+  },
+  {
+    "mot": "Amen",
+    "mot_fr": "Amen",
+    "description": "\u0004. zzk. ,\u0004 ah ’yah faa: A naiko, wala  \u0004 ah mo yea naiko.Amen ’yah faa p\u0004 cok maki ah la\u0007 ne: ne go\u0007ga, ’manna, wala ryakryakke. Za zyii amen inzah juupelle. Amen cuu t\u0004&ii Yesu ta.",
+    "description_fr": "Mot signifiant « qu'il en soit ainsi », et qui sert de conclusion à une prière ou à une doxologie dans les liturgies juive et chrétiennes."
+  },
+  {
+    "mot": "Ame, ameene, azyeni (zyeni)",
+    "mot_fr": "Je, moi.",
+    "description": "\u0004mcd.f. 5ii ah cuu d\u0004  va\u0007no, pa suu s\u0004. D\u0004  gak faa: Ame, ameene, azyeni. Za ki faara: Ameene,meene. Ame (me) ga no. Mo e\fe a/c,  \u0004 ah cuu  o g\u0007.",
+    "description_fr": " pronom désignant le locuteur, la personne qui parle, sans distinction de sexe"
+  },
+  {
+    "mot": "Amma",
+    "mot_fr": "Mais, cependant, pourtant, eh bien..",
+    "description": "\u000Ems\u000E. Ko, ko sye, ammana, yo, monai  e. Gee p\u0004 zah make\fe ge ne? D\u0004  t\u0004 ya. Mo gyo, amma, mo ya\u0007 ka. Amo t\u0004  e, ammana mo ka t\u0004 zyii faa ya.",
+    "description_fr": "Mais, cependant, pourtant, eh bien.."
+  },
+  {
+    "mot": "Ãmme, d\u0012\u0018\u0012ni",
+    "mot_fr": "Choyé, bien aimé.",
+    "description": "\u000Emcd.f. Surri, d\u0004\f\u0004 (je\fe), sa\fh. We a\fmme (d\u0004\f\u0004ni).Amo p\u0004 ’amme (je\fe) ve&e. Wel ah a\fm (d\u0004\f\u0004)  o no cam. Wel bai laa lai yo",
+    "description_fr": "Traiter quelqu'un avec tendresse, affection, sollicitude"
+  },
+  {
+    "mot": "Ãmme, surri",
+    "mot_fr": "Choyer, aimer, chérir",
+    "description": "jf. Sa\fh. Sur d\u0004  i, sur welle, ’yah d\u0004  p\u0004lli. Pam\na\fm ko  o p\u0004lli. Azu ye a\fm mo  o ne? Mo a\fm  \u0004 moo ge pel ka,\n’yah faa: mo so   \u0004 moo ge p\u0004 wah ka.",
+    "description_fr": "Aimer tendrement quelqu'un : Mère qui chérit ses enfants."
+  },
+  {
+    "mot": "Amone",
+    "mot_fr": "Tu, toi",
+    "description": "\u0004mcd.f. Mo e\fe amo,  tv yo",
+    "description_fr": "Désignant la personne à qui l'on parle"
+  },
+  {
+    "mot": "Amo, amone",
+    "mot_fr": "Tu, toi",
+    "description": "\u0004mcd.f. Amo (amone) cuu d\u0004  va\u0007no  o. D\u0004  gak faa: mo (amo, amone). Za ki faara: Amone, mone. Amo t\u0004 ya ne?\nMo e\fe a/c,  \u0004 ah cuu  o g\u0007.",
+    "description_fr": "Désignant la personne à qui l'on parle"
+  },
+  {
+    "mot": "Ana",
+    "mot_fr": "Nous (inclusif).",
+    "description": "\u0004mczp. Ana cuu za (zan) pa\fa  o. D\u0004  gak faa: na, wala ana.Ana p\u0004 t\u0004t\u0004\f\u0004re, ana cam ne fa alle. Mo e\fe a/c,  \u0004 ah cuu  o g\u0007.",
+    "description_fr": "Représente le locuteur et une ou plusieurs autres personnes constituant avec lui un groupe"
+  },
+  {
+    "mot": "Ane, a\u000Ee",
+    "mot_fr": "Interpélation.",
+    "description": "\u000Ems\u000E. Sye, kasye. Ane (a e) mo ge &\u0004. Ane (a e)  \u0004 maki ah jo\u0007  o no. Ane (a e), jo\u0007 ka za mo syii sok kpe\fe.",
+    "description_fr": "Il a dit que,"
+  },
+  {
+    "mot": "Anne, \u0012nni, inni",
+    "mot_fr": "Terre de la galerie.",
+    "description": "\u0004. S\u0004r mai fa ea moo \u0004\u0004ra r\u0004k zah lakre. An (\u0004n,in) gee no, m\u0004 &a\u0007 no. Mo lwaa an (\u0004n, in)  e, ka mo kye  lak ah p\u0004sa\fhe, fan yea g\u0007.",
+    "description_fr": "Terre de la galerie."
+  },
+  {
+    "mot": "A#k\u0012r",
+    "mot_fr": "Encre",
+    "description": "\u0004. zzk. Bii \u0007w\u0004\u0004 fanne. A\u0007k\u0004r a p\u0004fuu, p\u0004sye\f, a\np\u0004kara\fhmo no ta. A\u0007k\u0004r mai ka gban fan a.",
+    "description_fr": "Préparation plus ou moins consistante, diversement colorée, utilisée pour écrire, dessiner ou imprimer."
+  },
+  {
+    "mot": "A#ni",
+    "mot_fr": "Aspirer, sffler, boire, remplir.",
+    "description": "jf. Zw\u0004 ne zahe, zw\u0004 p\u0004’manne. A\u0007 bii, a\u0007 wonni ne swahe.Me a\u0007 bii ge  \u0004r  e (me zw\u0004 bii  e). Me nyi bii nyi ko a\u0007 mgba\fa,’yah faa zw\u0004 t\u0004&e’ co\u0007 ya.",
+    "description_fr": "Aspirer, sffler, boire, remplir."
+  },
+  {
+    "mot": "A#ni, n\u0012\u0012ni",
+    "mot_fr": "Douleur",
+    "description": "jf. P\u0004lli, p\u0004’manne. Syen fan ma ne swahe. Nwa\fh a\u0007 (n\u0004\u0004) me wudwud&i. T\u0004t\u0004l ’wah me, a a\u0007 kahf\u0004n nyi me wudwud&i.",
+    "description_fr": "Douleur"
+  },
+  {
+    "mot": "Ara",
+    "mot_fr": "Ils, elles",
+    "description": ": \u0004mczp Ara cuu za pa\fa  o. D\u0004  gak faa: ra, wala ara. Ara\np\u0004nyeere. Mo e\fe a/c  \u0004 ah cuu  o g\u0007 p\u0004sa\fhe.",
+    "description_fr": "Désigner des personnes "
+  },
+  {
+    "mot": "Arai, bai, palyaŋ",
+    "mot_fr": "Camarade, compagnon, ami.",
+    "description": "\u0004. D\u0004  mai mo zahki ne mo, zah\u0007h\u0004\u0004t\u0004\f\u0004  o. ,\u0004 ah ge p\u0004 zah lamme, peve, wala zime ne? d\u0004  t\u0004 ya. Mo kwo me na arai  o ne? Za munda\u0007 &iira arai ne palya\u0007, wala bai, za mai syii  \u0004\u0004 mo mor ki.",
+    "description_fr": "Personne à qui on est lié par une familiarité née d'activités communes"
+  },
+  {
+    "mot": "Aro aro",
+    "mot_fr": "",
+    "description": "\u000Ems\u000E. ’wari ’wari, lom ki ya, ka p\u0004sa\fh ya. D\u0004  ah a faa \u0004 aro aro. ,\u0004 faaa zah ah da\u0007 a aro aro d\u0004  ka tan mor ah ya.",
+    "description_fr": ""
+  },
+  {
+  "mot": "Arr",
+  "mot_fr": "Parole d’animateur de dance traditionnelle.",
+  "description": "\u000Ems\u000E. ,\u0004 faa d\u0004  ma kal pel daa yu\u0007ni, wala daa gai. Pa kal pel daa yu\u0007 lai arr ka za ma daa yu\u0007 da\u0007 mo  a\u0007ra  al zahki. D\u0004 ah a &ii ne pa lai arr. ,\u0004 ma jo\u0007 za zye  suu yo.",
+  "description_fr": "Parole d’animateur de dance traditionnelle."
+},
+  {
+    "mot": "Aru",
+    "mot_fr": "Nous (exclusif)",
+    "description": "\u0004mczp. Aru cuu za pa\fare, pa faa  \u0004 a p\u0004zyil zan ah ta. D\u0004 gak faa: Ru (aru). Aru t\u0004  e. Mo e\fe a/c,  \u0004 ah cuu  o g\u0007.",
+    "description_fr": "Nous (exclusif)"
+  },
+  {
+    "mot": "Arvaa, arvaa arvaa, revaa revaa, v\u0012ra\u0018a",
+    "mot_fr": "Vilain",
+    "description": "\u000Emcd.f. \u000Ems\u000E. P\u0004ga  e, p\u0004be’. D\u0004  ah kwan arvaa (v\u0004ra\fa, revaa revaa). Fan t\u0004 syen me, k\u0004\u0004 me t\u0004 syee arvaa arvaa (v\u0004ra\fa v\u0004ra\fa). Jeert\u0004 ahe: p\u0004sa\fhe",
+    "description_fr": "Malhonnête ou indécent "
+  },
+  {
+    "mot": "Ar\u0012r\u0012, ryo\u0018ryo\u0018, jyo\u0018jyo\u0018, wurwurri",
+    "mot_fr": "Gros, enflé, bombé",
+    "description": "\u000Emcd.f. P\u0004’manne, p\u0004 lii. ,\u0004rah ar\u0004r\u0004 (ryo\fryo\f, wurwur, jyo\fjyo\f). Lii ah za faa  \u0004  \u0004r ma ’man ahe. ,\u0004r we \u0007haa a ar\u0004r\u0004, re\fore\fo (ryo\fryo\f), wala wurwurri.",
+    "description_fr": "Un peu plus de la forme normale"
+  },
+  {
+    "mot": "Ar, arr, harr",
+    "mot_fr": "",
+    "description": "\u000Ems\u000E. Ne swahe. Me ba\u0007 ne sal arr (harr). Mo swaa ge g\u0007 arr (harr). N\u0004\u0004  a\u0007 mbai arr (harr). Mbai ye jin ma gban n\u0004\u0004, mo tai suu  \u0004 ah ne mbai (mombai, m\u0004mbai) mai za mo so\u0007 ka. D\u0004  ah jo\u0007 fan arr arr: ’yah faa a jo\u0007 fan ne swahe.",
+    "description_fr": "Bruit de ce qui s’est arreté brusquement"
+  },
+  {
+    "mot": "Asai",
+    "mot_fr": "Exclamation de surprise, de joie.",
+    "description": "\u000Emzcd. Asyee, kanyaa (k\u0004nah). Asai mo t\u0004 ya ba. Asai mo nai sye ka. Asai  \u0004 ah go\u0007ga yo.",
+    "description_fr": "Ah bon! enfin! or! alors "
+  },
+  {
+    "mot": "Awai, iyo",
+    "mot_fr": "Oui",
+    "description": "\u000Ems\u000E. ,\u0004 ma zyii &ii zah d\u0004  i. Pah wel mo &ii wel  e, wel a zyii: awai (iyo). Mo ka zyii &ii awai ya ne? Awai mo zyii mo laa &ii  e. Amma mo zyii awo, wala oho, mo laa  \u0004 mai mo faa  o  e. Zan ki faara: \u0007w\u0004\u0004 ye zyiira zah &ii awai. Za w\u0004\u0004 zyiira iyo me laa  e.",
+    "description_fr": "Réponse à un appel."
+  },
+  {
+    "mot": "Awe, we",
+    "mot_fr": "Vous",
+    "description": "\u0004mczp. Awe (we) cuu zan pa\fare, pa faa  \u0004 ka p\u0004zyil zan ah ya. Me ’yah ka awe, we ge da\u0007. Awe (we) sye kpak  \u0004  ii &\u0004ne? ’Yah tan cok ul  \u0004\u0004ra.",
+    "description_fr": "Représente un groupe de personnes à qui l'on s'adresse ou bien la personne à qui l'on s'adresse et une ou plusieurs autres personnes constituant avec elle un groupe"
+  },
+  {
+    "mot": "Awo, oho",
+    "mot_fr": "Oui. ",
+    "description": "\u000Ems\u000E. Zyii  \u0004. Za munda\u0007 faara: Awo. Z\u0004mai faara: Oho. Mo zyii mo laa  \u0004 mai mo faa  o  e. Mo ge zyii &ii laa  \u0004  e ne? Awo (oho), me ge  e. Amma, mo zyii awai, mo laa &ii mai\nmo t\u0004 &ii  e.",
+    "description_fr": "Une réponse positive, une approbation"
+  },
+  {
+    "mot": "Ayee, asai, aha\u0018a",
+    "mot_fr": "Ah bon! ",
+    "description": "\u000Emzcd. Ayee (asai, aha\fa) cuu  \u0004 mai d\u0004  mo\nyea t\u0004 ya. Ayee,  \u0004 ah nai so\fo (\u0007ho\fo) ne?",
+    "description_fr": "Exclamation de joie et de surprise."
+  },
+  {
+    "mot": "Azu",
+    "mot_fr": "Qui?",
+    "description": "\u000Eff. Fii: azu ye ne? azu ye \u0007haa ne?",
+    "description_fr": "Questionnement sur une personne"
+  },
+  {
+    "mot": "Azune, zune daŋ",
+    "mot_fr": "N’importe qui, lequel, la quelle, quique vous soyez, quiconque.",
+    "description": "\u000Emcd.f. D\u0004  make\fne da\u0007, d\u0004  va\u0007no va\u0007no da\u0007. Azune da\u0007 mo ge ne fan ahe. Mo e\fe a/c,  \u0004 ah cuu  o g\u0007.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Azuu, ezuu, k\u0012zuu, izuu",
+    "mot_fr": "Beau-frere, belle-soeur.",
+    "description": "\u0004. Naa mah, wala naa pah mawin  o mala\u0007ne. Za k\u0004 Torrock &iira ne k\u0004zuu, so la\u0007 a &iira wee ma\u0007w\u0004\u0004 tao, ka &iira d\u0004wor ne k\u0004zuu ya. Za ki &iira ne ezuu, izuu, azuu ta. Azuu, k\u0004zuu, izuu, wala ezuu da\u0007  \u0004 t\u0004 va\u0007no yo. Ezuu  e ge  o ya\u0007  e. Mo ge  o ne k\u0004zuu?",
+    "description_fr": "Cadet, cadette de ma femme, mari de ma soeur, époux de ma tante paternelle ou maternelle."
+  },
+  {
+    "mot": "B",
+    "mot_fr": "B",
+    "description": "\u0004. Pat\u0004 gwa (2) syel masyin fan\u0007w\u0004\u0004 zah munda\u0007. D\u0004  &ii ne t\u0004kpuuzahe,  \u0004 m\u0004\u0004 ga fah kya\u0007: b.",
+    "description_fr": "2ème lettre d’alphabet moundang"
+  },
+  {
+    "mot": "Ba",
+    "mot_fr": "Pas encore.",
+    "description": ",\u0004 swaa  \u0004 fan mai mo k\u0004ka, mo jo\u0007 ya, mo kii ya. Me lwaa ya ba, ge ya ba, co\u0007  o ba, kii ya ba. ,\u0004 ma cuu fan ah jo\u0007  e. jeert\u0004 ahe: Ahe,  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba",
+    "mot_fr": "Prochainement, plus tard.",
+    "description": "\u000Ems\u000E. A cuu fan mai mo t\u0004 ga jo\u0007 pelle, wala moo ga jo\u0007 kp\u0004 fa&a. Mo ga ba, a ge ko ba, a lwaa ba. D\u0004  ah f\u0004\f\u0004 ba fa&a. Jeert\u0004 ahe: Kpee ya, yao.",
+    "description_fr": "Dans un tout proche avenir, bientôt."
+  },
+  {
+    "mot": "Baa \u000Ee",
+    "mot_fr": "Rempli, plein, suffisant.",
+    "description": "\u000Emcd.f. Kii  e, sah   e. Zah’nan fCDi baa  e,  \u0004r baa  e. Com baa  e, mo ur o. Jeert\u0004 ahe: Co\u0007  o, ka ba.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Baa zahe",
+    "mot_fr": "Se fâcher",
+    "description": "jf. ,a\u0007 kpa\fhe, laa suu. D\u0004  ma baa zah coo zah ahe, za tanne d\u0004  ah  a\u0007 kpa\fh  o.",
+    "description_fr": "être en colère."
+  },
+  {
+    "mot": "Baa (bah), bai, lya#",
+    "mot_fr": "Camarade en terme péjoratif",
+    "description": "\u0004. Mo ge &ao baa (bah, bai, lya\u0007). Wela\u0007 ka &ii zaluu ne baa ya, bai kee suu yo. Amma d\u0004 lii gak &ii wela\u0007 ne no. Za mai mo jo\u0007ra la\u0007 zahki &iira ki baa (bah, bai, lya\u0007).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Baaba, baa",
+    "mot_fr": "Père, papa",
+    "description": "\u0004. zzk. B\u0004baa, dadd\u0004. Wee za munda\u0007 ka &iira ga lal t\u0004&e’ baaba ya, amma a faara: baa, b\u0004baa. Baa mo ge  e ne? Mah wee la\u0007 faara nyi wee  \u0004\u0004ra: Mo geo baa (b\u0004baa).",
+    "description_fr": "Homme qui a engendré ou qui a adopté un ou plusieurs enfants"
+  },
+  {
+    "mot": "Baani",
+    "mot_fr": "Enfler, remplir, être plein, bourrer, terminer, se presser autour.",
+    "description": "jf. Baani, cuu fan jo\u0007 p\u0004pa\fa p\u0004lli.\n 1. Baani: Fan baani,fuuni. Jol baa me  o. \n 2. Baani: R\u0004k fan ga p\u0004 fan ki, bee bii baa ciiri, p\u0004\u0004 sor baa celle. \n 3. Baani: Baa zahe. Cuu bai laa p\u0004’nyahre. Mo baa zah t\u0004  \u0004 fe\fene ? D\u0004  ah ka baa zah kpee ya. ",
+    "description_fr": ""
+  },
+  {
+    "mot": "Baare",
+    "mot_fr": "Tamarindus indica ",
+    "description": "\u0004. Kpuu (kuu). Baa mo lwaa cok p\u0004sa\fh  e, a gi\u0007 p\u0004’manne. Kpuu ah p\u0004 nahmme, goo ah p\u0004nyi\u0007. Lee ah p\u0004mb\u0004\f\u0004re. Za coora t\u0004ker ne baare. K\u0004nda\u0007 d\u0004  ah gi\u0007  o t\u0004 baare, t\u0004gba faa: D\u0004  ah ka ne k\u0004nda\u0007 yao, d\u0004  ah ka da\u0007 far a. Za munda\u0007 faara zahlii: Mo lwaa baa p\u0004swah  e mo rwah ga p\u0004 t\u0004 t\u0004 so\forCDi o ne? ’yah faa, mo lwaa d\u0004  ma kal swah  o  e mo kye  zah pat\u0004jee  o o ne?",
+    "description_fr": "Tamarinier, être impuissant."
+  },
+  {
+    "mot": "Baatalle",
+    "mot_fr": "Aiguille, épingle.",
+    "description": "\u0004. zzk. Guu manyi\u0007 t\u0004syik ma sa\fa zyimmi. Mor baatal\ng\u0004\u0004, za maa suu g\u0007 ka sa\fa fan ne ko. Baatal camcam p\u0004lli: Baatal madam, baatal masyin, baatal ma cu\u0007 guu no ta. Za munda\u0007 faa zah baatal ka sa\fa ki ya, gorom ka b\u0004\u0004ra bal a, ka &ahra t\u0004nyeer a.",
+    "description_fr": "Aiguille, épingle."
+  },
+  {
+    "mot": "Baaturu",
+    "mot_fr": "Le chat.",
+    "description": "\u0004. zzk. Ereo, minni. Baaturu (ero, minni) gb\u0004 gee  o.baaturu p\u0004 ko\u0007 p\u0004lli, a p\u0004nyin p\u0004lli ta. Mo jo\u0007 yella ne fya\fh ahe, a kpa\fa mo ne ko.",
+    "description_fr": "Le chat."
+  },
+  {
+    "mot": "Babamanjo, mababamanjo, bahmanje\u0018e",
+    "mot_fr": "Tresse des feulles de palmier.",
+    "description": "\u0004. Fan mai wee nyee mo yea ka\u0007ra ne goo m\u0004nn\u0004\u0004 (k\u0004balle). Babamanjo jur lai  o, a yea ne t\u0004 am (kpe\fmme), za  oo solle. Wee nyee ma t\u0004 z\u0004z\u0004\f\u0004 t\u0004\nka\u0007ra babamanjo (bahmanje\fe) yao.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba\u000Eba\u000E, babbab",
+    "mot_fr": "Robuste, charnu",
+    "description": "\u000Emcd.f. \u000Ems\u000E. P\u0004sa\fhe, p\u0004swahe. D\u0004  ah ne suu ba ba  (babbab). Wel ah w\u0004 ge s\u0004\u0007 ne suu ba ba . Ur ne swah ba ba . Juu zoora kah  e ba ba .",
+    "description_fr": "Rapidement, avec palpitation"
+  },
+  {
+    "mot": "Ba\u000E, ha\u000E, p\u0012rta",
+    "mot_fr": "Rapidement",
+    "description": "\u000Ems\u000E. Gwari, ne swahe. Mo ur s\u0004\u0007 ba  (ha ,p\u0004rta). D\u0004  ah ur s\u0004\u0007 ne pel ba  (ha , p\u0004rta) kal t\u0004 syelle.",
+    "description_fr": "Rapidement"
+  },
+  {
+    "mot": "Bacoro, bat\u0012ro",
+    "mot_fr": "vipère à corne",
+    "description": "\u0004. Soo mabe’ ma kal soo da\u0007. Za ki &iira ne bat\u0004ro. Bacoro ka p\u0004wah na soo manyeeki ah ya. T\u0004zyee (t\u0004z\u0004\u0004) wo suu ah p\u0004 ’wahe. Bacoro mo lo\u0007 mo  e, ka la  ah p\u0004ga  e. Bacoro (bat\u0004ro) p\u0004\u0007w\u0004\u0004re mgba\fi, a p\u0004\f\u0004 ne zahgwahlle.",
+    "description_fr": "Céraste"
+  },
+  {
+    "mot": "Bacoro, zocoro, t\u0012cw\u0012\u0012re, jol talle, wuu talle, t\u0012h\u0012r zah tallle",
+    "mot_fr": "Boudin des pailles pour soutenir le toit.",
+    "description": "\u0004. Za ki &iira ne jol talle, zocoro, wuu talle, wala bacoro. Za ki la\u0007\n&iira ne t\u0004cw\u0004\u0004re, t\u0004h\u0004r zah talle. Za ba\u0007 bacoro (jol talle, wuu talle, wala t\u0004cw\u0004\u0004re) ne fa\fa maswahe, ma nahmme, t\u0004gbana nyahmme, keere (yekeere). Cok ki la\u0007 a ba\u0007ra ne wee kpuu ma nyi\u0007. Bacoro a mor kaa t\u0004 ya\u0007 p\u0004sa\fhe, a mor ka kpuuz\u0004\u0004 mo pea g\u0007, ka tai ba\u0007 t\u0004l ah ga s\u0004\u0007 p\u0004sa\fh  \u0004rak.",
+    "description_fr": "Boudin des pailles pour soutenir le toit."
+  },
+  {
+    "mot": "Badd\u0012woi",
+    "mot_fr": "Jeune homme ",
+    "description": "\u0004. T\u0004banna, we t\u0004banna. We mai mo swaa nje  e. We nye\fe jo\u0007 badd\u0004woi  e. Badd\u0004woi cuu we maswahe. Badd\u0004woi na\ngyo.",
+    "description_fr": "adolescent."
+  },
+  {
+    "mot": "Bad\u0004\u0012\u0004\u0012, bar\u0004\u0012",
+    "mot_fr": "Très chaud",
+    "description": "\u000Emckd.f. P\u0004cwak (p\u0004wii) p\u0004lli. Bii ah p\u0004cwak bad&\u0004&\u0004, ka gak er ya. Mo so  com l\u0004\u0004 suu bad&\u0004&\u0004 &ao. D\u0004  mo ne syem  e, suu ah ha\u0007wii bad&\u0004&\u0004. Jeert\u0004 ahe: Wa\fhk\u0004k\u0004, p\u0004wok syeah syeah.",
+    "description_fr": "état atmosphérique ou il fait plus chaud que la normale"
+  },
+  {
+    "mot": "Bad\u0012woi, t\u0012rilka\u0018he",
+    "mot_fr": "Vers blanc du hanneton",
+    "description": "\u0004. T\u0004kaare. Zan ki &iira ne bad\u0004woi, zan ki ko la\u0007 &iira ne t\u0004rilka\fhe. Bad\u0004woi (t\u0004rilka\fhe) p\u0004fa\fi, a syer ne zal p\u0004 cok so\fo. Zahban maki ah a renra bad\u0004woi. Ka\fh ’yah bad\u0004woi p\u0004lli mor ah za ki &iira ne t\u0004rilka\fhe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bah \u000E\u0012",
+    "mot_fr": "Imiter, faire semblant, feindre",
+    "description": "jf. Rii  \u0004 kal d\u0004  i. Faa  \u0004 ne  \u0004 kiki\u0007. Me bah  \u0004 t\u0004gbana me t\u0004 ga lalle, me ge lwaa ko t\u0004 ki\u0007 nyinni. Mo bah  \u0004 ne \u0004 d\u0004  ki mo laa  \u0004 faa ah ba. Mo t\u0004 faa  \u0004 nai kah d\u0004  ka tan d\u0004 ah  e, ka mo t\u0004 bah t\u0004bah ta. D\u0004  gak bah  \u0004 kor sy",
+    "description_fr": "Imiter, faire semblant, feindre"
+  },
+  {
+    "mot": "Bah\u000E\u000Ee",
+    "mot_fr": "Porte faite en tôle",
+    "description": "\u0004. Zahfah va\fmme. Zahfah ya\u0007 ah  aa  o ne bah  e.Zahfah bah  cuu ma  aa ne va\fm ma gwahe, mai mo ka p\u0004y\u0004k p\u0004lli ya. Zahfah bah  ka p\u0004swah p\u0004lli t\u0004gbana zahfah va\fm kpak ya.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bah\u0004eere, cee (ceecee), t\u0012ceere",
+    "mot_fr": "Ricin",
+    "description": "\u0004. Kpuu yo. Bah&ee (ceecee,\nt\u0004ceere) jur (d\u0004r) mombai  o, a gi\u0007 kal mombai  e. Bah&ee ci\u0007ni, gi\u0007ni, a lee p\u0004 syii moo ta, ka n\u0004n p\u0004lli ya, a jo\u0007 syii va\u0007no s\u0004. Za yea t\u0004 zuura n\u0004m ne lee ahe. Yunas laa p\u0004’nyah ne kaa cee bah&eere, so t\u0004kaa re goo ah yakke.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bahk\u0012\u0012re, guwrakk\u0012\u0012re",
+    "mot_fr": "Coque de fruit de karité",
+    "description": "\u0004. Nah k\u0004\u0004 ye mai za mo zuu n\u0004m ne mo yea ma p\u0004 ya\u0007 ah ma yakke. Nah ah mo k\u0004ka g\u0007 yao  e, za &ii gyak ah ne bahk\u0004\u0004 (gurwakk\u0004\u0004re). Bahk\u0004\u0004 p\u0004yakke, wee nyee a feera k\u0004\u0004 na\fa ne cii bahk\u0004\u0004re (gurwakk\u0004\u0004re).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bahmanje\u0018e",
+    "mot_fr": "Tresse des feuilles des palmier.",
+    "description": "\u0004. Mo e\fe babamanjo, mababamanjo,  tv yo.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bahmas\u0012luuri, hahmabuuri, mababiyo",
+    "mot_fr": "Sot de joie.",
+    "description": "\u0004. D\u0004  t\u0004  \u0004 faa mai\nnja\u0007 ya, a cuu cel ne? Wee nyee mo erra bii  e, a &\u0004\u0004ra l\u0004\u0007 ne\nzw\u0004\u0004 ga s\u0004\u0007 ne faa: bahmas\u0004luuri (hahmabuuri, mababiyo) cel mo\nwuu wela\u0007 ka, cel mo wuu d\u0004swahe, wala d\u0004 lii to. D\u0004  l\u0004\u0007 a\n&\u0004\u0004ra l\u0004\u0007 ah ne zw\u0004\u0004 ga s\u0004\u0007 ka cel mo lwaa ceere.",
+    "description_fr": "de froid Sot"
+  },
+  {
+    "mot": "Bahre",
+    "mot_fr": "Khaya senegalensis (caïcédrat).",
+    "description": "\u0004. Kpuu. Kpuu bah a gi\u0007 p\u0004’manne. D\u0004  mo cee t\u0004zyee (t\u0004z\u0004\u0004) ah lal  e, suu ah p\u0004sye\fe. Kpuu bahre, goo ahe, ne lee ahe da\u0007 p\u0004zwakke. Za zuu n\u0004m ne lee bahre, n\u0004m ah p\u0004sa\fh p\u0004lli, syi\u0007\nyo.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bahr\u0012ki",
+    "mot_fr": "Bureau, campement",
+    "description": "\u0004. zzk. Cok mai nasara, wala za swah ye  moo kaara g\u0007.A cuu ya\u0007 mai na kwo vuu ah gin wo nasara. Baa e, yea t\u0004 gbanra\nbahr\u0004ki ne fa\fa, amma z\u0004z\u0004\f\u0004ko a  aara ne tolle. D\u0004  mo faa zye ga bahr\u0004ki  e, ka t\u0004 ga p\u0004 cok  \u0004 faani, wala ye  maki ah cam.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bahs\u0012\u0012",
+    "mot_fr": "Buffle.",
+    "description": "\u0004. Fa\u000Ealle. Bahs\u0004\u0004 jur fa al (n\u0004\u0004) ma &ii ne s\u0004\u0004  o.",
+    "description_fr": "Buffle."
+  },
+  {
+    "mot": "Baht\u0012salle",
+    "mot_fr": "Silex.",
+    "description": "\u0004. T\u0004salle. T\u0004sal ah ka p\u0004sye\fe nyaknyak ya, so ka p\u0004fuu ya. T\u0004sal ah p\u0004yak p\u0004lli. Ka\fh mai mo jur t\u0004sal nye\fe  o da\u0007,a &iira ne ka\fh baht\u0004salle, mor t\u0004\f\u0004 ah p\u0004sye\fe nje nje.",
+    "description_fr": "Pierre rougeâtre"
+  },
+  {
+    "mot": "Bah, dabah, vahe",
+    "mot_fr": "Herbe",
+    "description": "\u0004. Fa\fa. Za ki &iira ne bah (madabah). za ki ko la\u0007 &iira ne vahe. Bah (madabah, vahe) yea mor welle (elle). Za ka\u0007ra kor ne ko, t\u0004\f\u0004ra ram ne ko ta. Dabah a gi\u0007 ga s\u0004\u0007 p\u0004wahe (wahlle)",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bai",
+    "mot_fr": "Nouvelle",
+    "description": "\u0004. ,\u0004 jakke,  \u0004 laani,  \u0004 faani. Mo kee bai me &ao. Ru kaa dah bai t\u0004soo p\u0004lli. Me laa ne bai ya\u0007  ii p\u0004lli. Bai ne, d\u0004  ki ne\nsyemme.",
+    "description_fr": "Nouvelle, annonce, message, histoire, recit, renseignement."
+  },
+  {
+    "mot": "Bai",
+    "mot_fr": "Sans",
+    "description": "\u000Ems\u000E. K\u0004ka, ka ne ya. Me bai ya\u0007, me bai farelle. Bai cuu ryakryak fanne, gwari. D\u0004  kaa bai gin a. Faa  \u0004 bai me fii ko. Mo ge bai ah ka, bai fan a cuu ta: T\u0004kolle, jol kolle.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bai",
+    "mot_fr": "Ami.",
+    "description": "\u0004. Palya\u0007, za mai mo bemra zahki, za mai mo ’yahra ki p\u0004lli. D\u0004  mala\u0007 gak gban bai ne d\u0004  malii ta. Bai mat\u0004 go\u0007ga tanra  \u0004 ki, ’yahra  \u0004 ki. Bai  o ko zune?",
+    "description_fr": "Compagnon, camarade."
+  },{
+  "mot": "Bãi",
+  "mot_fr": "Racommodage.",
+  "description": "\u0004. Mb\u0004ro mai mo dah   o ne fan maki ah ka  aa ba\fi  o. Wii gee m \u0004ro  e  o. me ga  aa ba\fi ahe. Mo  aa ba\fi ah ne zahzyim t\u0004\nva\u0007no.",
+  "description_fr": ""
+},
+  {
+    "mot": "Bai morrĩi",
+    "mot_fr": "Sans cause",
+    "description": "\u000Ems\u000E. Ka ne ye  ya. Fan p\u0004 dunia da\u0007 a bai morrCDi, a kpakke, a t\u0004kolle. Wel ah jo\u0007 fan bai morrCDi. Fan  o mo t\u0004 jo\u0007 \u0007hoo mo so  e, a bai morrCDi. Jo\u0007 fan bai laa morrCDi.",
+    "description_fr": "Sans but, sans raison, ignorance"
+  },
+  {
+    "mot": "Ba\u0018i (go#)",
+    "mot_fr": "Tradition funéraire moundang",
+    "description": "\u0004. Go\u0007 ba\fi. Ne cok d\u0004  mo w\u0004  e, za  a\u0007 goro ah  oo\nyerri pa wul nyini, a jo\u0007 fan na pa wul ryakryakke. D\u0004  ah &ii ne ba\fi, wala ba\fi go\u0007.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Baikiya",
+    "mot_fr": "Nom de la 2ème fille .",
+    "description": "\u0004. T\u0004&ii m\u0004la\u0007 go\u0007 L\u0004\u0004r pat\u0004 gwa ah yo. ’Yah faa: bai ka izah ko\u0007 d\u0004  ya, wala w\u0004\u0004 d\u0004  p\u0004  \u0004 da\u0007 ya.",
+    "description_fr": ""
+  },{
+  "mot": "Baila, baila baila, b\u0012lai b\u0012lai, fokfok",
+  "mot_fr": "Couché ou assis sans bouger",
+  "description": "\u000Ems\u000E. Ne ga  e, bai swahe, koo ne syemme. Za p\u0004lli swahra  o s\u0004\u0007 baila baila (b\u0004lai b\u0004lai, fokfok) ka gak  a\u0007ra t\u0004t\u0004l s\u0004\u0007 ya. Mad\u0004\u0004 tam lee ge s\u0004\u0007 sw\u0004 g\u0007 baila baila.",
+  "description_fr": "sans force, attaché à, plaqué à."
+},
+  {
+    "mot": "Bailii, bai t\u0012 goo",
+    "mot_fr": "Ami de circoncision",
+    "description": "\u0004. D\u0004  mai we ge jyo\f daa kan zahki. Za mo gb\u0004ra jol  ii kan nyi ki  e, ka we ye bailii (bai t\u0004 goo) wo ki. ,\u0004 ah ka jo\u0007 cok da\u0007 ya. Ban mai moo jo\u0007ra  \u0004syak k\u0004syil ki ra ye bailii ta (Munda\u0007 ne Mb\u0004mmi).",
+    "description_fr": "Ami de circoncision"
+  },
+  {
+    "mot": "Bail\u0012#",
+    "mot_fr": "Racine venimeuse",
+    "description": "\u0004. Goo. Bail\u0004\u0007 jur kul  o. A fa\fi na kulli, a sosoo t\u0004gbana\nkul ta, a p\u0004sa\fhe. Sa\fh ah k\u0004\u0004 za ki &\u0004\u0004ra l\u0004\u0007 cor za ’yah  \u0004\u0004 ne ko\nnaiko: azu zahki ne mo ne bail\u0004\u0007  e? Amma soo bail\u0004\u0007 sye fawul\no, d\u0004  mo re  e, mo wunni.",
+    "description_fr": "ami par échange de cette plante, être aimé."
+  },
+  {
+    "mot": "Baini, b\u0012bai",
+    "mot_fr": "Apercevoir",
+    "description": "jf. Kwan p\u0004ryup\u0004ryu. Me bai ko  e, me kwo ko\np\u0004sa\fh ya. Mo t\u0004 bai cok bai o ne? oho, me b\u0004bai. Ako t\u0004 bai cok\np\u0004ryup\u0004ryu no. D\u0004  ah na ta\fa, za ka bai ko bai ya.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Baizwa\u0018h, geenjwa\u0018h, t\u0012njwa\u0018h",
+    "mot_fr": "Aulacode",
+    "description": "\u0004. Gee. Baizwa\fh (geenjwa\fh,\nt\u0004njwa\fh) fu\u0007 p\u0004lli, zah ah p\u0004wahe (p\u0004wahlle). Min ka ’yah\nbaizwa\fh ya. Gee manyeeki ah la\u0007 &uura gal ah ta. Za lwaa wun14\nkah fahlii p\u0004lli. Za munda\u0007 faara haazah  o ne fahlii ne faani: zye\nka z\u0004\u0004 fahlii ya, mo z\u0004\u0004  e a wunni.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba\u0018i, ba\u0018i ba\u0018i",
+    "mot_fr": "Large",
+    "description": "\u000Emcd.f. P\u0004’manne, p\u0004 ’ahe. Nwa\fh  o fo\fo bii  o, mo\nsye\fe zah ah ge lal ba\fi. Me ga sye\fa mor  \u0004 ah ba\fi ba\fi: yah faa, me\nga kye  mor  \u0004 ah belbelle. Sye\fe zah  o lal ba\fi.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba\u0018i, bai, (go#)",
+    "mot_fr": "Purificateur",
+    "description": "\u0004. ,\u0004 mai za mo kan  o ka jo\u0007 p\u0004 cok wul goroo.\nZahban mai mo t\u0004ra ki  o  aa, a gbanra ki kaa go\u0007 ba\fi (bai). Go\u0007\nba\fi ye yea ne swah p\u0004 cok wul d\u0004  mai mo zye ra  \u0004 ah  o. A kor\npawul t\u0004kine fan jo\u0007 ah. ,\u0004 ah mo v\u0004r  e, a swanra fahlii go\u0007 ba\fi\nga ya\u0007 ahe. Fan lwaa m\u0004 go\u0007 ba\fi ye mb\u0004ro wo suu, &eere, t\u0004kalle.",
+    "description_fr": "Purificateur de la maison au moment de sacrifice du defunt"
+  },
+  {
+    "mot": "Bakbak",
+    "mot_fr": "Beaucoup amer",
+    "description": "\u000Emcd.f. \u000Ems\u000E. P\u0004lli, p\u0004’manne. M\u0004r ah fu\u0007 p\u0004zwak\nbakbak. Kpuu haare, gora\u0007, bahre, da\u0007 p\u0004 zwak bakbak. Mai cuu\nfu\u0007 ah ne laa ah p\u0004 zah da\u0007.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bakk\u0012k\u0012",
+    "mot_fr": "Beaucoup amer",
+    "description": "\u000Emckd.f. P\u0004 e’, p\u0004’manne, bakbak. Bah ne lee ah da\u0007\np\u0004zwak bakk\u0004k\u0004. Mo ka bakbak ya  e, ka a ja\fat\u0004t\u0004, p\u0004je\fere.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bakk\u0012k\u0012, gba\u0018kk\u0012k\u0012, satatat (s\u0012t\u0012t\u0012t), \u000Eo\u000Eo",
+    "mot_fr": "En silence, clairement.",
+    "description": "\u000Ems\u000E. Bai faa  \u0004, ne\nyella ’ya\u0007. Me t\u0004 faa  \u0004 nyi ko, zyii  \u0004 ki ya, syee kal bakk\u0004k\u0004\n(gba\fkk\u0004k\u0004, satatat, s\u0004t\u0004t\u0004t). Syee kal ’ya\u0007 ’ya\u0007 (satatat). Bam sa\fh\nbakk\u0004k\u0004 (gba\fkk\u0004k\u0004) t\u0004 yah tanne.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bakuru",
+    "mot_fr": "Tourteau",
+    "description": "\u0004. zzk. M\u0004r swaa (zal swaa), wala nah mb\u0004ro mai za mo\n\u0007h\u0004\u0004 n\u0004m ah  o, so mo g\u0004r  o g\u0004rri. Zan ki ’yahra bakuru p\u0004lli.",
+    "description_fr": "Tourteau d’arachide ou du coton."
+  },
+  {
+    "mot": "Bakyole",
+    "mot_fr": "Filet de pèche.",
+    "description": "\u0004. Jinni. Bakyole jur k\u0004 ak  o, d\u0004  va\u0007no ye gban syi\u0007\nne ko. Bakyole ka gak gban syi\u0007 luu ya. Za ki &iira ne bacolle. Mo\ngak &ii ne make\fne da\u0007, a p\u0004sa\fhe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bak\u0012ma, falle, palle, guru#",
+    "mot_fr": "Clairière.",
+    "description": "\u0004. Cok mai bii moo yea g\u0007 bi\u0007 bi\u0007,\nfa\fa yea g\u0007 p\u0004lli. K\u0004z\u0004\u0004re, bah da\u0007 yeara p\u0004 bak\u0004ma (falle, guru\u0007).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bak\u0012t\u0012t\u0012\u0018\u0012, zulurri",
+    "mot_fr": "Nasse pour la pèche.",
+    "description": "\u0004. Fan gban syi\u0007. Bak\u0004t\u0004t\u0004\f\u0004 (zulurri) jur h\u0004\u0004\nma maa  o. A t\u0004\f\u0004ra t\u0004\f\u0004, mor ah a &iira ne bak\u0004t\u0004t\u0004\f\u0004. Za ma jo\u0007ra\nye  ah a peera p\u0004 bii na d\u0004  moo cii korre, a so ra zah ah g\u0004\u0004.\nSyi\u0007 mo baa ge g\u0007  e, a cakra zah  \u0004\u0004 ga g\u0007, a ra\fhra syi\u0007 ah ne\njolle. A gbanra weesyak ne bak\u0004t\u0004t\u0004\f\u0004 p\u0004lli. Za ma kah mabii ye\njo\u0007ra ye  ahe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bak\u0012zu#, mabak\u0012zu#, mak\u0012t\u0012\u000E\u000Ei",
+    "mot_fr": "Estomac.",
+    "description": "\u0004. Manjoklii. Fan p\u0004 cii  \u0004rri.\nD\u0004  mo re t\u0004waa  e, wala d\u0004  mo re fe\fene da\u0007 a ga p\u0004 bak\u0004zu\u0007.\nLiira bak\u0004zu\u0007 (mabak\u0004zu\u0007, mak\u0004t\u0004  i) ne njok malii ahe, mor ah a\n&ii ne manjoklii (manjwaklii).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bak, pahk",
+    "mot_fr": "Assumer cette responsabilité",
+    "description": "jf. Yea ne ga  fanne. Mo bak (pahk) ne ko, ’yah faa:\nMo ge ne  \u0004 ah o, mo dai ne ko. Mai me bak ne ko ne ya\u0007  e o.\nBak (pahk) ne fan cuu  a\u0007 ga   \u0004 ahe.",
+    "description_fr": "Va ou fait avec"
+  },
+  {
+    "mot": "Balaare, balaara, b\u0012l\u0012\u0012re, t\u0012kella",
+    "mot_fr": "v",
+    "description": "\u0004. Syemme. Fan ma baa wo\nsuu kp\u0004c\u0004k kp\u0004c\u0004k. Zahsu\u0007 nwa\fh mai mo ru\u0007  e, mo so  p\u0004sye\fe\n e, ka ci\u0007 balaara  e. Balaara mo ka p\u0004lli ya  e, ka  aa b\u0004l\u0004\u0004  o.\nCok n\u0004n, wala wak suu mo ne balaara  e, ka yea p\u0004sa\fh ya.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Balballe",
+    "mot_fr": "Plaine ",
+    "description": "\u000Emcd.f. P\u0004’ahe, ka p\u0004ga  ya, ka p\u0004 mu\u0007 ya. Fahlii ah a\nbaballe. Mo ga lwaa cok pel  o baballe: Cok ah kpuu k\u0004ka, fa\fa\nk\u0004ka, a p\u0004 ’ah ta. Fahlii ah d\u0004  syee g\u0007 baballe, ga  k\u0004ka. Jeert\u0004\nahe: Weerere.",
+    "description_fr": "desert, un terrain dégagé."
+  },
+  {
+    "mot": "Balle",
+    "mot_fr": "Bouclier",
+    "description": "\u0004. Fan ruu sale. Za zye ra bal ne wak d\u0004\u0004 ma yakke ka z\u0004\u0004\nne guu mo gak dan ka. za ka ruura sal bai bal a. Bal ye fan ruu sal\nmay\u0004k ah p\u0004 zah’nan mata\fa mo kaa ge.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Balle",
+    "mot_fr": "Balle (de coton, de tissu).",
+    "description": "\u0004. zzk. Faswaa mai mo bam  o ka wooni. Bam mb\u0004ro, bam\nzyimmi. Mu\u0007ta woo bal s\u0004r ki kal ga cok ki ne ko. Bal mb\u0004ro\nva\u0007no a yea p\u0004y\u0004kki.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Balle",
+    "mot_fr": "Ballon",
+    "description": "\u0004. zzk. Fan jo\u0007 kye\fmme. Bal sa\fa  o ne wak maswah ahe.\nD\u0004  mo  a\u0007 t\u0004’yak ge g\u0007  e, a yea p\u0004yakke. Me ga e\fe in bal &ao.\nBal ah i ge  o nyi mo t\u0004gbana faa: ,\u0004 co\u0007  o t\u0004  o, mo t\u0004 jo\u0007 ah\no.",
+    "description_fr": "Balle."
+  },
+  {
+    "mot": "Balle, balli",
+    "mot_fr": "Eléphant.",
+    "description": "\u0004. N\u0004\u0004 cok malii ah yo. Bal p\u0004’man kal zom  e, a\np\u0004swah p\u0004lli ta. Za p\u0004lli l\u0004\u0007ra ako ne jol va\u0007no, amma jol ye ka, a\njo\u0007 ye  ne ko p\u0004 cok jolle. Bal a syeera ne \u0007ga  e. Za &ii bal ne\nwanoo ta. Mo jo\u0007 kye\fm ge kah bal ka, a dah mo k\u0004ya  k\u0004ya . Za\n&ii bal malii ne waballe (wanoo). T\u0004 b\u0004r go\u0007 ye ta. « Go\u0007 p\u0004swah\nna balle ». Waballe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Balle, bolle",
+    "mot_fr": "Filtre pour bière du mil.",
+    "description": "\u0004. Fan \u0007h\u0004\u0004 yimmi. Balle (bolle), jur (d\u0004r) col  o,\namma a p\u0004la\u0007ne. A ka\u0007ra ne fa\fa ma &ii ne sorballe (sw\u0004bolle).\nGw\u0004\u0004 \u0007h\u0004\u0004ra yim ne balle (bolle).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Balle, boole, balli, (b\u0012\u0012)",
+    "mot_fr": "Palabre",
+    "description": "\u0004. ,\u0004  eare, faa  \u0004 ma ea ah t\u0004 ki cuu\nki ne ko. Za b\u0004\u0004ra bal t\u0004  \u0004 camcam. B\u0004\u0004ra bal \u0007haa so &ahra\nt\u0004nyeere. Pa ’yah bal lii ka pa  \u0004  ea yo. Jeert\u0004 ahe: ,\u0004 ’nyahre,\n \u0004 sa\fhe.",
+    "description_fr": "Dispute, faire du bruit avec quelqu'un"
+  },
+  {
+    "mot": "Balle, bulli, boole",
+    "mot_fr": "Râte",
+    "description": "\u0004. Fan p\u0004 cii  \u0004rri. Balle (bulli, boole) jur zyii\n o, ka p\u0004’nyah p\u0004 zah t\u0004gbana zyii ya, a re\fe ma t\u0004 manjoklii. Bal\n(bul, bool) baa wee nyee p\u0004lli. Bal mo baa d\u0004   e, syem yo.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bama bama, kahma kahma, p\u0012seat p\u0012seat",
+    "mot_fr": "En désordre.",
+    "description": "\u000Ems\u000E. P\u0004lli p\u0004lli,\nhaihai. D\u0004  ah kya\fh  \u0004 nyee bama bama, (kahma kahma, p\u0004seat\np\u0004seat). Faa  \u0004 kal ne ko bama bama.",
+    "description_fr": "Beaucoup"
+  },
+  {
+    "mot": "Bamme",
+    "mot_fr": "Grossesse à terme",
+    "description": "\u0004. Daht\u0004zee (daht\u0004z\u0004\u0004) kpuu mai \u0007w\u0004\u0004  il mo yea zye ra\nmor byak bya\u0007ne, t\u0004gbana suu s\u0004p\u0004\u0004re. Bam a mor ka mat\u0004cee\n(macer) mo d\u0004\u0004, ka tah m\u0004r wel ta. A t\u0004gbana fan ma &ii ne\n“éponge”. Mawin mo gb\u0004  il mo jo\u0007 fCDi nama  e a juu bam ne ko\nka byak bya\u0007ne; mor ah a &iira ne fCDi bamme. Za k\u0004 Torrocko &iira\nne fCDi juu fanne.",
+    "description_fr": "Préparation pour l’accouchement."
+  },
+  {
+    "mot": "Bamme, beremme, berem zahwon d\u0012fuu",
+    "mot_fr": "Arbre épineux.",
+    "description": "\u0004. Kpuu. Bamme\n(berem zahwon d\u0004fuu) a ne waa. Bam ka yea t\u0004 waa ya, a yea p\u0004\ncok mai bii moo p\u0004\f\u0004 g\u0007, t\u0004 kee elle. Za gak  al kpuu bam (berem\nzahwon d\u0004fuu) ka jo\u0007 ye  ne no (gb\u0004 ya\u0007).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bamme, bwa\u0018mme",
+    "mot_fr": "Pluie",
+    "description": "\u0004. Bii ma ge gin s\u0004\u0007 ginni. Bam (bwa\fm)\nha\u0007ni, syiini, n\u0004\u0004ni, a kal t\u0004 tanne. Bam mo k\u0004ka  e, fan ma ne cee\nda\u0007 ka yeara ya (d\u0004fuu, n\u0004\u0004, fa\fa, kpuu...) ka lwaara farel a. Bam\nmo t\u0004 ge, mo so ge uu  e, ka k\u0004\u0004 gb\u0004  o. Bam (bwa\fm) tan wah\nwah, nji  nji  i (syi  syi ), myah  \u0004ra  \u0004ra, wala v\u0004vokki na mai\nmo ’yahe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bamme, b\u0012bamme",
+    "mot_fr": "Attacher",
+    "description": "jf. pp. Cuu fan pa\fare. Va\u0007no  e, za faa: ba\u0007ni\n(b\u0004ba\u0007). Me ba\u0007 zahwii  o va\u0007no. Me bam zahwii  o gwa, koo\nsai. T\u0004g\u0004r fanne. Mo kee bam ah &ao, a k\u0004&\u0004ne? Tai fan ga wo ki,\nmo bam jol ahe, jol ah bam  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bampyakke",
+    "mot_fr": "Pluie qui dure",
+    "description": "\u0004. Bam mai mo t\u0004 tan  e, mo ka inzah kpee yao,\nmoo tan lii lii cok com p\u0004pa\fare.",
+    "description_fr": "Pluie de tout une journée."
+  },
+  {
+    "mot": "Banne",
+    "mot_fr": "Clan",
+    "description": "\u0004. Mors\u0004\f\u0004re, zah zummi. D\u0004fuu ne ban  \u0004\u0004 camcam.\nZafuu ne ban  \u0004\u0004ra; so k\u0004syil za fuu la\u0007, zahban g\u0007 camcam fa&a.\nZahban k\u0004syil za Munda\u0007 camcam p\u0004lli: Ban munda\u0007, ban juu,\nmunda\u0007 yeere, ban s\u0004\u0004, t\u0004\u0004re, k\u0004zyeere da\u0007, ban o. Za da\u0007 t\u0004ra ban\n \u0004\u0004 kaa  o ne ko.",
+    "description_fr": "Famille élargie, espèce"
+  },
+  {
+    "mot": "Ban, banban",
+    "mot_fr": "Gros",
+    "description": "\u000Ems\u000E. P\u0004lli, p\u0004’manne, kal t\u0004l ah  e. D\u0004  gak ’naa\nna\fa ne t\u0004ker swah ban. D\u0004  ah a ’naa n\u0004n banban. Ka\fh ’naa m\u0004r\n o ne  al banban. ,e  zahzyil nyi d\u0004  ne fan jo\u0007ni,  \u0004 faani. ’Na\fa\nnahn\u0004n mat\u0004 banban me ka laa p\u0004’nyahr a.",
+    "description_fr": "faire fâcher"
+  },
+  {
+    "mot": "Bando\u0018ori, t\u0012ndo\u0018, t\u0012njyo\u0018, pa#gai, mat\u0012b\u0012r#gai",
+    "mot_fr": "Petite et grande guèpe",
+    "description": "\u0004. Fan dan d\u0004  i.\nA ne &ii cok camcam, so a zahl\u0004\u0007 camcam gwa. Bando\forCDi\nmala\u0007ne, bando\forCDi balle, m\u0004 ah p\u0004 lii. Mo laa &ii bando\fori, t\u0004ndo\f,\nt\u0004njyo\f, pa\u0007gai, wala mat\u0004b\u0004r\u0007gai  e, fan t\u0004 va\u0007no yo. Bando\fori jur\n(d\u0004r) t\u0004njw\u0004\u0004  o. Ka kan n\u0004m ka d\u0004  mo re na t\u0004njw\u0004\u0004 ya, amma\nyea ne gyak t\u0004gbana t\u0004njw\u0004\u0004re. A rao wo goo, wala a kaa t\u0004 fa\fa.\nT\u0004&ii ah cuu fan ma dan d\u0004   o. Zah munda\u0007 ah ka\u0007 ki  o ka\u0007.\nKoo t\u0004&ii ah mo p\u0004 cok camcam la\u0007, zah man ye da\u0007, a laa mor\nno.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Banja\u0018h, yekperi",
+    "mot_fr": "Nain",
+    "description": "\u000Emcd.f. D\u0004  mai mo swaa  o baa e, mo so\nkwan na wela\u0007ne. Me t\u0004 kwoko p\u0004la\u0007ne, k\u0004nyaa (k\u0004nah) banja\fh\nyo. Fan mai mo ka jo\u0007 d\u0004 lii gwari gwari ya da\u0007, banja\fh yo, wala\nza faa: cok co\fi gb\u0004 ko  o.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Banja\u0018i, t\u0012mbeeram",
+    "mot_fr": "Arbuste grimpante",
+    "description": "\u0004. Goo yo. Banja\fi d\u0004\f\u0004 t\u0004 kpuu ki, wala t\u0004\nkorre. Lee banja\fi p\u0004sye\fa bye\fa, amma, kan fuu  o zahe. Loo ’yahra\nlee banja\fi p\u0004lli ka s\u0004\u0004re.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Banyi#, t\u0012g\u0012rga#",
+    "mot_fr": "Poisson",
+    "description": "\u0004. Syi\u0007 p\u0004 bii. Banyi\u0007 jur bee  o. Za ma kaara\nt\u0004 s\u0004r L\u0004\u0004re da\u0007 a &iira ne t\u0004g\u0004rga\u0007. Zah t\u0004g\u0004rga\u0007 p\u0004wahe. Banyi\u0007\n(t\u0004g\u0004rga\u0007) dai bee ne ’man a. Syi\u0007 ah ka p\u0004 lii dai bee ya ta.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba#",
+    "mot_fr": "Banc",
+    "description": "\u0004. zzk. T\u0004kalle. Ba\u0007 p\u0004wah kal t\u0004kal  e. Za gak kaa t\u0004 ba\u0007\np\u0004pa\fare. Wee lekol haira t\u0004 ba\u0007 pel pacuu fan  \u0004\u0004ra.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba#",
+    "mot_fr": "Banque",
+    "description": "\u0004. zzk. Cok kan (r\u0004k) lakre. A zye ra zah ba\u0007 p\u0004swahe ka\nnyin mo ki\u0007 fan g\u0007 ka, amma ne da\u0007 la\u0007 comki nyin gak hah zah\nba\u0007 ta. P\u0004ram kan lak p\u0004 ba\u0007 kal ma kan  \u0004r ya\u0007  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba# ha#ne",
+    "mot_fr": "Ceindre le rein",
+    "description": "vjf. Zye  suu ne gaini, wala ka jo\u0007 ye  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba# p\u0012rri",
+    "mot_fr": "Harnacher son cheval",
+    "description": "jf. Zye  fan ga wo p\u0004r ka ga gw\u0004\u0004re, wala ka ga ruu\nsalle. Za mo laara cii ko\u0007keere  e, a bamra p\u0004r ka ga cok fanne.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba# suu",
+    "mot_fr": "Ceindre la hanche.",
+    "description": "jf. Zye  suu ka jo\u0007 fanne, ka ruu salle, wala ka ga\ngw\u0004\u0004re. Bai syel suu. Cak suu ka za mo t\u0004 mor  \u0004 ’min ka. Fan\nta\u0007 mo yak  e, a ba\u0007 suu.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba# zah mba#",
+    "mot_fr": "Se taire",
+    "description": "jf. Coo zahe, zyii  \u0004 ki ya. Za ki ba\u0007ra zah mba\u0007\nmba\u0007 ka faara  \u0004 ya, ka syeere syak ya, a p\u0004ga  ka t\u0004  \u0004  \u0004r\n \u0004\u0004ra.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba# zahe",
+    "mot_fr": "S’accorder",
+    "description": "jf. Gban zah ne d\u0004  ki, wala ne za ki ka jo\u0007 fanne. Za\ngak ba\u0007ra zah ka k\u0004\u0004 d\u0004  ta. Mo tai zah ne ra  e, ka mo ba\u0007 zah\nne ra  e ta. Za ka ba\u0007 zah d\u0004\u0004 ma p\u0004p\u0004\u0004 ya.",
+    "description_fr": "Museler"
+  },
+  {
+    "mot": "Ba#ne",
+    "mot_fr": "Code Défassa.",
+    "description": "\u0004. Fa al (n\u0004\u0004) cokki. Ba\u0007 jur (d\u0004r) korro  o. Syi\u0007 wo suu\nah p\u0004luu kal m\u0004 korro  e. Ba\u0007 matam ne ci\u0007 to, ma wor ka ne ya.\n,al ba\u0007 vaa ki ya. Ba\u0007 ka  a\u0007 ko kpa\fh haihai ya.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba#ni, b\u0012ba#",
+    "mot_fr": "Attacher.",
+    "description": "jf. v. Tai ga wo ki ne salle. Gw\u0004\u0004 ba\u0007ra (bamra)\nzahwii ne salle. Va\u0007no  e, za faa: Ba\u0007ni (b\u0004ba\u0007), p\u0004pa\fa  e, za faa:\nBamme (b\u0004bamme). Me ba\u0007 ram t\u0004t\u0004l va\u0007no, me bam ram t\u0004g\u0004r\nnai.",
+    "description_fr": "Lier, entourer"
+  },
+  {
+    "mot": "Ba#ga#ga#, b\u0012k\u0012kak",
+    "mot_fr": "Beaucoup salé.",
+    "description": "\u000Emckd.f. P\u0004lo\u0007 yupyup, p\u0004lo\u0007 p\u0004lli. ,\u0004 ah\ncuu fan ma ne t\u0004mmi. T\u0004m ah p\u0004lo\u0007 ba\u0007ga\u0007ga\u0007 (b\u0004k\u0004kakke). T\u0004m\nlwok m\u0004nn\u0004\u0004 (k\u0004balle) a ba\u0007ga\u0007ga\u0007 (b\u0004k\u0004kakke).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
     "description_fr": "Union, accord intervenant entre des pays, des personnes"
   }
+
 ]
