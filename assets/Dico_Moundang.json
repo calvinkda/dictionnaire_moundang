@@ -786,208 +786,1223 @@
     "description_fr": ""
   },
   {
-    "mot": "Alkawal, gbəzah",
-    "mot_fr": "Alliance, confiance",
-    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "mot": "Ba#gorai, m\u0012#gorai, m\u0012#gw\u0012",
+    "mot_fr": "Chimpanzé",
+    "description": "\u0004. Fa al (n\u0004\u0004) cokki. Ba\u0007gorai\n(m\u0004\u0007gorai, m\u0004\u0007gw\u0004) jur kpi\u0007ni  o. A p\u0004 moo gbakgbak. D\u0004  gak\nwo\u0007 t\u0004g\u0004\u0004 ba\u0007gorai ne kpi\u0007 ne fahlii maino: Ba\u0007gorai p\u0004fuu nje\nnje, kpi\u0007n m\u0004 ah p\u0004sye\fe nje nje. Ban\u0007gorai dai kpi\u0007n ne ’man a.\nAra gwa da\u0007 a ’yahra cok pee. A  e ra fakpa\fhp\u0004\u0004 p\u0004lli kal kpi\u0007\n e.",
+    "description_fr": " espéce d’hyène."
+  },
+  {
+    "mot": "Ba#guar-.i",
+    "mot_fr": "Patriache biche.",
+    "description": "\u0004. Fa al (n\u0004\u0004) cokki. N\u0004\u0004min mai mo swaa suu  e,\nmai mo tam  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ba#gyo, m\u0012#gyo, t\u0012su#r-.i",
+    "mot_fr": "Acacia albida",
+    "description": "\u0004. Kpuu yo. Za ki &iira ne m\u0004\u0007gyo,\nnyi\u0007gyo, regyo, t\u0004su\u0007rCDi. Kpuu ah ka zyee goo ne zal a, sai ne\nkalle, za munda\u0007 faara haazah  o ne bamme, zye ka jo\u0007 ne bam na\nfan manyeeki ah ya. Za zye  daht\u0004bii ne kpuu ba\u0007gyo(m\u0004\u0007gyo,\nt\u0004su\u0007rCDi). Fa al renra lee ah p\u0004lli. Kpuu ah mo p\u0004 ’wah  o  e,\nfakpa\fhp\u0004\u0004 jo\u0007 g\u0007 p\u0004sa\fhe.",
+    "description_fr": "faidherbia albida"
+  },
+  {
+    "mot": "Bao",
+    "mot_fr": "Un peu",
+    "description": "\u000Emckd.f. Nje, bi\u0007. Za t\u0004 loo gera ya\u0007 bao  e, to\u0007 bao fahfal\nta",
+    "description_fr": "Un peu"
+  },
+  {
+    "mot": "Baore, voore",
+    "mot_fr": "",
+    "description": "\u0004. Kpuu. Bao (voo) a lee p\u0004luuri, p\u0004wah (wahl) ta.\nZa ka re lee bao (voo) ya, a p\u0004zwakke. Za syi\u0007ra nyah t\u0004 baore, ka\nsyel ah mo  e  ka. « Mawin go\u0007 bya\u0007 baore (voore), bya\u0007 d\u0004fuu\nya », mai  \u0004 sam za munda\u0007 mo s\u0004\u0004ra yo.",
+    "description_fr": "Arbre donnant de gros fruit non mangeable"
+  },
+  {
+    "mot": "Baptisma",
+    "mot_fr": "Baptême",
+    "description": "\u0004. zzk. B\u0004 Bibel. T\u0004gba faa: Maa p\u0004 bii, erbii, wala sah\nbii. D\u0004  i\u0007 a ’yah baptisma, a nyi\u0007ra t\u0004gbana Yesu mo faa. Ne cok\n,\u0004 Faa Mas\u0004\u0007 mo ge s\u0004r munda\u0007 ne zah Missionnaire (J.I.K.)",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bar",
+    "mot_fr": "Battement des ailles d’oiseau.",
+    "description": "\u000Ems\u000E. Cii yee juu moo zooni. Me t\u0004 ga nai me laa juu zoo\nbar kalle.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Barbar",
+    "mot_fr": "Tremblant",
+    "description": "\u000Ems\u000E. Ne swahe, g\u0004rg\u0004r, b\u0004rb\u0004r. D\u0004  mai syem mo t\u0004\u0007\nko  o, suu ah coo barbar.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bargelle, b\u0012rgelle, s\u0012la#, saore",
+    "mot_fr": "Gésier",
+    "description": "\u0004. Fan  \u0004r ka\fhe. Bargel jur zyii\n o. Za ki &iira ne saore. Saore (bargelle b\u0004rgelle, s\u0004la\u0007) ka\fh\np\u0004yakke, ako ye jo\u0007 ka farel mo gak \u0007h\u0004\u0004r  \u0004r ka\fhe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bargo, barko",
+    "mot_fr": "Couverture pour le froid",
+    "description": "\u0004. zzk. Fan rii celle (cilli). Za z\u0004mai tanra ka\u0007\nbargo (barko) p\u0004lli. Z\u0004z\u0004\f\u0004 bargo camcam p\u0004lli no ra.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Barka",
+    "mot_fr": "Bénédiction",
+    "description": "\u0004. zzk. E0ere, gbo\u0007gbo\u0007. Mas\u0004\u0007 mo jo\u0007 barka t\u0004 fan d\u0004 \n e, fan ah  oo p\u0004lli, a n\u0004n p\u0004lli ta. Barka Mas\u0004\u0007 yea t\u0004 za ma\n&uura ko ce\fece\fe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Barkakkak",
+    "mot_fr": "Poisson à grosse tête",
+    "description": "\u000Emckd.f. P\u0004 ’ahe. T\u0004sal ah p\u0004 ’ah t\u0004gbana t\u0004t\u0004l\nbarkak. D\u0004  gak faa: T\u0004t\u0004l lii, wala t\u0004t\u0004l ah a barkakkak.",
+    "description_fr": "tête grosse"
+  },
+  {
+    "mot": "Barkakke, ’wai",
+    "mot_fr": "Silure",
+    "description": "\u0004. Syi\u0007 p\u0004 bii. Barkak jur (d\u0004r) swahle (swahli)\n o. T\u0004t\u0004l ah p\u0004 ’ahe, p\u0004yak ta. Barkak p\u0004’man kal swahli  e. Za ki\nka ’yahra ren ah ya, a jo\u0007 syemme.",
+    "description_fr": "Poisson cypriniforme, surtout des eaux douces, portant autour de la bouche des barbillons et possédant souvent des glandes venimeuses reliées à des épines pectorales ou dorsales. "
+  },
+  {
+    "mot": "Barkam (bargyem) kahzahe, barkamzahe",
+    "mot_fr": "Moustache, poil",
+    "description": "\u0004. Syi\u0007 kahzahe. Za\nki ne barkam kahzah (barkamzah) p\u0004lli. N\u0004\u0004 cok manyeeki ah ne\nbarkam kahzah p\u0004wahe (p\u0004wahlle): T\u0004gbana kpi\u0007,  olle, minni...",
+    "description_fr": ""
+  },
+  {
+    "mot": "Barkelle, bar#gelle",
+    "mot_fr": "Arbuste grimpante",
+    "description": "\u0004. Goo yo. Barkel (bar\u0007gel) d\u0004d\u0004\f\u0004ni, lee ah\njur lee \u0004\u0004, nah ah p\u0004luu kal nah \u0004\u0004  e. Za &a\u0007 m\u0004\u0007gai ne nah\nbarkelle (bar\u0007gelle).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Barkilli",
+    "mot_fr": "Arbre",
+    "description": "\u0004. Mo e\fe b\u0004rkilli,  tv yo.",
     "description_fr": "Union, accord intervenant entre des pays, des personnes"
+  },
+  {
+    "mot": "Barkoi, v\u0012koi, vorkoi, s\u0012romme",
+    "mot_fr": "Paresse",
+    "description": "\u0004. D\u0004  bai ’yah ye  e, d\u0004 \nt\u0004t\u0004\f\u0004re. Ne cok (tok) za mo t\u0004 gara cok (tok) ka p\u0004p\u0004\u0004  e, barkoi\n(v\u0004koi, s\u0004rom) kaa m\u0004 ah ya\u0007. Wel ah barkoi (v\u0004koi, vorkoi,\ns\u0004rom) yo.",
+    "description_fr": "Indolence"
+  },
+  {
+    "mot": "Bar#ge#gya#, ceecee, keekee, daceecee",
+    "mot_fr": "Libélulle",
+    "description": "\u0004. 5ii ah p\u0004 cok\ncamcam. Bar\u0007ge\u0007gya\u0007 (ceecee, keekee, daceecee) ne t\u0004\f\u0004, a zooni.\nT\u0004t\u0004l ah p\u0004’manne, nahn\u0004n p\u0004luuri, suu ah p\u0004nyi\u0007, za ka kwoko ne\nkal a. A p\u0004\f\u0004 ne cok sor mo t\u0004 gbah  il o. Mo zoo  e, ka t\u0004 kye \nfarelle, ka  e  fakpa\fhp\u0004\u0004 ya.",
+    "description_fr": "Démoiselle, ou garcon non serieux, coureur de jupon,\nqelqu’un de très virile."
+  },
+  {
+    "mot": "Barre, b\u0012barre",
+    "mot_fr": "effet de gonfler,",
+    "description": "jf. pp. Baa (b\u0004baa) cuu va\u0007no, barre (b\u0004barre)\ncuu p\u0004pa\fare. Suu ah bar  o ne lii ah da\u0007. Fan bar  o wo suu ne lii\nah da\u0007.",
+    "description_fr": " remplir un vase."
+  },
+  {
+    "mot": "Bataari mala#ne",
+    "mot_fr": "Jupon",
+    "description": "\u0004. zzk. Fa gai \u0007w\u0004\u0004 yo, a saa mor bataari malii.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bataari malii",
+    "mot_fr": "Jupe",
+    "description": "\u0004. zzk. Fa gai mai \u0007w\u0004\u0004 moo maara zahmorrCDi, a\np\u0004wahl kan zahci\u0007 al ta. A yea ne bataari mala\u0007  \u0004r lam.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Batbat",
+    "mot_fr": "Tremblant",
+    "description": "\u000Ems\u000E. Barbar. Cel jo\u0007 ko coo batbat ka gak gban fan a.\nSuu ah coo batbat.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Batoro",
+    "mot_fr": "Céraste",
+    "description": "\u0004. Mo e\fe bacoro,  tv yo.",
+    "description_fr": "vipère à corne"
+  },
+  {
+    "mot": "Batt\u0012ri, mab\u0012rimt\u0012lli, mavivinni",
+    "mot_fr": "Insecte",
+    "description": "\u0004. Fabea ma dan d\u0004  i. Batt\u0004ri\n(mavivinni, mab\u0004rimtelli) kal t\u0004njw\u0004\u0004, wala t\u0004ndo\f ne ’man  e. Ha\u0007\nbatt\u0004ri p\u0004nyi\u0007 p\u0004lli. Batt\u0004ri ’yah  \u0004 vuu ya\u0007 wo fan p\u0004lli. Za l\u0004\u0007ra\na  a\u0007 t\u0004kaa ci\u0007 wel ne ko, amma go\u0007ga ye ka. A kye  t\u0004kaa mor\nwee ahe. Batt\u0004ri mo vuu ya\u0007  e, a gbah t\u0004kaa r\u0004k g\u0007, a  aa pa\fa ga\ng\u0007, so a re\fa zah ah ga g\u0007. Pa\fa ah mo syer  e, wee ah a lwaa farel23\np\u0004p\u0004\f\u0004 ’wa. Batt\u0004ri dan d\u0004  syen p\u0004lli. Mo ya\u0007  \u0004 mai ka, batt\u0004ri ka\n a\u0007 t\u0004kaa ci\u0007 wel ah ne ya, mo dah ya\u0007 ah e\fe &ao.",
+    "description_fr": "guêpe maçonne, bousier, scarabé."
+  },
+  {
+    "mot": "Be\u0018a (bye\u0018a)",
+    "mot_fr": "Pl. de rouge pourpre",
+    "description": "\u000Emckd.f. pp. D\u0004\u0004 ah da\u0007 p\u0004sye\fa zahki be\fa (bye\fa). Za\nfaa ta: a p\u0004sye\fa b\u0004nyo\f.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bea, bebea",
+    "mot_fr": "Masser",
+    "description": "jf. pp. ’Ya suu ne jol ma hah  t\u0004 wii, wala ma maa\np\u0004 biicwakke. Mah wel bea wel ah ne biicwakke. Mo ’yah ka zah\nguu mo baa mo ya  e, mo maa fan p\u0004 biicwak bea ne ko. Za raa\nsyi\u0007 beara syi\u0007 t\u0004 wii ta.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bea, bebea",
+    "mot_fr": "Pl. de puiser d’eau",
+    "description": "jf. pp. Bee fan zal\u0004\u0007 p\u0004pa\fare. Mo bea bii baa ciiri.\nBaa  o p\u0004lli mo bea zah ah ge lalle. Mo bea sor ne jol myah ga lal\nne? Bea a cuu fan ma jo\u0007 ga g\u0007, wala fan ma jo\u0007 ga lalle. Mo bea\nge g\u0007, mo bea ge lalle.",
+    "description_fr": "Enlever l’eccès."
+  },
+  {
+    "mot": "Bee zahe, cak zahe",
+    "mot_fr": "Empéché",
+    "description": "jf. Niini. Magwii t\u0004 ga p\u0004 ’wahe, mo bee\n(cak) zah ah sa. Mo nCDi sa.",
+    "description_fr": " "
+  },
+  {
+    "mot": "Beeni, laini",
+    "mot_fr": "Reveiller,conseiller",
+    "description": "jf. T\u0004\u0007  \u0004, kpi\u0007 d\u0004  i. ,ee me (lai, to\u0007) me ge ne  \u0004\ns\u0004. D\u0004  ah ka laa  \u0004 ah man a, me h\u0004\u0004 ga  ee (lai) ko &\u0004. Za\nMunda\u0007 faara: « Macui  ee welle, so ne suu ah kal ge p\u0004 \u0007h\u0004\u0004re,\nwala p\u0004 ga\u0007ne ». Na  ee ki ne  \u0004 manyeeki ah &\u0004.",
+    "description_fr": "Attirer l'attention"
+  },
+  {
+    "mot": "Beere",
+    "mot_fr": "Mensonge.",
+    "description": "\u0004. Mo e\fe berre, biiri,  tv yo.",
+    "description_fr": "Ce qui est faux"
+  },
+  {
+    "mot": "Be\u0018ere",
+    "mot_fr": "Oryctérope.",
+    "description": "\u0004. Fa\u000Eal (n\u0004\u0004) yo, jur gwii  o, a ren s\u0004w\u0004\u0004re, a \u0004\f\u0004 lak\nsw\u0004\u0004 g\u0007. ,al ah ma k\u0004pel p\u0004wah kal ma fahfal  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Beere (byeere)",
+    "mot_fr": "Poisson",
+    "description": "\u0004. Syi\u0007. Bee (byee) jur (d\u0004r) syi\u0007 ma &ii ne\nt\u0004vanna  o. A syee t\u0004 bii s\u0004\u0007 ka dan ga mor bii p\u0004&\u0004k ya. Bee\n(byee) kal t\u0004vanna ne man  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bee, bebee",
+    "mot_fr": "Puiser",
+    "description": "jf. Bee bii, ke\fe bii. ,a\u0007 bii p\u0004 fan gin ne ko. D\u0004  bee\nbii ne \u0007h\u0004\u0004re, ne da\u0007ne, ne fan mai da\u0007 moo gak bee bii. Me ga\nbee bii p\u0004 lakre. Ke\fe bii cuu bii ma bee t\u0004 bi\u0007. D\u0004  gak faa bee sor\nne jol ta. Bee t\u0004’yak d\u0004  ta: ’yah faa: kaa byak d\u0004  ka faa  \u0004, wala\njo\u0007  \u0004 e’ wol ahe. Mo t\u0004 faa ko  \u0004 ah me bee t\u0004’yak ah  o  aa  e.",
+    "description_fr": "prendre un liquide dans un récipient."
+  },
+  {
+    "mot": "Be\u0018e, be\u0018ebe\u0018e",
+    "mot_fr": "Très mince",
+    "description": "\u000Emckd.f. Nyi\u0007, p\u0004nyi\u0007, ga\faram. E0e we mai &\u0004, a\np\u0004nyi\u0007 be\fe (be\febe\fe, ga\faram).",
+    "description_fr": " maigre"
+  },
+  {
+    "mot": "Be\u0018e, bye\u0018e",
+    "mot_fr": "Bruit des feuilles",
+    "description": "\u000Ems\u000E. ,\u0004 mai mo cii ne jo\u0007 fan ahe. Zu\u0007 b\u0004r\u0004\u0004 be\fe\n(bye\fe) ka lo  wel ah ne ko.",
+    "description_fr": "des chicottes"
+  },
+  {
+    "mot": "Be\u0018e, b\u0012\u0012, gw\u0012\u0012",
+    "mot_fr": "Gloussement de la poule",
+    "description": "jf. Maka\fh mo t\u0004 yah  oo kpa\fh o  e, a t\u0004\u0007 ne be\fere\n(b\u0004\u0004re, gw\u0004\u0004re), za faa: Maka\fh be\fe kpa\fhre.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bekam bekam, mbotok",
+    "mot_fr": "Gros corps",
+    "description": "\u000Emckd.f. P\u0004’manne, suu lii. D\u0004  ah\nbekam bekam, ka &uu gal la\u0007 ya. A ren fan p\u0004lli, jo\u0007  o bekam\nbekam. Jeert\u0004 ahe: Ga\faram,  oro\u0007.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Belbelle",
+    "mot_fr": "Tout",
+    "description": "\u000Emcd.f. T\u0004&e’, t\u0004&e’ t\u0004&e’, fetfet, co\u0007 ya. We ge zah ye \nbelbelle. D\u0004fuu co\u0007 va\u0007no ya, gera belbelle. Mo zye  fan ah belbel\n&ao ka mo ge ne ba. Nyin woora fan ya\u0007 ah belbelle, (fetfet, t\u0004&e’\nt\u0004&e’), co\u0007 fan va\u0007no ya. T\u0004gba gb\u0004ra gb\u0004\u0004.",
+    "description_fr": "complétement, entièrement"
+  },
+  {
+    "mot": "Beleere",
+    "mot_fr": "Acacia ataxacantha",
+    "description": "\u0004. Mo e\fe beremme,  tv yo.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Beleere",
+    "mot_fr": "Parkia biglobosa",
+    "description": "\u0004. Kpuu yo, a gi\u0007 p\u0004’manne, a lee p\u0004wah na lee kalgii\n(t\u0004zo  e), za coo t\u0004ker ne lee ahe.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bel, kwakkwakke",
+    "mot_fr": "joli",
+    "description": "\u000Emcd.f. P\u0004sa\fhe, bai ’nahmme. We nyee erbii\n e, suu ah a bel, zye  suu ah  o p\u0004sa\fh bel. P\u0004ta\fa za mo t\u0004 leera\nbyak  e, a ’yahra d\u0004  mai cok n\u0004n ah mo p\u0004sa\fh bel, wala\nkwakkwakke.",
+    "description_fr": "Bien, joli, beau, pur"
+  },
+  {
+    "mot": "Bem \u000E\u0012 ",
+    "mot_fr": "extrapoler",
+    "description": "\u000Ell. ,er  \u0004, syer  \u0004 ( oo  \u0004) ga g\u0007 p\u0004lli. ,\u0004 mai me laa\nso bem  \u0004 ge  o g\u0007 p\u0004lli. T\u0004t\u0004\u0007 ah kpak  \u0004 ah ka nai ya.",
+    "description_fr": "Agraver une situation quelconque"
+  },
+  {
+    "mot": "Bem t\u0012t\u0012lli, bebemme",
+    "mot_fr": "Epier",
+    "description": "jf. Sor bem p\u0004sa\fh  e. Sor ka bem wee ya,\namma a bem t\u0004t\u0004l gin lalle. ,il mo gb\u0004  e, we bya\u0007 gin lalle. Sor\nmo gb\u0004  il  e, a bya\u0007 t\u0004t\u0004l gin lal ta. Jeert\u0004 ahe: Lelee, sosoo,\nkanne.",
+    "description_fr": "Tête des épis"
+  },
+  {
+    "mot": "Bemme, bebemme",
+    "mot_fr": "Reproduction",
+    "description": "jf. pp. Syerre. Fahlii mai wee mo p\u0004\f\u0004ra gin\n \u0004r ma  \u0004\u0004 ne ko. Za gak faara ne fahlii gwa da\u0007 naiko: Gw\u0004\u0004\nbemra weere, wee bemra  o p\u0004lii. Mawin mo bya\u0007 p\u0004lli  e, ka yea\np\u0004swah ga lii ya, swah ah v\u0004r gwari. Mo bem  o ka p\u0004lli ya  e, ka\nbya\u0007  o va\u0007no. D\u0004fuu ne n\u0004\u0004 manyeeki ah bemra weere. Juu, wala\nfa ea a syerra wee syerre",
+    "description_fr": "accoucher, mettre bas"
+  },
+  {
+    "mot": "Bemt\u0012\u0012ri, bent\u0012\u0012ri",
+    "mot_fr": "Caleçon",
+    "description": "\u0004. zzk. Oosa\fhe (t\u0004sa\fhe), fan saa zahm\u0004rrCDi. Za\nki &iira ne bemt\u0004\u0004ri, za ki la\u0007 &iira ne bent\u0004\u0004ri. Bemt\u0004\u0004ri yea p\u0004\n’ah na wak ma zye  saa ga zahm\u0004rrCDi. Fahk\u0004 ma saa ga sa\fh a p\u0004\n’ahe, sal yea ne k\u0004ita ne k\u0004ita ka saa ga sa\fhe. Zah ah ma maa gin\nne k\u0004pel a yea p\u0004nyi\u0007. P\u0004ta\fa za foora bemt\u0004\u0004ri ne mas\u0004lai.\nBemt\u0004\u0004ri ma \u0007ga  ne zyim mafa\fi ne mafuu &ii ne ma\u0007gahsyo, a\njuura zah ah juu.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Ben fanne, p\u0012rot fanne",
+    "mot_fr": "Savoir gérer",
+    "description": "jf. G fanne. Jo\u0007 yella ne fan ka mo v\u0004r\ngwari ka. D\u0004  gak ben sorre, ben na\fa, mo ka p\u0004lli ya la\u0007, mo ben\no. Wela\u0007 mai mo ka ren fan gwari gwari ya, a ben fan benne. D\u0004 \ngak ben welle, ben d\u0004  syemme. D\u0004  mo ben d\u0004  ah  e, a lwaa\nswah nje nje ga pelle, wela\u0007 gak jo\u0007 d\u0004 lii. Ben mai cuu wol\nd\u0004  i, gban jol mor d\u0004  i.",
+    "description_fr": "économiser, épargner"
+  },
+  {
+    "mot": "Berem zahwon d\u0012fuu",
+    "mot_fr": "Acacia polyacantha",
+    "description": "\u0004. Kpuu yo. Suu ah p\u0004fa\fi, ne waa, waa ah\np\u0004go\u0007 na zahwon d\u0004fuu, ci\u0007 t\u0004&ii ahe.",
+    "description_fr": ""
+  },
+  {
+  "mot": "Beremme, beleere",
+  "mot_fr": "Acasia ataxacantha (arbre épineux)",
+  "description": "\u0004. Kpuu. Berem ne waa, a yea mor g\u0004\f\u0004re. Za\nk\u0004 L\u0004\u0004re &iira ne b\u0004leere. Za ba\u0007 ga wo kor ka gwii mo lwaa\n’wa\u0007, wala g\u0004r ka. Waa berem ne cwahlle.",
+  "description_fr": ""
+},
+  {
+    "mot": "Berr",
+    "mot_fr": "Sans peine",
+    "description": "\u000Emcd.f. Be\fe, bai ga  e, gwari. Zu\u0007 goo ge lal berr, wala\nbe\fe. Lwaa lak &a\u0007 maa k\u0004nda\u0007 ge g\u0007 berr, &a\u0007 p\u0004\f\u0004 ne pel gwari\ns\u0004. Goo ah ka gak zu\u0007 berr, wala be\fe ya.",
+    "description_fr": "sans difficulté"
+  },
+  {
+    "mot": "Berre, beere, biiri",
+    "mot_fr": "Mensonge",
+    "description": "\u0004. Swaa  \u0004 mai mo ka nja\u0007 ya, go\u0007ga ye ka ne\n \u0004 faani. Za gwahra ber ne fahlii camcam p\u0004lli. Bai faa go\u0007ga, bai\nfaa  \u0004 gin lal wat, mu\u0007  \u0004 mu\u0007, fofoo da\u0007, ber (bee) yo. Za gak\ngwahra ber zah ki ta. Za &ii pa gwah ber ne paberre, mawin ye  e,\nza &ii ne maberre.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bibel",
+    "mot_fr": "La bible",
+    "description": "\u0004. ,\u0004 faa Mas\u0004\u0007 Mat\u0004da\u0007da\u0007 mai Mas\u0004\u0007 mo gbah jol zan\nah ne T\u0004’yak ah ka mo \u0007w\u0004\u0004ra. Bibel ne 5erewol  \u0004r ah camcam\n66. Wo\u0007  o p\u0004luu camcam gwa. Gbanzah Mata\fa a ne Derewol 39.\nGbanzah Mafuu la\u0007 a ne Derewol 27. Za camcam 40 ye \u0007w\u0004\u0004ra\nBibel. Bibel a da\u0007da\u0007 t\u0004gbana 2 Tim 3: 16 mo faa.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bi\u000E\u000Ei",
+    "mot_fr": "Corps gros",
+    "description": "\u000Emckd.f. P\u0004 lii, suu lii. D\u0004  ah ne suu bi  i. A cuu fan\nmap\u0004\f\u0004 ta. Fan mai mo yak ya da\u0007, a p\u0004p\u0004\f\u0004 bi . Kpuu ah a p\u0004p\u0004\f\u0004\nbi . Cok ah p\u0004p\u0004\f\u0004 bi  i. Me ga  ne ye  me yim bi . D\u0004  mo ka\njo\u0007 fan n\u0004\u0004 t\u0004t\u0004l a, ka pah ah co\u0007  o, yak v\u0004r a, t\u0004gwCDi yo, wala a\nbi . Jeert\u0004 ahe: P\u0004nyi\u0007, ga\faram, yaryar,  el el, wya\u0007 wya\u0007.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bi\u0004bi\u0004",
+    "mot_fr": "En cachette",
+    "description": "\u000Ems\u000E. Haihai, v\u0004rv\u0004rri. Mo jo\u0007  \u0004 ah bi&bi&&i n\u0004\u0004 t\u0004t\u0004l a,\n’yah faa, b\u0004 uu &\u0004 ya. ,\u0004 ah i zah jol ah bi&bi& (t\u0004&e’ t\u0004&e’), ge\npel &\u0004 ya.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bi\u0004bi\u0004",
+    "mot_fr": "Très fin",
+    "description": "\u000Emckd.f. Fan manikki. Mawin ah swaa sum p\u0004nik bi&bi&",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bi\u0004yakke, bid\u0012kke, kpo\u0018mme, m\u0012#gwa\u000E\u000Ee",
+    "mot_fr": "Sable fin",
+    "description": "\u0004. Zan ki &iira ne\nbi&yakke, m\u0004\u0007gwa  e. Za la\u0007 &iira ne kpo\fmme, m\u0004\u0007gwa  e,bid\u0004kke. Bi&yak sye t\u0004kuu manik ah yo, d\u0004  mo t\u0004 syee t\u0004l ah  e,\na t\u0004t\u0004\u0004. M\u0004\u0007gwa  a jo\u0007 fan kpa\fhp\u0004\u0004 p\u0004sa\fh no cam.",
+    "description_fr": "terrain très fertile"
+  },
+  {
+    "mot": "Bigla bigla, bikla bikla (fer)",
+    "mot_fr": "Rouler par terre",
+    "description": "\u000Ems\u000E. Gb\u0004i gb\u0004i. Fan  a\u0007 ko  oo t\u0004\ns\u0004r fee (fer) bigla bigla, h\u0004r t\u0004 s\u0004r bikla bikla (bigla bigla), gak ur\ns\u0004\u0007 ya.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bii",
+    "mot_fr": "L’eau",
+    "description": "\u0004. Bam mo t\u0004 ge s\u0004\u0007  e, a ci\u0007 bii. Bii &uu zah za\fa ramme,\ntolle, t\u0004 s\u0004rri, p\u0004 elle. Bii ma wuu gin mor s\u0004r la\u0007 no. Bii rah s\u0004r ta\n&\u0004.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bii \u0012\u0018\u0012re",
+    "mot_fr": "Eau du puits",
+    "description": "\u0004. Bii mai za mo \u0004\f\u0004, mo wuwuu. Mo zwan bii \u0004\f\u0004 ne,\nwala biiz\u0004\u0004 ne? Mo lwaa bii \u0004\f\u0004 la\u0007 mo k\u0004\u0004 t\u0004l ah ge lal &\u0004, mo bee\nba. Jeert\u0004 ahe: Biiz\u0004\u0004.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Bii (fanne)",
+    "mot_fr": "Couleur",
+    "description": "\u0004. Kpak fanne, suu fanne. Zyim fuu, sye\fe, goo \u0004\u0004,\ngb\u0004\f\u0004 ma&alle da\u0007 a cuu bii fanne (kpak fanne). D\u0004  gak faa bii ah\na &\u0004ne? A p\u0004t\u0004rimbii, wala p\u0004t\u0004rimmi, p\u0004voore, na lok m \u0004ro, bii\nsale. ",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biicwakke, biiwii, biit\u0012wii",
+    "mot_fr": "Eau chaude",
+    "description": "\u0004. Bii mai mo z\u0004\u0004 t\u0004wii, moo yea ne\nwii ’wa. Mo wuu  e ka biicwak ye kao. Biicwak (biit\u0004wii, biiwii)\nmai \u0007w\u0004\u0004 moo s\u0004\u0004ra k\u0004pel lom wolle &ii ne biiwolle. Jeert\u0004 ahe:\nBiiwokki",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biid\u0012\u0012",
+    "mot_fr": "Eau simple",
+    "description": "\u0004. Bii mai mo t\u0004kolle, sum mo k\u0004ka g\u0007 ya. Bii mai d\u0004\u0004 ye\nmo laa ne p\u0004’nyahre. Za ki &iira biid\u0004\u0004 ne gbalk\u0004la  e. Koo\np\u0004sye\fe biid\u0004\u0004 gbalk\u0004la  la\u0007 me zw\u0004 ge zah ya! Biid\u0004\u0004 ye bii ma\nt\u0004kol t\u0004gakgak. Za &ii ne biisye\fe, wala biifuu ta.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biifa\u0018i, biipa\u0018i",
+    "mot_fr": "Eau blanche",
+    "description": "\u0004. Lak bii mai mo wuu bii p\u0004fa\fi (p\u0004pa\fi), za &ii bii\nah ne biifa\fi (biipa\fi).",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biifuu",
+    "mot_fr": "Eau profonde",
+    "description": "\u0004. Biifuu cuu bii mai mo p\u0004&\u0004k  oroo, za mo kwo cok ga\ng\u0007 p\u0004ga  e.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biifuu",
+    "mot_fr": "Oiseau",
+    "description": "\u0004. Juu. Juu ah jur maka\fht\u0004koi  o, a p\u0004\f\u0004 ne zahbamme. Mo\nt\u0004 yeyee biifuu, biifuu  e, ka zahbam ge gwari  e. Juu ah yeyee ne\nzahgwahl  \u0004\u0004kekem, b\u0004\u0004kekem.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biifuu, biipuu",
+    "mot_fr": "Eau noire ou eau simple",
+    "description": "\u0004. Bii mai mo p\u0004fuu (p\u0004puu). Biifuu la\u0007 a cuu bii\nmai sum mo ka g\u0007 ya ta, d\u0004  mo zwan t\u0004kolle. Mo e\fe biid\u0004\u0004.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biigb\u0012\u0018\u0012",
+    "mot_fr": "",
+    "description": "\u0004. Biigb\u0004\f\u0004 a cuu t\u0004&ii we, wala m\u0004la\u0007 mai za mo gban er\nbiigb\u0004\f\u0004 go\u0007 ma  a\u0007 fuu. Biigb\u0004\f\u0004 mawor yea va\u0007no, mawin yea\nva\u0007no ta. Biigb\u0004\f\u0004 mawin a ci\u0007 mawin go\u0007e, mawor a ci\u0007 palya\u0007\n(bai) go\u0007e.",
+    "description_fr": "Garçon et fille accompagnant le nouveau chef"
+  },
+  {
+    "mot": "Biigb\u0012\u0018\u0012",
+    "mot_fr": "Couleur jaune",
+    "description": "\u0004. Fan mai suu ah mo na suu ma&alle, mo p\u0004gb\u0004\f\u0004. Zyim\nah p\u0004 biigb\u0004\f\u0004.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Biikya#",
+    "mot_fr": "Eau de source",
+    "description": "\u0004. Bii mai mo ka \u0004\u0007 (o\fo) kpee ya. Cok mai bii moo  al\ng\u0007 gin lalle. Biikya\u0007 gak yea p\u0004sa\fh ce\fece\fe.",
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
+  },{
+  "mot": "Alkawal, gbəzah",
+  "mot_fr": "Alliance, confiance",
+  "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+  "description_fr": ""
+},
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
+  },
+  {
+  "mot": "Alkawal, gbəzah",
+  "mot_fr": "Alliance, confiance",
+  "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+  "description_fr": ""
+},
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
   },
   {
     "mot": "Alkawal, gbəzah",
     "mot_fr": "Alliance, confiance",
     "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
-    "description_fr": "Union, accord intervenant entre des pays, des personnes"
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },{
+  "mot": "Alkawal, gbəzah",
+  "mot_fr": "Alliance, confiance",
+  "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+  "description_fr": ""
+},
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+  "mot": "Alkawal, gbəzah",
+  "mot_fr": "Alliance, confiance",
+  "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+  "description_fr": ""
+},
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },{
+  "mot": "Alkawal, gbəzah",
+  "mot_fr": "Alliance, confiance",
+  "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+  "description_fr": ""
+},
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
+  },
+  {
+    "mot": "Alkawal, gbəzah",
+    "mot_fr": "Alliance, confiance",
+    "description": "ɗ. Gbanzah ka joŋ fanne, tai zah təki. Masəŋ ka yaŋ gbanzah mai mo gbə  o ne za Israel ya.Alliance, confiance.",
+    "description_fr": ""
   }
+
+
+
+
 
 ]

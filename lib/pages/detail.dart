@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_share/flutter_share.dart';
 
 class Detail extends StatelessWidget{
     String descriptions_fr;
@@ -11,6 +12,15 @@ class Detail extends StatelessWidget{
     //detail(String mot, String mot_fr,String traduction, String traduction_fr,);
     @override
     Widget build(BuildContext context) {
+      Future<void> ShareText() async {
+        await FlutterShare.share(
+          title: mot,
+          text: '',
+          linkUrl: 'https://koudanbe.herokuapp.com/',
+          chooserTitle: mot,
+        );
+      }
+
       Widget myText2(BuildContext){
         return  ListTile(
           title: Text(
@@ -58,7 +68,15 @@ class Detail extends StatelessWidget{
             title: Text(mot),
             backgroundColor: Colors.green,
             centerTitle: true,
+           actions: <Widget>[
+             IconButton(icon: Icon(Icons.share), onPressed: ShareText)
+           ],
+           // leading: GestureDetector(
+             // onTap: ShareText,
+             // child: Icon(Icons.share),
+            //)
           ),
+
           body:Padding(
             padding: EdgeInsets.all(5.0),
             child: Container(
