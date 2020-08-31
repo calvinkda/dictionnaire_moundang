@@ -17,13 +17,13 @@ class _How_toState extends State<How_to> {
 
         ),
 
-        body: Padding(padding: EdgeInsets.all(20.0),
+        body: Padding(padding: EdgeInsets.all(5.0),
 
           child: Container(
             child: Card(
               child: SingleChildScrollView(
 
-                padding: EdgeInsets.all(15.0),
+                padding: EdgeInsets.all(3.0),
                 child:  Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   //mainAxisAlignment: MainAxisAlignment.start,
@@ -40,7 +40,8 @@ class _How_toState extends State<How_to> {
                     Text('Ɗii camcam: les noms',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic
+                          fontStyle: FontStyle.italic,
+                           fontSize: 18,
                       ),
                     ),
                     SizedBox(height: 15.0,),
@@ -269,7 +270,8 @@ class _How_toState extends State<How_to> {
                     Text('Ɓə mai mo na ɗii ta: les pronoms et adjectifs',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic
+                          fontStyle: FontStyle.italic,
+                        fontSize: 18,
                       ),
                     ),
                     SizedBox(height: 15.0,),
@@ -485,7 +487,8 @@ class _How_toState extends State<How_to> {
                     Text('ma cuu di, fanne, ne fahlii camcam: Les adjectifs',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic
+                          fontStyle: FontStyle.italic,
+                        fontSize: 18,
                       ),
                     ),
                     SizedBox(height: 15.0,),

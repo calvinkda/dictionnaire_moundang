@@ -6,7 +6,7 @@ class Drawers extends StatelessWidget {
   Future<void> sharing() async {
     await FlutterShare.share(
         title: 'Dictionnaire Moundang',
-        text: 'Contirbution',
+        text: 'Télécharge le Dictionnaire Moundang et découvre des mots et allocutions',
         linkUrl: 'https://koudanbe.herokuapp.com/',
         //chooserTitle: 'Example Chooser Title'
     );

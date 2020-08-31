@@ -14,9 +14,9 @@ class Detail extends StatelessWidget{
     Widget build(BuildContext context) {
       Future<void> ShareText() async {
         await FlutterShare.share(
-          title: mot,
-          text: '',
-          linkUrl: 'https://koudanbe.herokuapp.com/',
+          title: 'Decouvre ce mot avec moi',
+          text: mot +' = '+ mot_fr ,
+          linkUrl: 'Télécharge le Dictionnaire Moundang et découvre dautre mots sur :  https://koudanbe.herokuapp.com/',
           chooserTitle: mot,
         );
       }

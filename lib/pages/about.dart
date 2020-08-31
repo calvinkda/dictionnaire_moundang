@@ -16,8 +16,41 @@ class About extends StatelessWidget{
 
         ),
 
-        body: Center(
-          child: Text('à propos de l application Dictionnaires Moundang avec concordances français revue et amélioré'),
+        body: Padding(
+          padding: EdgeInsets.all(5.0),
+          child: Container(
+              child:Card(
+
+                child:SingleChildScrollView(
+                  padding: EdgeInsets.all(3.0),
+                  child:  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    //mainAxisAlignment: MainAxisAlignment.start,
+                    children: <Widget>[
+
+                    Text('Dictionnaire Moundang ',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      //fontStyle: FontStyle.italic,
+                      fontSize: 20,
+                    ),
+                  ),
+                   SizedBox(height: 15.0,),
+                    Text('Découverte des Mots et allocutions ',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontStyle: FontStyle.italic,
+                      fontSize: 18,
+                    ),
+                  ),
+
+                ],
+
+                  ),
+                ),
+
+              )
+          ),
         )
     );
   }
